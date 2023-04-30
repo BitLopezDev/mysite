@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Image, Item } from 'semantic-ui-react'
 import { DiplomaModal } from '../../../DiplomaModal';
 
-const HeadRoute = ({ ...props }) => {
+const HeadRoute = ( {...props }) => {
 
 
 
-    var table = [];
+    var table :ReactElement[] = [];
     props.coursesArray.forEach(course => {
         let name = course[0];
         let image = course[1];
@@ -20,8 +20,9 @@ const HeadRoute = ({ ...props }) => {
             maylink = "Ver certificado";
 
         }
-
-        table.push(<tr> <td><Image src={image} width={26} alt="" /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank' rel="noreferrer">{maylink}</a></td></tr>);
+        //<tr> <td><Image src={image} width={26} alt="" /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank' rel="noreferrer">{maylink}</a></td></tr>
+        let row :ReactElement = <tr> <td><Image src={image} width={26} alt="" /></td><td>{name}</td> <td>{completion} |  <a href={certification} target='_blank' rel="noreferrer">{maylink}</a></td></tr>;
+        table.push(row);
         // console.log(course[0] + course[1] + course[2]);
 
 
@@ -30,7 +31,7 @@ const HeadRoute = ({ ...props }) => {
 
     console.log(table);
     /* <tr> <td><Image src=${course[1]} width={26} /></td><td>course[0]</td> <td>${course[3]} |  <a href='${course[2]}' target='_blank'>ver certificado</a></td></tr> */
-
+    let seesconde :string | undefined = 'seesconde';
     return (
         <React.Fragment>
 
@@ -41,7 +42,8 @@ const HeadRoute = ({ ...props }) => {
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
                         <DiplomaModal which={props.which} />
-                        <h6><a href={props.diplomaurl} className={props.diplomaurl === '' && 'seesconde'} target='_blank' rel="noreferrer">Ver certificado</a></h6>
+                        {/* props.diplomaurl.lenght == 0  && 'seesconde' */}
+                        <h6><a href={props.diplomaurl} className={props.diplomaurl.length <1 && seesconde} target='_blank' rel="noreferrer">Ver certificado</a></h6>
                     </Item.Image>
 
                     <Item.Content>

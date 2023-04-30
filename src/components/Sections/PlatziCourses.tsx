@@ -29,13 +29,13 @@ function hideElement(segment) {
     console.log(segment);
     const segmentsArray = ['FSJS', 'FDR', 'FSN', 'HCaP', 'JaP', 'BcndPHP', 'CustomDBs', 'CustomNode', ]
 
-    if (document.getElementById(segment).classList.contains("seesconde")) {
-        document.getElementById(segment).classList.remove('seesconde');
+    if (document.getElementById(segment)?.classList.contains("seesconde")) {
+        document.getElementById(segment)?.classList.remove('seesconde');
     }
 
     for (let i = 0; i < segmentsArray.length; i++) {
-        if (!document.getElementById(segmentsArray[i]).classList.contains("seesconde") && document.getElementById(segmentsArray[i]) != document.getElementById(segment)) {
-            document.getElementById(segmentsArray[i]).classList.add('seesconde');
+        if (!document.getElementById(segmentsArray[i])?.classList.contains("seesconde") && document.getElementById(segmentsArray[i]) != document.getElementById(segment)) {
+            document.getElementById(segmentsArray[i])?.classList.add('seesconde');
         }
     }
 
