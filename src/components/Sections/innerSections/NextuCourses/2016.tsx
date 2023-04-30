@@ -1,4 +1,5 @@
-import *  as React from 'react';
+import React from 'react';
+import {useState}  from 'react'; 
 import { Image, Item } from 'semantic-ui-react';
 //import Image from 'next/image';
 import './../../../../../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -18,7 +19,7 @@ import XML from './../../../../../public/assets/users/Santiago/credenciales/Next
 
 const WebDev2016 = () => {
     // console.log(certificado);
-    const [open, setOpen] = React.useState(false)
+    const [open, setOpen] = useState(false)
     return (
         <React.Fragment>
             <Item.Group>

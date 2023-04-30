@@ -31,12 +31,14 @@ const HeadRoute = ( {...props }) => {
 
     console.log(table);
     /* <tr> <td><Image src=${course[1]} width={26} /></td><td>course[0]</td> <td>${course[3]} |  <a href='${course[2]}' target='_blank'>ver certificado</a></td></tr> */
+
     if(props.diplomaurl.length <1){
         var seesconde :string | undefined = '';
     } else {
         var seesconde :string | undefined = 'seesconde';
     }
     
+
     return (
         <React.Fragment>
 
@@ -48,7 +50,9 @@ const HeadRoute = ( {...props }) => {
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
                         <DiplomaModal which={props.which} />
                         {/* props.diplomaurl.lenght == 0  && 'seesconde' */}
+
                         <h6><a href={props.diplomaurl} className={ seesconde} target='_blank' rel="noreferrer">Ver certificado</a></h6>
+
                     </Item.Image>
 
                     <Item.Content>
