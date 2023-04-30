@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "Santiago Comesaña López <satiagocomesanalopez@gmail.com>",
-  "license": "MIT",
+  "license": "GPL",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "chart.js": "^4.2.0",
