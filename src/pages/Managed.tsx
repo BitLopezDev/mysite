@@ -74,7 +74,7 @@ function Managed() {
 
                     <Grid.Column>
                         <Card style={{ marginLeft: '-10px' }}>
-                            <Image src={Object.entries(Bitdefender)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" height={200} width={200}/>
+                            <Image src={Object.entries(Bitdefender)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" height={190} width={190} style={{padding:10}}/>
                             <Card.Content>
                                <Card.Header>Bitdefender</Card.Header>
                                 <Card.Meta></Card.Meta>
@@ -102,7 +102,8 @@ function Managed() {
                                 <Card.Header>Microsoft</Card.Header>
                                 <Card.Meta></Card.Meta>
                                 <Card.Description>
-                                  Elegimos Microsoft por su reputación y su altaintegración con Windows, Office (Microsoft 365), Exchange. Micorosft Sentinel, Microsoft 365 Defender yMicrosoft Defender Threat Intelligence son parte de nuestro arsenal. 
+                                  Elegimos Microsoft por su reputación y su alta integración con Windows, Office (Microsoft 365), Exchange.
+                                  <br /> Micorosft Sentinel, Microsoft 365 Defender y Microsoft Defender Threat Intelligence son parte de nuestro arsenalde preferencia para mantenerlo seguro a usted y su negocio. 
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
@@ -115,7 +116,7 @@ function Managed() {
                     </Grid.Column>
                     <Grid.Column>
                         <Card style={{ marginLeft: 10 }}>
-                            <Image src={Object.entries(Sophos)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" height={200} width={200}/>
+                            <Image src={Object.entries(Sophos)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" height={190} width={190} style={{padding:10}}/>
                             <Card.Content>
                                 <Card.Header>Sophos</Card.Header>
                                 <Card.Meta></Card.Meta>
