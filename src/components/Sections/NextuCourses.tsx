@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
 // ./../../assets/users/Santiago/credenciales/NextU/PHP_OOP.png
@@ -18,19 +18,20 @@ import './../../scripts/index';*/
 function hideElement(name, ...others) {
 
     //document.getElementById(elementsofaccordion[Object.keys(elementsofaccordion)[i]].li).classList.remove('active');
-
+    
     //document.getElementById('carousel-item-1').classList.contains("active")
-    if (document.getElementById(name)?.classList?.contains("seesconde")) {
+    //if (document.getElementById(name)?.classList?.contains("seesconde")) {
+    
         document.getElementById(name)?.classList?.remove('seesconde');
-    }
+    //}
     //console.log(others);
 
 
     for (let i = 0; i < others.length; i++) {
         // const StringArray = othersArray[i];
-        if (!document.getElementById(others[i])?.classList.contains("seesconde")) {
+       // if (!document.getElementById(others[i])?.classList.contains("seesconde")) {
             document.getElementById(others[i])?.classList.add('seesconde');
-        }
+        //}
 
     }
     //console.log(othersArray);
@@ -50,13 +51,29 @@ class NextuCourses extends Component {
         console.log(name);
         switch (thename) {
             case 'Desarrollador Web 2016':
-                hideElement('wd', 'FrontEnd', 'otros');
+           
+                   // hideElement('wd', 'FrontEnd', 'otros');
+       
+                    document.getElementById('wd')?.classList?.remove('seesconde');
+                    document.getElementById('otros')?.classList.add('seesconde');
+                    document.getElementById('FrontEnd')?.classList.add('seesconde');
                 break;
             case 'Frontend con JS 2022':
-                hideElement('FrontEnd', 'wd', 'otros');
+               
+          document.getElementById('FrontEnd')?.classList?.remove('seesconde');
+          document.getElementById('otros')?.classList.add('seesconde');
+          document.getElementById('wd')?.classList.add('seesconde');
+          
+                //hideElement('FrontEnd', 'otros', 'wd');
+      
                 break;
             case 'Otros Cursos 2022':
-                hideElement('otros', 'FrontEnd', 'wd');
+                document.getElementById('otros')?.classList?.remove('seesconde');
+                document.getElementById('FrontEnd')?.classList.add('seesconde');
+                document.getElementById('wd')?.classList.add('seesconde');
+                    //hideElement('otros', 'FrontEnd', 'wd');
+              
+                
                 break;
         }
 
