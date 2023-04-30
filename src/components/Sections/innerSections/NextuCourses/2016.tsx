@@ -1,4 +1,4 @@
-import React from 'react';
+import *  as React from 'react';
 import { Image, Item } from 'semantic-ui-react';
 //import Image from 'next/image';
 import './../../../../../node_modules/bootstrap/dist/css/bootstrap.css';
