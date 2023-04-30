@@ -1,4 +1,3 @@
-// @ts-ignore  
 import React, { Component } from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 import './../../styles/fullstack.module.scss';
@@ -15,29 +14,22 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import './../../scripts/Libs/bootstrap.bundle';
 import './../../scripts/index';*/
 
-interface name {
-    name?: {
-        name?: string;
-    } | null;
-}
+
 function hideElement(name, ...others) {
 
     //document.getElementById(elementsofaccordion[Object.keys(elementsofaccordion)[i]].li).classList.remove('active');
 
     //document.getElementById('carousel-item-1').classList.contains("active")
-    if (name.classList.contains("seesconde")) {
-        name.classList.remove('seesconde');
+    if (document.getElementById(name)?.classList?.contains("seesconde")) {
+        document.getElementById(name)?.classList?.remove('seesconde');
     }
     //console.log(others);
 
-    let other : HTMLElement |null ;
+
     for (let i = 0; i < others.length; i++) {
         // const StringArray = othersArray[i];
-       
-         other = document?.getElementById(others[i]);
-
-        if (!other?.classList.contains("seesconde")) {
-            other?.classList.add('seesconde');
+        if (!document.getElementById(others[i])?.classList.contains("seesconde")) {
+            document.getElementById(others[i])?.classList.add('seesconde');
         }
 
     }
