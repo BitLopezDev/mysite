@@ -21,7 +21,7 @@ function hideElement(name, ...others) {
     
     //document.getElementById('carousel-item-1').classList.contains("active")
     //if (document.getElementById(name)?.classList?.contains("seesconde")) {
-    
+
         document.getElementById(name)?.classList?.remove('seesconde');
     //}
     //console.log(others);
@@ -51,13 +51,16 @@ class NextuCourses extends Component {
         console.log(name);
         switch (thename) {
             case 'Desarrollador Web 2016':
+
            
                    // hideElement('wd', 'FrontEnd', 'otros');
        
                     document.getElementById('wd')?.classList?.remove('seesconde');
                     document.getElementById('otros')?.classList.add('seesconde');
                     document.getElementById('FrontEnd')?.classList.add('seesconde');
-                break;
+                    
+                    
+                    break;
             case 'Frontend con JS 2022':
                
           document.getElementById('FrontEnd')?.classList?.remove('seesconde');
