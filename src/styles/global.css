@@ -1,0 +1,547 @@
+:root {
+    --esteazul: rgb(27, 164, 216);
+    --gradiente: linear-gradient(90deg, rgba(27, 164, 216, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(151, 53, 252, 1) 100%);
+    --antigradiente: linear-gradient(90deg, rgba(151, 53, 252, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(27, 164, 216, 1) 100%);
+    --niceblue: rgba(67, 127, 227, 1);
+    --cyanblue: rgba(27, 164, 216, 1);
+    --gradienteazul: linear-gradient(90deg, rgba(27, 164, 216, 0.8141456411666229) 0%, rgba(67, 127, 227, 1) 100%);
+    /*linear-gradient(90deg, rgba(27,164,216,1) 0%, rgba(67,127,227,1) 35%, rgba(151,53,252,1) 100%)*/
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+
+    }
+
+    50% {
+        background-position: 400% 0;
+
+    }
+
+    100% {
+        background-position: 0 0;
+
+    }
+}
+
+
+
+.textogradiente {
+    font-weight: 600;
+    color: transparent !important;
+    /*font-size: 100px;*/
+    background-image: var(--gradiente) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}
+
+.antigradienttext {
+    font-weight: 600;
+    color: transparent !important;
+    /*font-size: 100px;*/
+    background-image: var(--antigradiente) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.coloredshadow {
+
+    padding: 32px 32px;
+
+
+}
+
+.coloredshadow::before {
+
+    content: "";
+    position: absolute;
+    top: -12px;
+
+
+    left: -7px;
+    z-index: -1;
+    width: 100%;
+    height: 103%;
+    background: var(--gradiente);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 15s linear infinite;
+
+
+}
+
+
+
+.seesconde {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    color: transparent !important;
+    background-color: transparent !important;
+    font-size: 0 !important;
+
+}
+
+.fondogradiente {
+    background: var(--gradiente) !important;
+
+}
+
+.fondoantigradiente {
+    background: var(--antigradiente) !important;
+}
+
+.fondoniceblue {
+    background: var(--niceblue) !important;
+}
+
+
+@media (max-width: 576px) and (orientation: portrait) {
+
+    #contentnavbar ul {
+
+        align-items: flex-end !important;
+
+
+    }
+}
+
+.avatar {
+    width: 40px !important;
+}
+
+#GlobalSection {
+    margin-top: 120px !important;
+}
+
+.borderLeft {
+    border-left: 2px solid grey;
+}
+
+.borderRight {
+    border-right: 2px solid grey;
+}
+
+/*
+  ALIGN:
+
+  align-self: flex-end !important;
+    align-content: flex-end !important;
+    align-items: flex-end !important;
+    justify-content: end !important;
+     flex-direction: row-reverse !important;
+  
+  
+  */
+
+
+/* ///////////////////////////// FullStack //////////////////////// */
+main {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    border-top: 0 !important;
+    margin-bottom: auto !important;
+    margin-top: 0 !important;
+    z-index: 1 !important;
+    width: 100%;
+
+    /* */
+}
+
+
+
+/*#GlobalMain> {
+    -webkit-border-radius: 50px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius: 50px;
+    -moz-border-radius-bottomleft: 3px;
+    border-radius: 50px;
+    border-bottom-left-radius: 3px;
+    min-height: 150px !important;
+    overflow: auto !important;
+   
+}
+*/
+
+main>#introbubble>div:first-child {
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 50px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 3px;
+    border-left: none;
+
+}
+
+main>#introbubble>div:nth-child(2) {
+    -webkit-border-top-right-radius: 50px;
+    -webkit-border-bottom-right-radius: 50px;
+    -moz-border-radius-topright: 50px;
+    -moz-border-radius-bottomright: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+ul {
+    align-items: left;
+
+}
+
+ul li {
+
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: auto;
+    align-self: left !important;
+    height: auto;
+    line-height: auto;
+    /*padding-top: 10px;*/
+
+}
+
+#descripcionNextUotros div a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.img-fluid {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 87px;
+    min-height: 87px;
+    /* height: auto !important;
+    width: auto !important;*/
+}
+
+/*footer {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 110%;
+    margin-bottom: 0 !important;
+    height: 30px;
+
+
+}*/
+
+.nav-item a img {
+    padding: 0;
+    margin: 0;
+}
+
+#quiensoy {
+    text-align: center !important;
+    padding-bottom: 5px;
+    float: left !important;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/*.cursoAccordion p{
+    align-self: left;
+    justify-content: left;
+ }
+ .cursoAccordion{
+    align-items: left !important;
+ }*/
+
+
+
+/*.ul .li:nth-child(4){
+    float:left;
+    padding-left: 0;
+    margin-left: 0;
+    align-self: left;
+    height: 25px;
+    line-height: 80px;
+
+}*/
+@media (max-with: 840px) {
+    section .row {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-with:550px) {
+    #accordion {
+        color: red;
+        min-width: 80% !important;
+        max-width: 85% !important;
+    }
+
+}
+
+/*-webkit-border-radius: 50px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius: 50px;
+-moz-border-radius-bottomleft: 3px;
+border-radius: 50px;
+border-bottom-left-radius: 3px;*/
+
+
+/* ////////////////////////////////////////////////////*/
+
+.dimmed.dimmable>.ui.animating.dimmer,
+.dimmed.dimmable>.ui.visible.dimmer,
+.ui.active.dimmer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui.modal,
+.ui.active.modal {
+    margin: 0 auto !important;
+    top: auto !important;
+    left: auto !important;
+    transform-origin: center !important;
+    transition: all ease .5s;
+}
+
+/* ////////////////////////// INDEX //////////////////////// */
+
+.barraLateral {
+    background: var(--gradienteazul);
+    /*rgba(151, 53, 252, 1)/*/
+    height: 100vh;
+    width: 25%;
+    min-width: 300px;
+    max-width: 450px !important;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 63px !important;
+    z-index: 1 !important;
+    margin-bottom: auto;
+
+
+    margin-top: 63px !important;
+}
+
+footer {
+    z-index: 2 !important;
+    position: relative;
+}
+
+/* //////////////////////////  ///////////////////////////// */
+
+#line-chart {
+    width: 800px;
+    height: 500px;
+}
+
+/*@media (max-width: 600px) {
+    #line-chart {
+        width: 400px;
+        height: 300px !important;
+    }
+
+    
+}*/
+
+
+
+/*
+//////////////////////////////////// SECURITY ///////////////////////////////////
+
+*/
+
+/*       /////////////// Section 7 ///////////////      */
+
+.tile-progress {
+    background-color: #303641;
+    color: #fff;
+}
+
+.tile-progress {
+    background: #00a65b;
+    color: #fff;
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tile-progress .tile-header {
+    padding: 15px 20px;
+    padding-bottom: 40px;
+}
+
+.tile-progress .tile-progressbar {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.18);
+    margin: 0;
+}
+
+.tile-progress .tile-progressbar span {
+    background: #fff;
+}
+
+.tile-progress .tile-progressbar span {
+    display: block;
+    background: #fff;
+    width: 0;
+    height: 100%;
+    -webkit-transition: all 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition: all 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition: all 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition: all 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+}
+
+.tile-progress .tile-footer {
+    padding: 20px;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 0 0 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 0 3px 3px;
+    -moz-background-clip: padding;
+    border-radius: 0 0 3px 3px;
+    background-clip: padding-box;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.tile-progress.tile-red {
+    background-color: #f56954;
+    color: #fff;
+}
+
+.tile-progress {
+    background-color: #303641;
+    color: #fff;
+}
+
+.tile-progress.tile-blue {
+    background-color: #0073b7;
+    color: #fff;
+}
+
+.sectile {
+    /**/
+    height: 315px;
+    max-height: 315px;
+    min-height: 315px;
+}
+
+/*       /////////////// Section 8 ///////////////      */
+
+
+.progress-section {
+    text-align: center;
+    padding: 80px 0px;
+
+}
+
+.progress-section h1 {
+    margin-bottom: 70px;
+
+}
+
+.progress-diamond {
+    margin: auto;
+    /* background: var(--gradiente);*/
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.progress-diamond h2 {
+    line-height: 120px;
+    text-align: center;
+    transform: rotate(-45deg);
+    color: white;
+
+}
+
+.progress-diamond:before {
+    position: absolute;
+    content: "";
+    /* border: solid 5px #595959; */
+    border: solid 5px black;
+    border-width: 5px 0px 0px 5px;
+    /*Change these for porcentage*/
+    /* width: 30px;
+    height: 30px; */
+    /**/
+    top: -9px;
+    left: -9px;
+    bottom: -9px;
+    right: -9px;
+    z-index: 10;
+}
+
+.progress-diamond:after {
+    position: absolute;
+    content: "";
+    border: solid 5px var(--niceblue);
+    border-width: 5px 5px 5px 5px;
+    width: 140px;
+    height: 140px;
+    top: -9px;
+    left: -9px;
+    bottom: -9px;
+    right: -9px;
+}
+
+
+
+.progress-diamond-one:before {
+
+    width: 46px;
+    height: 46px;
+
+}
+
+
+
+.progress-diamond-two:before {
+
+    width: 113px;
+    height: 113px;
+
+}
+
+
+
+
+
+
+
+
+
+.progress-diamond-three:before {
+
+    width: 140px;
+    height: 140px;
+
+}
+
+
+.progress-diamond-zero:before {
+
+    width: 140px;
+    height: 140px;
+
+}
+
+
+/* //////////////////     Section 9    //////////////////// */
