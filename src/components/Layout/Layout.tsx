@@ -39,9 +39,7 @@ const Layout = ({ children }: LayoutProps) => {
                 </main>
 
             </Container>
-            <footer className='mt-5 p-4 fondogradiente text-black text-center' >
-
-            </footer>
+            
 
         </React.Fragment>
     );

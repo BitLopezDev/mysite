@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/Layout/Layout';
+import {Footer} from '../components/Layout/Footer';
 import Head from 'next/head';
 import { Grid, Rail, Segment, Card, List } from 'semantic-ui-react';
 import { LateralBar } from '../components/Index/LateralBar';
@@ -33,8 +34,7 @@ function HomePage() {
             </Head>
 
 
-            <Layout>
-
+            <Layout >
 
 
                 <center>
@@ -200,13 +200,14 @@ function HomePage() {
                 </section>
 
 
-
+                
             </Layout>
             <section className='barraLateral fixed-top '>
                 <LateralBar />
             </section>
-
+<Footer/>
         </ React.Fragment>
+
     )
 
 

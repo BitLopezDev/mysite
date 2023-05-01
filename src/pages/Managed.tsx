@@ -14,6 +14,10 @@ import Comodo from './../../public/assets/users/Santiago/services/Comodo.ico';
 import Bitwarden from './../../public/assets/users/Santiago/services/Bitwarden.ico';
 import MSPWhite from './../../public/assets/users/Santiago/services/MSPWhite.png';
 import Microsoft from './../../public/assets/users/Santiago/services/Microsoft.png';
+import AVTestEndpointBlack from './../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg';
+
+import '../scripts/charts/AVScores.js';
+//import '../scripts/charts/VLost.js';
 
 // import _JSXStyle from './../styles/global'; 
 const items = [
@@ -53,17 +57,14 @@ function Managed() {
                     <h4 style={{color:'white', marginLeft:60}}>Managed Services Provider y Managed Detection and Response Provider</h4>
                     
                     <br />
-                    <h2 className="antigradienttext" style={{marginLeft:0, paddingLeft:0, fontSize:'4em'}}><i>Seguridad Líder</i></h2><br />
-                    <h3 style={{marginLeft:0, paddingLeft:0, fontSize:'2em', color:'white'}}>Descanse tranquilo con las mejores herramientas de seguridad en las mejores manos</h3>
+                    <h2 className="antigradienttext" style={{marginLeft:0, paddingLeft:0, fontSize:'3.5em'}}><i>Seguridad Líder</i></h2><br />
+                    <h3 style={{marginLeft:0, paddingLeft:0, fontSize:'1.7em', color:'white'}}>Descanse tranquilo con las mejores herramientas de seguridad en las mejores manos</h3><br />
+                    <h3 style={{marginLeft:0, paddingLeft:0, fontSize:'1em', color:'white'}}>EDR | XDR | MDR | NDR | ZTNA | NEXT-GEN FIREWALL | NIPS/HIPS | SIEM | Mail Security | Office Security | NAS Server Protection | AWS & Azure Security | WAF | DDOS protection | VPN | DLP | Hipervisor software | Threat Intelligence | Cloud Sandbox </h3>
 
                     
-                </div></header>
-
-            
-               
-                
+                </div></header>               
             <Layout>
-            <center>
+            <center >
                     <h1 className="antigradienttext"><i>Nuestros vendors de preferencia</i></h1>
                     <br />
                     <h4>Software Empresarial</h4>
@@ -184,6 +185,24 @@ function Managed() {
 
 
             </div>
+            
+            
+            </Layout>
+            <center>
+            <center>
+                    <h1 className="antigradienttext"><i>Productos Líder certificados por la industria</i></h1>
+                    <br />
+                    <h4>Reconocimiento AV-Test</h4>
+                    <br />
+                </center>
+                {/* <Image src={Object.entries(AVTestEndpointBlack)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" width={'100%'}  /> */}
+                <br />
+                <canvas id="AVScores" style={{width:'100%', maxWidth:600}}></canvas>
+                {/* <canvas id="VLost" style={{width:'100%', maxWidth:600}}></canvas> */}
+
+               
+            </center>
+            <Layout>
 
             </Layout>
             {/* <section className='barraLateral fixed-top '>
@@ -191,7 +210,7 @@ function Managed() {
             </section> */}
 
         </ React.Fragment>
-    )
+    );
 
 
 }
