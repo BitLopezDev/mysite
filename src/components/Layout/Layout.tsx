@@ -10,7 +10,7 @@ type LayoutProps = {
 }
 
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ( { children }: LayoutProps, nav : Boolean, ) => {
     return (
         <React.Fragment >
             {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
@@ -25,7 +25,7 @@ const Layout = ({ children }: LayoutProps) => {
 
             </Headf>
             <header>
-                <Navbar />
+               <Navbar />
                 <Modals />
 
             </header>

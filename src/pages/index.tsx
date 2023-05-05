@@ -24,6 +24,7 @@ const items = [
 
     },
 ];
+//FIXME: Fix multile calls to Layout
 function HomePage() {
 
     return (
@@ -34,7 +35,7 @@ function HomePage() {
             </Head>
 
 
-            <Layout >
+            <Layout  >
 
 
                 <center>
