@@ -19,7 +19,7 @@ const IntroBubble = () => {
     return (
         <React.Fragment>
 
-            <center>
+            <center style={{paddingTop:100}}>
                 <div className="row justify-content-center">
                     <div className="col-sm-3 " style={{ maxWidth: 290 }}>
                         <h2 id='quiensoy'>
