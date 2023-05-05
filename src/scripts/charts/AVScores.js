@@ -3,21 +3,33 @@ import Chart from 'chart.js/auto';
 (async function () {
 
 
-    const xValues = [2018,2019,2020,2021,2022,2023];
+    const xValues = ['04/2017','06/2018','04/2019','10/2020','08/2021','08/2022','02/2023'];
 
 new Chart("AVScores", {
   type: "line",
   data: {
     labels: xValues,
     datasets: [{ 
-      data: [99.858,99.9,99.525,99.75,99.75,100],
+      data: [100,100,100,100,100,100,100],
       borderColor: "#da0000",
-      label: "Bitdefender",
+      label: "Bitdefender Endpoint Security Tools",
       fill: false
     }, { 
-      data: [98.616,99.725,99.525,98.85,99.1],
-      borderColor: "#7fba00",
+      data: [98.8,100,99.3,100,100,98.8,100],
+      borderColor: "#7fba01",
       label: "Microsoft Defender",
+      fill: false
+    },
+    { 
+      data: [100,100,100,99.4,100,100,100],
+      borderColor: "#0279cb",
+      label: "Sophos Intercept X",
+      fill: false
+    },
+    { 
+      data: [99.4,100,99.6,97.9,99.7,99.7,100],
+      borderColor: "#6d5af0",
+      label: "Promedio de la industria",
       fill: false
     },
 ]
@@ -32,11 +44,11 @@ new Chart("AVScores", {
 
         title: {
             display: true,
-            text: 'Evolución de Microsoft Defender y Bitdefender desde 2018 hasta 2023',
+            text: 'Protección contra ataques de día 0 en Endpoints',
         },
         subtitle: {
             display: true,
-            text: 'Según www.av-comparatives.org',
+            text: 'Según www.av-test.org',
             color: '#2a96dc',
             font: {
                 size: 12,
