@@ -18,13 +18,13 @@ const Security = () => {
             </Head>
             <Layout>
 
-                <>
+                <div style={{paddingTop:100}}>
 
                     <SecurityCards />
                     <PlatziSecurity />
                     <UdemySecurity />
 
-                </>
+                </div>
 
             </Layout>
         </>
