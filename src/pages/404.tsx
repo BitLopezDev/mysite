@@ -1,11 +1,11 @@
 import * as React from 'react';
 import Layout from '../components/Layout/Layout';
-import {Footer} from '../components/Layout/Footer';
+import { Footer } from '../components/Layout/Footer';
 import Head from 'next/head';
 import { Grid, Rail, Segment, Card, List } from 'semantic-ui-react';
 import { LateralBar } from '../components/Index/LateralBar';
 import { School } from '../components/Sections/School';
-import Navbar from './../components/Header/Navbar';
+
 // import _JSXStyle from './../styles/global';
 const items = [
     {
@@ -26,27 +26,30 @@ const items = [
     },
 ];
 function Custom404() {
-   
+
     return (
 
         <React.Fragment>
-             <Head>
+            <Head>
                 <title>BitLopez | 404</title>
             </Head>
-            <Navbar />
+           <Layout nav={true} footer={false} paddTop={100}>
 
-           
-            <center style={{paddingTop:100}}>
-                    <h1 className="antigradienttext">Atención: La página que buscaba no existe, o se ha movido de ubicación.</h1>
-                    {/* <h4>CV Online</h4> */}
-                    <br />
-                </center>
-                <style jsx>{`
+           <center >
+                <h1 className="antigradienttext">Atención: La página que buscaba no existe, o se ha movido de ubicación.</h1>
+                {/* <h4>CV Online</h4> */}
+                <br />
+            </center>
+            <style jsx>{`
     body {
         background-color:black;
     }
     
     `}</style>
+           </Layout>
+
+
+           
         </ React.Fragment>
 
     );

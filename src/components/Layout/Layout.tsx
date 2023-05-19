@@ -1,16 +1,21 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import Navbar from '../Header/Navbar';
+import {Navbar} from './Navbar';
 import Modals from '../Modals/Modals';
 import Headf from '../Head/Headf';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import {Footer} from './Footer';
 
 type LayoutProps = {
-    children?: React.ReactNode
+    children?: React.ReactNode,
+    nav?: Boolean,
+    footer?: Boolean,
+    paddTop?: number,
+
 }
 
 
-const Layout = ( { children }: LayoutProps, nav : Boolean, ) => {
+const Layout = ( { children, nav, footer, paddTop }: LayoutProps ) => {
     return (
         <React.Fragment >
             {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
@@ -25,14 +30,14 @@ const Layout = ( { children }: LayoutProps, nav : Boolean, ) => {
 
             </Headf>
             <header>
-               <Navbar />
+              { nav &&  <Navbar />}
                 <Modals />
 
             </header>
 
 
             <Container text>
-                <main id="GlobalMain" >
+                <main id="GlobalMain" style={{paddingTop:paddTop}} >
                     {children}
 
 
@@ -40,7 +45,7 @@ const Layout = ( { children }: LayoutProps, nav : Boolean, ) => {
 
             </Container>
             
-
+           {footer && <Footer/>}
         </React.Fragment>
     );
 };

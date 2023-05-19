@@ -15,7 +15,7 @@ const FullStack = () => {
             <Head>
                 <title>CV Online | Web Development</title>
             </Head>
-            <Layout>
+            <Layout nav={true} footer={true} paddTop={100}>
                 <IntroBubble />
                 <NextuCourses >
 
