@@ -219,7 +219,7 @@ function Managed() {
         </center>
        
         <Hcard imgurl={BitdefenderHome} pcontent={'Confiamos en Bitdefender Antivirus para el hogar por su robustez, su precisión, sencillez de instalación y su poderosa consola. Creemos en un antimalware posicionado como Líder en el mercado según estudios independientes.'} strong ={'Bitdefender Antivirus:'} /> 
-       
+        <br />
         <Hcard imgurl={GlassWire} pcontent={'Confiamos en un firewall modelo con capacidades sorprendentes y una excelente reputación.'} strong ={'GlassWire:'} />       
           <br />
 
@@ -238,26 +238,24 @@ function Managed() {
         </center>
         {/* */}
         <br />
-        <canvas id="AVScores" style={{ width: "90%" }}></canvas>
+        <canvas id="AVScores" style={{ maxWidth: "80%" }}></canvas>
         <br /> <br />
         <Layout nav={false}>
          <Hcard imgurl={Bitdefender} pcontent={'lidera la protección de Endpoints contra ataques de Día Cero (Zero-day attack) y, aunque el gráfico no lo señale, protección contra malwares más extendidos en Endpoints. Por esta razón es nuestra herramienta preferida para este tipo de dispositivos; la historia nos da la razón.'} strong ={'Bitdefender Endpoint Security Tools '} /> 
           
           <br />
-        </Layout>
-        <center>
+          <center>
           <h1 className="antigradienttext">
-            Las amenazas en el mundo en tiempo real{" "}
+            Las amenazas en el mundo {" "}
           </h1>
           <br />
-          <h4>
-            según{" "}
-            <b>
-              <i>Kaspersky Lab</i>
-            </b>
-          </h4>
+          
           <br />
         </center>
+        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberaaque en los últimos 12 meses, y el 45% afirma a conciencia que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
+        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
+        </Layout>
+      
         <iframe
           width={"100%"}
           height={600}
@@ -269,22 +267,20 @@ function Managed() {
        <br />
        <br />
        <br />
-       <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberaaque en los últimos 12 meses, y el 45% afirma a conciencia que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
+       
         
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Los tipos más comunes de ciberataques son Pishing e Ingeniería social, hurto o extravío de dispositivos y robo de credenciales.  '} /> <br />
         <Hcard imgurl={MSPWhiteICO}  pcontent={'No sea parte de esta estadística.  '} strong={'Los cibercriminales son capaces de pentral el 93% de las redes corporativas del mundo.'} />
         <br />
         <br />
         <center>
-          <h1 className="antigradienttext">Nuestra respuesta </h1>
-          
-          <h4>
-           
-            <b>
-              <i className="antigradienttext">&nbsp; BitLopez MSP</i>
-            </b>
-          </h4>
+            <hr />
+        <h1 className="antigradienttext" style={{ fontSize: "4.5em" }}>
+            <i>Nuestra respuesta</i>
+          </h1>
+          <h1 className="antigradienttext">BitLopez MSP </h1>
+          <hr />
+        
           <br /><br />
         </center>
 

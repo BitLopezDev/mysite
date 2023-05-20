@@ -11,11 +11,12 @@ type LayoutProps = {
     nav?: Boolean,
     footer?: Boolean,
     paddTop?: number,
+    width?:string
 
 }
 
 
-const Layout = ( { children, nav, footer, paddTop }: LayoutProps ) => {
+const Layout = ( { children, nav, footer, paddTop, width }: LayoutProps ) => {
     return (
         <React.Fragment >
             {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
