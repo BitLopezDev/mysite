@@ -6,7 +6,7 @@ import Headf from '../Head/Headf';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 import {Footer} from './Footer';
 
-type LayoutProps = {
+interface LayoutProps {
     children?: React.ReactNode,
     nav?: Boolean,
     footer?: Boolean,

@@ -3,6 +3,7 @@ import Head from 'next/head';
 import globalMeta from './globalmeta';
 
 
+
 const TheHead = ({
     title = globalMeta.siteName,
     description = globalMeta.description,
@@ -29,15 +30,19 @@ const TheHead = ({
             <meta property="og:url" content={canonicalUrl} />
             <meta property="og:type" content={ogType} />
             <meta property="og:image" content={ogImgUrl} />
-            <link rel="shortcut icon" href="../static/favicon.ico"></link>
-            {/* <link rel="icon" type="image/x-icon" href='../../../public/assets/users/Santiago/imágenes/Logo/BasicRound.ico'></link> */}
-
-            {/*<meta property="og:locale" content="en_US" />
-              />
+            <link rel="shortcut icon" href="/images/favicon.ico"></link>
+            <link rel="icon" type="image/x-icon" href='/images/favicon.ico'></link>
+            {/*  */}
+            <link rel="shortcut icon" href="/images/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png" />
+         
+            <meta property="og:locale" content="es_UY" />
+           
+             
     	 <meta property="og:description" content={description} />
     	
     	
-    	 /> */}
+    
 
             {/* <title>{title}</title> */}
         </Head>

@@ -34,13 +34,13 @@ const SecurityCards = () => {
                                 <span>Estudios en Ciberinteligencia</span>
                             </div>
                             <div className="tile-progressbar">
-                                <span data-fill="9%" style={{ "width": "9%" }}></span>
+                                <span data-fill="48%" style={{ "width": "48%" }}></span>
                             </div>
                             <div className="tile-footer">
                                 <h4>
-                                    <span className="pct-counter">9</span>%
+                                    <span className="pct-counter">48</span>%
                                 </h4>
-                                <span>Platzi | Udemy</span>
+                                {/* <span>Platzi | Udemy</span> */}
                             </div>
                         </div>
                     </div>
@@ -51,13 +51,13 @@ const SecurityCards = () => {
                                 <span>Estudios en norma ISO/IEC 27001</span>
                             </div>
                             <div className="tile-progressbar">
-                                <span data-fill="6%" style={{ "width": "6%" }}></span>
+                                <span data-fill="26%" style={{ "width": "26%" }}></span>
                             </div>
                             <div className="tile-footer">
                                 <h4>
-                                    <span className="pct-counter">6</span>%
+                                    <span className="pct-counter">26</span>%
                                 </h4>
-                                <span>Platzi | Udemy </span>
+                                {/* <span>Platzi | Udemy </span> */}
                             </div>
                         </div>
                     </div>

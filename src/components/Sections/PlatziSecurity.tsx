@@ -30,14 +30,14 @@ const PlatziSecurity = () => {
                         <h1>Ciberseguridad en platzi</h1>
                         <div className="col-md-4">
                             <div className="progress-diamond progress-diamond-one fondogradiente">
-                                <h2>67%</h2>
+                                <h2>100%</h2>
                             </div>
                             <br /> <br />
                             <p>Ingeniería Social </p>
                         </div>
                         <div className="col-md-4">
                             <div className="progress-diamond progress-diamond-two fondogradiente">
-                                <h2>19%</h2>
+                                <h2>48%</h2>
                             </div>
                             <br /> <br />
                             <p>Ciberinteligencia</p>

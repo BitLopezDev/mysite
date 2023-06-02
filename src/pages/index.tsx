@@ -8,17 +8,17 @@ import { School } from "../components/Sections/School";
 // import _JSXStyle from './../styles/global';
 const items = [
   {
-    header: "Web Development",
+    header: "BitLopezDev",
     description: "Vea mi Currículum como Desarrollador Web Full Stack",
-    meta: "Junior",
+    meta: "Full Stack Web Development",
     href: "FullStack",
   },
   {
-    header: "Cybersecurity",
+    header: "BitLopezMSP",
     description:
-      "Vea mi currículum como estudiante y entusiasta de la cyberseguriad",
-    meta: "Estudiante, entusiasta",
-    href: "Security",
+      "Vea mi futuro emprendimiento como MSP y MDR Provider",
+    meta: "Ciberseguridad",
+    href: "MSP",
   },
 ];
 //FIXME: Fix multile calls to Layout
@@ -34,7 +34,7 @@ function HomePage() {
           <h1 className="antigradienttext">
             <i>Santiago Comesaña López</i>
           </h1>
-          <h4>CV Online</h4>
+          <h4>BitLopez</h4>
           <br />
         </center>
         <Card.Group centered items={items} />

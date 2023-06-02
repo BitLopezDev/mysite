@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse flex-row-reverse" id="contentnavbar">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/BitLopezDev" target="_blank" rel="noreferrer">
+              <a className="nav-link" href="https://github.com/BitLopezDev" target="_blank" rel="noopener noreferrer">
                 <Image
                   src={GitHub} height={35} alt="Mi GitHub" />
                 {/* <Icon name='github' size='big' /> */}
@@ -45,7 +45,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <a className="nav-link" href="https://www.linkedin.com/in/santiago-comesa%C3%B1a-l%C3%B3pez-464059258"
-                target="_blank" rel="noreferrer">
+                target="_blank" rel="noopener noreferrer">
 
                 <Image src={LinkedIn} height={35} alt="Mi LinkedIn" />
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/santiagocomesanalopez" target="_blank" rel="noreferrer"><Image
+              <a className="nav-link" href="https://github.com/BitLopezMSP" target="_blank" rel="noopener noreferrer"><Image
                 src={GitHubOrg} height={35} alt="Mi GitHub de organización" /></a>
             </li>
 
