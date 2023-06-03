@@ -27,7 +27,7 @@ const Hcard = (props : HcardProps) => {
               {!!props.imgurl && <Image
                 className="img-fluid"
                 src={props.imgurl}
-                
+                unoptimized
                 alt=""
                 style={{ padding: 10 }}
                 width={props.imgwidht }
