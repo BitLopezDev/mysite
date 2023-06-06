@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
-import ReactPlayer from 'react-player';
+
 import { Hcard } from "styles/components/hcard";
 import { Image, Item } from "semantic-ui-react";
 import { Grid, Rail, Segment, Card, List } from "semantic-ui-react";
