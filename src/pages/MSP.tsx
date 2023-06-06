@@ -37,7 +37,7 @@ function Managed() {
         style={{
           position: 'relative',
           width: '100%',
-          background: 'black',
+          background: '#0d0c15',
           marginTop: 60,
           paddingLeft: 50,
           height: 450,
@@ -111,10 +111,10 @@ function Managed() {
             zIndex: 1,
           }}
         >
-          <video width="100%" autoPlay loop style={{ height: '450px' }}>
+          {/* <video width="100%" autoPlay loop style={{ height: '450px' }}>
             <source src="/videos/malworld.mp4" type="video/mp4" />
             Sorry, your browser does not support videos.
-          </video>
+          </video> */}<Image className="" src={Object.entries(MSPBlack)[0].slice(1)} alt='imagen' height={400} /> 
         </div>
       </div>
       {/* TODO: if screen.width < (n+1)px => Descanse tranquilo en adelante : display:none;  */}
