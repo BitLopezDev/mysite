@@ -1,7 +1,6 @@
 import * as React from "react";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
-import ReactPlayer from 'react-player';
 import { Hcard } from "styles/components/hcard";
 import { Image, Item } from "semantic-ui-react";
 import { Grid, Rail, Segment, Card, List } from "semantic-ui-react";
@@ -18,14 +17,27 @@ import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.i
 import MSPWhite from "./../../public/assets/users/Santiago/services/MSPWhite.png";
 import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-const malworld=  './../../public/videos/malworld.mp4';
 import AVTestEndpointBlack from "./../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg";
 const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
 import "../scripts/charts/AVScores.js";
 //import '../scripts/charts/VLost.js';
 
 // import _JSXStyle from './../styles/global';
-
+const items = [
+  {
+    header: "Web Development",
+    description: "Vea mi Currículum como Desarrollador Web Full Stack",
+    meta: "Junior",
+    href: "FullStack",
+  },
+  {
+    header: "Cybersecurity",
+    description:
+      "Vea mi currículum como estudiante y entusiasta de la cyberseguriad",
+    meta: "Estudiante, entusiasta",
+    href: "Security",
+  },
+];
 function Managed() {
   return (
     <React.Fragment>
@@ -33,35 +45,37 @@ function Managed() {
         <title>BitLopez MSP</title>
       </Head>
       <header>
-      <div
-        style={{
-          position: 'relative',
-          width: '100%',
-          background: 'black',
-          marginTop: 60,
-          paddingLeft: 50,
-          height: 450,
-        }}
-      >
         <div
           style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: 'calc(100% - 450px)',
-            background: 'transparent',
+            width: "100%",
+            background: "#0d0c15",
             marginTop: 60,
-            paddingLeft: 0,
-            marginLeft: 10,
-            // height: 450,
-            zIndex: 5,
+            paddingLeft: 50,
+            height: 450,
           }}
         >
+          <br />
+          <div
+            style={{
+              textAlign: "right",
+              paddingRight: 50,
+              marginRight: 0,
+              float: "right",
+            }}
+          >
+            <Image
+              className=""
+              src={Object.entries(MSPBlack)[0].slice(1)}
+              alt="imagen"
+              height={400}
+            />
+          </div>
+          <br /> <br />
           <h1 className="antigradienttext" style={{ fontSize: "6em" }}>
             <i>BitLopez MSP</i>
           </h1>
           <h4 style={{ color: "white", marginLeft: 60 }}>
-            Cybersecurity Managed Services Provider y Managed Detection and Response Provider
+            Managed Services Provider y Managed Detection and Response Provider
           </h4>
           <br />
           <h2
@@ -93,33 +107,12 @@ function Managed() {
           >
             EDR | XDR | MDR | NDR | ZTNA | NEXT-GEN FIREWALL | NIPS/HIPS | SIEM
             | Mail Security | Office Security | NAS Server Protection | AWS &
-            Azure Security |
-            
-             WAF | DDOS protection | VPN | DLP | Hipervisor
+            Azure Security | WAF | DDOS protection | VPN | DLP | Hipervisor
             software | Threat Intelligence | Cloud Sandbox{" "}
           </h3>
         </div>
-        <div
-          style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            textAlign: 'right',
-            paddingRight: 0,
-            
-            marginRight: 0,
-            zIndex: 1,
-          }}
-        >
-          <video width="100%" autoPlay loop style={{ height: '450px' }}>
-            <source src="/videos/malworld.mp4" type="video/mp4" />
-            Sorry, your browser does not support videos.
-          </video>
-        </div>
-      </div>
-      {/* TODO: if screen.width < (n+1)px => Descanse tranquilo en adelante : display:none;  */}
-    </header>
-      <Layout nav={true} paddTop={30} footer={false} head={true} width={800}>
+      </header>
+      <Layout nav={true} paddTop={30} footer={false}>
         <center>
           <h1 className="antigradienttext">
             Nuestros<i> vendors </i>de preferencia
@@ -148,7 +141,7 @@ function Managed() {
                     {/*  Trabajamos con Bitdefender Endpoint Security Tools para la protección de Endpoints físicos y viertuales así como servidores.
                                    Su protección multicapa EDR combinado con <i>Tunable machine Learning</i>, su Firewall poderoso, su alta capaciad de adaptación, su protección contra Exploits y su capacidad de mitigar el Ransomeware, su administración automática de parches de seguridad para el SO y aplicaciones variadas y gestión de encriptación, a la par de su gran y precisa capacidad de detección de vulnerabilidades y malas configuraciones hacen de este software una herramienta muy poderosa para la protección de Endpoints. */}
                     Trabajamos con Bitdefender Endpoint Security Tools para la
-                    protección de Endpoints físicos y virtuales así como
+                    protección de Endpoints físicos y viertuales así como
                     servidores. <br />
                     La renombrada firma de Antivirus ofrece un producto sencillo
                     y poderoso para las mejores compañías.
@@ -178,7 +171,7 @@ function Managed() {
                     con Windows, Office (Microsoft 365), Exchange.
                     <br /> Micorosft Sentinel, Microsoft 365 Defender y
                     Microsoft Defender Threat Intelligence son parte de nuestro
-                    arsenal de preferencia para mantenerlo seguro a usted y su
+                    arsenalde preferencia para mantenerlo seguro a usted y su
                     negocio.
                   </Card.Description>
                 </Card.Content>
@@ -259,8 +252,8 @@ function Managed() {
           
           <br />
         </center>
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberataque en los últimos 12 meses, y el 45% afirma que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study el 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
+        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberaaque en los últimos 12 meses, y el 45% afirma a conciencia que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
+        <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
         </Layout>
       
         <iframe
@@ -277,7 +270,7 @@ function Managed() {
        
         
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Los tipos más comunes de ciberataques son Pishing e Ingeniería social, hurto o extravío de dispositivos y robo de credenciales.  '} /> <br />
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'No sea parte de esta estadística.  '} strong={'Los cibercriminales son capaces de pentrar el 93% de las redes corporativas del mundo.'} />
+        <Hcard imgurl={MSPWhiteICO}  pcontent={'No sea parte de esta estadística.  '} strong={'Los cibercriminales son capaces de pentral el 93% de las redes corporativas del mundo.'} />
         <br />
         <br />
         <center>

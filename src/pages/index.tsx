@@ -8,13 +8,13 @@ import { School } from "../components/Sections/School";
 // import _JSXStyle from './../styles/global';
 const items = [
   {
-    header: "BitLopez Dev",
+    header: "BitLopezDev",
     description: "Vea mi Currículum como Desarrollador Web Full Stack",
     meta: "Full Stack Web Development",
     href: "FullStack",
   },
   {
-    header: "BitLopez MSP",
+    header: "BitLopezMSP",
     description:
       "Vea mi futuro emprendimiento como MSP y MDR Provider",
     meta: "Ciberseguridad",
@@ -29,7 +29,7 @@ function HomePage() {
         <title>Santiago Comesaña | index</title>
       </Head>
 
-      <Layout nav={true} footer={false} paddTop={100} head={true}>
+      <Layout nav={true} footer={false} paddTop={100}>
         <center>
           <h1 className="antigradienttext">
             <i>Santiago Comesaña López</i>

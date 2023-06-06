@@ -16,7 +16,7 @@ const Security = () => {
             <Head>
                 <title>CV Online | Cybersecurity</title>
             </Head>
-            <Layout nav={true} footer={false} paddTop={100} head={true}>
+            <Layout nav={true} footer={false} paddTop={100}>
 
                 <div>
 
@@ -27,7 +27,6 @@ const Security = () => {
                 </div>
 
             </Layout>
-            
         </>
     );
 }
