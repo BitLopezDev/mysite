@@ -29,7 +29,7 @@ function HomePage() {
         <title>Santiago Comesaña | index</title>
       </Head>
 
-      <Layout nav={true} footer={false} paddTop={100}>
+      <Layout nav={true} footer={false} paddTop={100} head={true}>
         <center>
           <h1 className="antigradienttext">
             <i>Santiago Comesaña López</i>

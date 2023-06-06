@@ -16,7 +16,7 @@ const Security = () => {
             <Head>
                 <title>CV Online | Cybersecurity</title>
             </Head>
-            <Layout nav={true} footer={false} paddTop={100}>
+            <Layout nav={true} footer={false} paddTop={100} head={true}>
 
                 <div>
 
