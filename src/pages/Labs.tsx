@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Grid, Menu, Segment } from 'semantic-ui-react'
 import Layout from '../components/Layout/Layout';
 import { Arsenal } from './../components/Sections/innerSections/msp/aresenal';
-
+import {Intel} from './../components/Sections/innerSections/msp/intel'
 import Head from 'next/head';
 
 
@@ -30,19 +30,13 @@ function hideElement(segment) {
 }
 
 
-    const description = "En este curso refresco y profundizo mis conocimientos en PHP, PHP OOP, manejo de sesiones, cookies, conexiones a bases de datos. También incorporo a mis habilidades el Manejo de Laravel, Symfony, Inertia y Vue.js para Single Page Applications ";
-    /* 
-    ['Name', 'Image', 'certification', "completion"]
-    */
-    
-
 
 
    
 
 
 
-class PlatziCourses extends Component {
+class arsenalcontainer extends Component {
 
 
 
@@ -140,9 +134,7 @@ class PlatziCourses extends Component {
 
                     <Grid.Column stretched width={12}>
                         <Segment id='intel' >
-                        <React.Fragment>
-            <Arsenal which={"intel"} route={"Backend con PHP"} year={"TO BE"} description={description} completion={30} diplomaurl={''} />
-        </ React.Fragment>
+                        <Intel />
 
                         </Segment>
                         <Segment id='ngfw' className='seesconde' style={{ marginTop: 0 }}>
@@ -188,6 +180,6 @@ class PlatziCourses extends Component {
 
 
 
-export default PlatziCourses;
+export default arsenalcontainer;
 
 //TODO: correc

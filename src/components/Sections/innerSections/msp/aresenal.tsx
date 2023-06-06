@@ -1,15 +1,11 @@
 import React, { ReactElement } from 'react';
 import { Image, Item } from 'semantic-ui-react'
-import { DiplomaModal } from './DiplomaModal';
+
 
 const Arsenal = ( {...props }) => {
 
    
-    if(props.diplomaurl.length <1){
-        var seesconde :string | undefined = '';
-    } else {
-        var seesconde :string | undefined = 'seesconde';
-    }
+    
     
 
     return (
@@ -21,7 +17,7 @@ const Arsenal = ( {...props }) => {
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
-                        <DiplomaModal which={props.which} />
+                        <Image src={props.imageurl} alt="No se pudo cargar el certificado"/>
                         {/* props.diplomaurl.lenght == 0  && 'seesconde' */}
 
                        
