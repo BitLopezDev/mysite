@@ -11,25 +11,22 @@ interface LayoutProps {
     nav?: Boolean,
     footer?: Boolean,
     paddTop?: number,
-    width?:string
+    width?:number | string,
+    head?:boolean
 
 }
 
 
-const Layout = ( { children, nav, footer, paddTop, width }: LayoutProps ) => {
+const Layout = ( { children, nav, footer, paddTop, width = 600, head }: LayoutProps ) => {
     return (
         <React.Fragment >
-            {/* <Script src={"./../../scripts/common.js"} ></Script>*/}
+           
 
-            {/* <Script src="./scripts/Libs/bootstrap.bundle.js" /> */}
-
-            {/* <Script src="./scripts/Libs/jquery-3.6.1.min.js" /> */}
-
-            <Headf ogType="website">
+            {head && <Headf ogType="website"></Headf>}
 
 
 
-            </Headf>
+            
             <header>
               { nav &&  <Navbar />}
                 <Modals />
@@ -38,7 +35,8 @@ const Layout = ( { children, nav, footer, paddTop, width }: LayoutProps ) => {
 
 
             <Container text>
-                <main id="GlobalMain" style={{paddingTop:paddTop}} >
+               
+                <main id="GlobalMain" style={{paddingTop:paddTop, width: width, margin: 'auto', display: 'block'}} >
                     {children}
 
 
