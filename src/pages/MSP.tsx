@@ -18,7 +18,7 @@ import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.i
 import MSPWhite from "./../../public/assets/users/Santiago/services/MSPWhite.png";
 import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-const malworld=  './../../public/videos/malworld.mp4';
+
 import AVTestEndpointBlack from "./../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg";
 const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
 import "../scripts/charts/AVScores.js";
@@ -37,7 +37,8 @@ function Managed() {
         style={{
           position: 'relative',
           width: '100%',
-          background: '#0d0c15',
+          // background: '#0d0c15',
+          background:'black',
           marginTop: 60,
           paddingLeft: 50,
           height: 450,
@@ -111,10 +112,11 @@ function Managed() {
             zIndex: 1,
           }}
         >
-          {/* <video width="100%" autoPlay loop style={{ height: '450px' }}>
+           <video width="100%" autoPlay loop style={{ height: '450px' }}>
             <source src="/videos/malworld.mp4" type="video/mp4" />
             Sorry, your browser does not support videos.
-          </video> */}<Image className="" src={Object.entries(MSPBlack)[0].slice(1)} alt='imagen' height={400} /> 
+          </video> 
+          {/* <Image className="" src={Object.entries(MSPBlack)[0].slice(1)} alt='imagen' height={400} />  */}
         </div>
       </div>
       {/* TODO: if screen.width < (n+1)px => Descanse tranquilo en adelante : display:none;  */}
