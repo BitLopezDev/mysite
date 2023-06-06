@@ -8,13 +8,13 @@ import { School } from "../components/Sections/School";
 // import _JSXStyle from './../styles/global';
 const items = [
   {
-    header: "BitLopezDev",
+    header: "BitLopez Dev",
     description: "Vea mi Currículum como Desarrollador Web Full Stack",
     meta: "Full Stack Web Development",
     href: "FullStack",
   },
   {
-    header: "BitLopezMSP",
+    header: "BitLopez MSP",
     description:
       "Vea mi futuro emprendimiento como MSP y MDR Provider",
     meta: "Ciberseguridad",

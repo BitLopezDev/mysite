@@ -97,8 +97,10 @@ const IntroBubble = () => {
                             <li data-bs-toggle="popover" className='li' title="Nombre completo" data-bs-content="Santiago Comesaña López">
                                 <b>Nombre: </b>Santiago Comesaña
                             </li>
+                            <br />
                             <li data-bs-toggle="popover" className='li' title="Edad y más" data-bs-content="Nací el 15/06/2002 en Montevideo"><b>Edad:
                             </b> 20 años </li>
+
                             <li data-bs-toggle="popover" className='li' title="Foración académica"
                                 data-bs-content="Bachilleratos completos de Medicina e ingeniería. Cursando faculad."><b>Nivel de
                                     educación: </b>Bachillerato</li>
