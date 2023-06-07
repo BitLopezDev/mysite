@@ -5,6 +5,7 @@ import { Arsenal } from '../components/Sections/innerSections/msp/arsenal';
 import {Intel} from './../components/Sections/innerSections/msp/intel';
 import {NGFW} from './../components/Sections/innerSections/msp/ngfw';
 import {ZTNA} from './../components/Sections/innerSections/msp/ztna';
+import {EndpointProtection} from './../components/Sections/innerSections/msp/endpoint';
 
 import Head from 'next/head';
 
@@ -96,8 +97,8 @@ class arsenalcontainer extends Component {
                                 segment='ztna'
                             />
                             <Menu.Item
-                                name='Endpoint Protection'
-                                active={activeItem === 'Endpoint Protection'}
+                                name='Endpoint Protection con EDR y XDR'
+                                active={activeItem === 'Endpoint Protection con EDR y XDR'}
                                 onClick={this.handleItemClick}
                                 segment='ep'
                             />
@@ -150,7 +151,7 @@ class arsenalcontainer extends Component {
 
                         <Segment id='ep' className='seesconde' style={{ marginTop: 0 }}>
 
-                           
+                           <EndpointProtection />
                         </Segment>
                         <Segment id='siem' className='seesconde' style={{ marginTop: 0 }}>
                           
