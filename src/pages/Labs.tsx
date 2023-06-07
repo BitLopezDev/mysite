@@ -7,7 +7,7 @@ import {NGFW} from './../components/Sections/innerSections/msp/ngfw';
 import {ZTNA} from './../components/Sections/innerSections/msp/ztna';
 import {EndpointProtection} from './../components/Sections/innerSections/msp/endpoint';
 import {SIEM} from './../components/Sections/innerSections/msp/siem';
-
+import { OfficeSecurity } from './../components/Sections/innerSections/msp/officesecurity';
 import Head from 'next/head';
 
 
@@ -19,7 +19,7 @@ import Head from 'next/head';
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'office', 'mail', 'ddos', 'sand'];
+    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'office', 'mail', 'sand'];
 
     if (document.getElementById(segment)?.classList.contains("seesconde")) {
         document.getElementById(segment)?.classList.remove('seesconde');
@@ -115,15 +115,10 @@ class arsenalcontainer extends Component {
                                 onClick={this.handleItemClick}
                                 segment='office'
                             />
+                         
                             <Menu.Item
-                                name='Mail Security'
-                                active={activeItem === 'Mail Security'}
-                                onClick={this.handleItemClick}
-                                segment='mail'
-                            />
-                            <Menu.Item
-                                name='DDoS Protection'
-                                active={activeItem === 'DDoS Protection'}
+                                name="Directed Denial of Service"
+                                active={activeItem === 'Directed Denial of Service'}
                                 onClick={this.handleItemClick}
                                 segment='ddos'
                             />
@@ -158,11 +153,9 @@ class arsenalcontainer extends Component {
                           <SIEM />
                         </Segment>
                         <Segment id='office' className='seesconde' style={{ marginTop: 0 }}>
-                           
+                           <OfficeSecurity />
                         </Segment> 
-                        <Segment id='mail' className='seesconde' style={{ marginTop: 0 }}>
-                           
-                        </Segment>
+                        
                         <Segment id='ddos' className='seesconde' style={{ marginTop: 0 }}>
                            
                         </Segment>
