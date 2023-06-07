@@ -8,6 +8,8 @@ import {ZTNA} from './../components/Sections/innerSections/msp/ztna';
 import {EndpointProtection} from './../components/Sections/innerSections/msp/endpoint';
 import {SIEM} from './../components/Sections/innerSections/msp/siem';
 import { OfficeSecurity } from './../components/Sections/innerSections/msp/officesecurity';
+import { DDOS } from './../components/Sections/innerSections/msp/ddos';
+import { Sandbox } from './../components/Sections/innerSections/msp/sandbox';
 import Head from 'next/head';
 
 
@@ -19,7 +21,7 @@ import Head from 'next/head';
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'office', 'mail', 'sand'];
+    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'office', 'ddos', 'sand'];
 
     if (document.getElementById(segment)?.classList.contains("seesconde")) {
         document.getElementById(segment)?.classList.remove('seesconde');
@@ -157,10 +159,10 @@ class arsenalcontainer extends Component {
                         </Segment> 
                         
                         <Segment id='ddos' className='seesconde' style={{ marginTop: 0 }}>
-                           
+                           <DDOS />
                         </Segment>
                         <Segment id='sand' className='seesconde' style={{ marginTop: 0 }}>
-                         
+                         <Sandbox />
                         </Segment>
                     </Grid.Column>
                 </Grid>
