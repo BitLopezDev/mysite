@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import { Grid, Menu, Segment } from 'semantic-ui-react'
 import Layout from '../components/Layout/Layout';
-import { Arsenal } from './../components/Sections/innerSections/msp/aresenal';
-import {Intel} from './../components/Sections/innerSections/msp/intel'
+import { Arsenal } from '../components/Sections/innerSections/msp/arsenal';
+import {Intel} from './../components/Sections/innerSections/msp/intel';
+import {NGFW} from './../components/Sections/innerSections/msp/ngfw';
+import {ZTNA} from './../components/Sections/innerSections/msp/ztna';
+
 import Head from 'next/head';
 
 
@@ -138,10 +141,10 @@ class arsenalcontainer extends Component {
 
                         </Segment>
                         <Segment id='ngfw' className='seesconde' style={{ marginTop: 0 }}>
-                          
+                          <NGFW />
                         </Segment>
                         <Segment id='ztna' className='seesconde' style={{ marginTop: 0 }}>
-                           
+                           <ZTNA />
                         </Segment>
 
 
