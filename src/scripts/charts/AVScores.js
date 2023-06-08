@@ -14,12 +14,13 @@ new Chart("AVScores", {
       borderColor: "#da0000",
       label: "Bitdefender Endpoint Security Tools",
       fill: false
-    }, { 
-      data: [98.8,100,99.3,100,100,98.8,100],
-      borderColor: "#7fba01",
-      label: "Microsoft Defender",
-      fill: false
     },
+    //  { 
+    //   data: [98.8,100,99.3,100,100,98.8,100],
+    //   borderColor: "#7fba01",
+    //   label: "Microsoft Defender",
+    //   fill: false
+    // },
     { 
       data: [100,100,100,99.4,100,100,100],
       borderColor: "#0279cb",

@@ -1,7 +1,8 @@
-import * as React from "react";
+import React from "react";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
-
+import { Arsenalcontainer } from './../components/Sections/innerSections/msp/arsenal';
+import bitlopezmsp from './../../public/images/BitLopez MSP.png'
 import { Hcard } from "styles/components/hcard";
 import { Image, Item } from "semantic-ui-react";
 import { Grid, Rail, Segment, Card, List } from "semantic-ui-react";
@@ -223,21 +224,7 @@ function Managed() {
         <br />
         {/* <hr />
          */}
-        <center>
-          <h4>Para el hogar</h4>
-          <br />
-        </center>
-       
-        <Hcard imgurl={BitdefenderHome} pcontent={'Confiamos en Bitdefender Antivirus para el hogar por su robustez, su precisión, sencillez de instalación y su poderosa consola. Creemos en un antimalware posicionado como Líder en el mercado según estudios independientes.'} strong ={'Bitdefender Antivirus:'} /> 
-        <br />
-        <Hcard imgurl={GlassWire} pcontent={'Confiamos en un firewall modelo con capacidades sorprendentes y una excelente reputación.'} strong ={'GlassWire:'} />       
-          <br />
-
-        <Hcard imgurl={Comodo} pcontent={'Confiamos en un firewall gratuito con HIPS, modo de aprendizaje y sandbox y, por sobre todo, robusto. Confiamos en el Firewall de Comodo como opción para quienes lo deseen.'} strong ={'Comodo Firewall:'} /> 
-        <br />
-        
-        <Hcard imgurl={Sophos} pcontent={'Confiamos en el Antivirus NEXT-GEN de Sophos para el hogar por el renombre de la firma desarrolladora y los estudios independientes que validan su eficacia.'} strong ={'Sophos:'} /> 
-      </Layout>
+       </Layout>
       <center>
         <center>
           <h1 className="antigradienttext">
@@ -250,10 +237,18 @@ function Managed() {
         <br />
         <canvas id="AVScores" style={{ maxWidth: "80%" }}></canvas>
         <br /> <br />
-        <Layout nav={false}>
-         <Hcard imgurl={Bitdefender} pcontent={'lidera la protección de Endpoints contra ataques de Día Cero (Zero-day attack) y, aunque el gráfico no lo señale, protección contra malwares más extendidos en Endpoints. Por esta razón es nuestra herramienta preferida para este tipo de dispositivos; la historia nos da la razón.'} strong ={'Bitdefender Endpoint Security Tools '} /> 
-          
+        <iframe
+          width={"100%"}
+          height={600}
+          src={cybermap}
+          style={{ paddingBottom: 0, marginBottom: 0 }}
+        />
+          <center>
+        <Arsenalcontainer /></center>
           <br />
+          <Layout nav={false}>
+      
+          
           <center>
           <h1 className="antigradienttext">
             Las amenazas en el mundo {" "}
@@ -265,24 +260,27 @@ function Managed() {
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberataque en los últimos 12 meses, y el 45% afirma que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study el 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
         </Layout>
-      
-        <iframe
-          width={"100%"}
-          height={600}
-          src={cybermap}
-          style={{ paddingBottom: 0, marginBottom: 0 }}
-        />
-        <Layout nav={false}>
-        {/* <Hcard imgurl={Comodo} pcontent={'Lady'} /> */}
-       <br />
-       <br />
-       <br />
        
+                   
+        <Layout nav={false} footer={false}>
+        {/* <Hcard imgurl={Comodo} pcontent={'Lady'} /> */}
+       
+       
+       <h4>Los cybercriminales son capaces de penetrar el 93% de las redes corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b></h4>
         
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'Los tipos más comunes de ciberataques son Pishing e Ingeniería social, hurto o extravío de dispositivos y robo de credenciales.  '} /> <br />
-        <Hcard imgurl={MSPWhiteICO}  pcontent={'No sea parte de esta estadística.  '} strong={'Los cibercriminales son capaces de pentrar el 93% de las redes corporativas del mundo.'} />
         <br />
         <br />
+        </Layout>
+        <Image
+                  src={Object.entries(bitlopezmsp)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={'auto'}
+                  width={'100%'}
+                  style={{ padding:0, margin:0, bottom:0}}
+                />
+        {/* <Layout nav={false}>
         <center>
             <hr />
         <h1 className="antigradienttext" style={{ fontSize: "4.5em" }}>
@@ -296,15 +294,17 @@ function Managed() {
 
         <Hcard imgurl={BasicRound}  pcontent={'Otorga la mejor protección para Endpoint que puede existir en el mercado a un precio muy conveniente. Es una solución ligera, efectiva y muy personalizable, con amplia variedad de módulos y posibles configuraciones, para una seguridad personalizada '} strong={'Bitdefender Endpoint Security Tools'} /> <br />
         <Hcard imgurl={BasicRound}  pcontent={'Desde una única consola permiten la integración de soluciones para la seguridad de sus dispositivos móbiles y de su red corporativa con NEXT-GEN NIPS, NEXT-GEN Firewall, protección contra ataques de día cero (Zero-day attacks), protección Web, control de acceso a los recursos compartidos y las redes y prevención de pérdida de datos (Data Loss Prevention, DLP) '} strong={'Sophos Intercept X for Mobile, ZTNA y Network Firewall'} /> <br />
-        </Layout>
+        </Layout> */}
         {/* <canvas id="VLost" style={{width:'100%', maxWidth:600}}></canvas> */}
         {/* <Image src={Object.entries(AVTestEndpointBlack)[0].slice(1)} wrapped ui={false} alt="No se pudo cargar la imagen" width={'100%'}  style={{paddingTop:0, marginTop:0, opacity: 1,}}  />  */}
       </center>
-      <Layout nav={false}></Layout>
+      
       {/* <section className='barraLateral fixed-top '>
                 <LateralBar />
             </section> */}
+           
     </React.Fragment>
+    
   );
 }
 
