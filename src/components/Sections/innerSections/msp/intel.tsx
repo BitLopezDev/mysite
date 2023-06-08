@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Item } from 'semantic-ui-react';
 import intelimage from './../../../../../public/images/threat intelligence 1.png'
 
-import { Arsenal } from './arsenal';
+
 const video = '/videos/video4.mp4';
 const Intel = () => {
     const description = "Manténgase un paso más adelante que las ciberamenazas actuales, incluso las más complejas, con Cyber Threat Intelligence";
