@@ -270,11 +270,12 @@ ul li {
     line-height: 80px;
 
 }*/
+ /*
 @media (max-with: 840px) {
     section .row {
-        transform: rotate(90deg);
+     transform: rotate(90deg);
     }
-}
+}*/
 
 @media screen and (min-with:550px) {
     #accordion {
