@@ -16,6 +16,7 @@ import Chart from "chart.js/auto";
       labels: xValues,
       datasets: [
         {
+          label: "Costos de ataques según IBM en USD",
           backgroundColor: barColors,
           data: yValues,
         },
