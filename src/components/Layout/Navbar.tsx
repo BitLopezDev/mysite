@@ -30,18 +30,7 @@ const Navbar = () => {
           </a>
         </Link>
         
-    <ul className="navbar-nav hideonmobile">
-      <li className="nav-item">
-        <a className="nav-link active" href="/">Inicio</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="/FullStack">BitLopez Dev</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="/MSP">BitLopez MSP</a>
-      </li>
-      
-    </ul>
+    
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contentnavbar">
           <span className="navbar-toggler-icon"></span>
