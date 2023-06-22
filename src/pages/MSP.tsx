@@ -23,6 +23,10 @@ import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.p
 import AVTestEndpointBlack from "./../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg";
 const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
 import "../scripts/charts/AVScores.js";
+import "../scripts/charts/databreachyears.js";
+import "../scripts/charts/IBMpercentages";
+import "../scripts/charts/IBMPrices";
+
 //import '../scripts/charts/VLost.js';
 
 // import _JSXStyle from './../styles/global';
@@ -260,8 +264,13 @@ function Managed() {
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Según el Reporte de estado de Ciberseguridad del instituto Ponemon, 66% de las pymes ha expermentado un cyberataque en los últimos 12 meses, y el 45% afirma que sus medidas de seguridad no son efectivas para mitigar los ataques.  '} /> <br />
         <Hcard imgurl={MSPWhiteICO}  pcontent={'Según Accenture\'s Cost of Cybercrime Study el 43% de los ciberataques tienen como objetivo a los pequeños negocios, de los que solamente el 14% está preparado para defenderse.   '} /> <br />
         </Layout>
-       
-                   
+        <canvas id="databreach" style={{ maxWidth: "80%" }}></canvas>
+                  <br />
+                  <canvas id="porcentages" style={{ maxWidth: "90%" }}></canvas>
+                  <br />
+                  <canvas id="IBMPrices" style={{ maxWidth: "90%" }}></canvas>
+
+<br /><br /><br />
         <Layout nav={false} footer={false}>
         {/* <Hcard imgurl={Comodo} pcontent={'Lady'} /> */}
        

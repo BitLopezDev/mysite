@@ -31,8 +31,8 @@ const ZTNA = () => {
                    
                 </Item>
                 <Item>
-                    <h5>Defienda su red y su organización a través de una arquitectura ZERO TRUST. Impida el acceso de dispositivos y personal que no haya verificado sus credenciales.<br />
-                    Gracias a software como el ZTNA de Sophos Labs, se puede garantizar que el dispositivo que accede a la red es <i>el</i> dispositivo del usuario y que está libre de cualquier programa malicioso que pudiere representar una amenaza para la organización, sus recursos y la continuidad del negocio.<br />
+                    <h5>Defienda su red, sus recursos y su organización a través de una arquitectura ZERO TRUST. Impida el acceso de dispositivos y personal cuyas credenciales sean inválidas o no se hayan verificado.<br />
+                    Gracias a software como el ZTNA de Sophos Labs, se puede garantizar que quien accede a la red y a los recursos es <i>el</i> usuario autorizado en <i>el</i> dispositivo autorizado y que este está libre de cualquier programa malicioso que pudiere representar una amenaza para su organización, su red, sus recursos y la continuidad del negocio.<br />
                     <b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>
