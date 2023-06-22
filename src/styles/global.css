@@ -51,6 +51,8 @@
 .coloredshadow {
 
     padding: 32px 32px;
+    min-width:350;
+    width:400px;
 
 
 }
@@ -317,7 +319,8 @@ border-bottom-left-radius: 3px;*/
     /*rgba(151, 53, 252, 1)/*/
     height: 100vh;
     width: 25%;
-    min-width: 300px;
+    min-width: 200px;
+    width: 215px;
     max-width: 450px !important;
     margin-left: auto;
     margin-right: 0;
@@ -334,6 +337,26 @@ footer {
     position: relative;
 }
 
+
+.hidesegment{
+    color: black;
+}
+@media screen and (max-width: 1000px) {
+    .hidesegment {
+        display: none;
+    }
+}
+@media screen and (max-width: 1157px) {
+    .barralateralwrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardgroup {
+        transform: rotate(90deg);
+    }
+}
 /* //////////////////////////  ///////////////////////////// */
 
 #line-chart {

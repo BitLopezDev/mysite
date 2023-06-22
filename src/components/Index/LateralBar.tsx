@@ -49,7 +49,7 @@ const LateralBar = () => {
                     <List.Item>
                         <List.Icon name='mail' size='large' />
 
-                        <List.Content><a href='mailto:santiagocomesanalopez@gmail.com' style={{ color: 'white' }}>santiagocomesanalopez@gmail.com</a></List.Content>
+                        <List.Content><a href='mailto:santiagocomesanalopez@gmail.com' style={{ color: 'white' }}>contacto@bitlopez.bio</a></List.Content>
                     </List.Item>
                     <List.Item>
                         <List.Icon name='phone' size='large' />

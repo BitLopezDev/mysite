@@ -37,13 +37,21 @@ function HomePage() {
           <h4>BitLopez</h4>
           <br />
         </center>
-        <Card.Group centered items={items} />
+        <Card.Group centered items={items} className="cardgroup" />
         <br /> <br />
         <section>
+          
           <Grid centered columns={3}>
+            
             <Grid.Column>
-              <Segment style={{ width: 300 }}>
-                <h3>Puestos deseados:</h3>
+            <Rail
+               
+                  position="left"
+              
+                  className={"hidesegment"}
+                >
+                  <Segment >
+                  <h3>Puestos deseados:</h3>
                 <br />
                 <h5>Desarrollo Web:</h5>
                 <p>
@@ -79,13 +87,12 @@ function HomePage() {
                   exámenes para las certificaciones internacionales teniendo
                   experiencia.
                 </p>
-                <Rail
-                  className="coloredshadow"
-                  position="left"
-                  style={{ width: 400, height: "600" }}
-                >
-                  <Segment>
-                    <h3>Datos Rápidos:</h3>
+                  </Segment>
+                </Rail>
+              <div >
+              <Segment className="coloredshadow">
+             
+              <h3>Datos Rápidos:</h3>
                     <br />
                     <List as="ol">
                       <List.Item as="li" value="*">
@@ -206,9 +213,8 @@ function HomePage() {
                         </List.Item>
                       </List.Item>
                     </List>
-                  </Segment>
-                </Rail>
               </Segment>
+              </div>
             </Grid.Column>
           </Grid>
           <br />
@@ -218,7 +224,7 @@ function HomePage() {
           <School />
         </section>
       </Layout>
-      <section className="barraLateral fixed-top ">
+      <section className="barraLateral barralateralwrapper fixed-top ">
         <LateralBar />
       </section>
     </React.Fragment>
