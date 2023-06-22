@@ -7,7 +7,7 @@ import { LateralBar } from "../components/Index/LateralBar";
 import { School } from "../components/Sections/School";
 import { Footer } from '../components/Layout/Footer';
 import Logo from '../../public/images/BasicRound.png';
-
+import Link from 'next/link';
 // import _JSXStyle from './../styles/global';
 const items = [
   {
@@ -50,7 +50,29 @@ function HomePage() {
           que lo respalda.</p>
         
         <div className='hideonmobile'>
-           
+           <ul className="nav nav-pills flex-column ">
+            <li className="nav-item">
+            <Link href="/" legacyBehavior>
+              <a className="nav-link active" href="">Inicio</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+            <Link href="/" legacyBehavior>
+              <a className="nav-link " href="FullStack">Desarrollador Web FullStack</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+            <Link href="/" legacyBehavior>
+              <a className="nav-link " href="MSP">Bitopez MSP</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+            <Link href="/" legacyBehavior>
+            <a className="nav-link disabled" href="/Labs">Labs</a>
+              </Link>
+              
+            </li> 
+          </ul>
 
         </div>
         
