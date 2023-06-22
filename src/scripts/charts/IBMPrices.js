@@ -26,7 +26,7 @@ import Chart from "chart.js/auto";
       legend: { display: true },
       title: {
         display: true,
-        text: "Información relevante según IBM",
+        text: "Costos de ataques según IBM en USD",
       },
     },
   });
