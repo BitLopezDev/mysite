@@ -230,9 +230,7 @@ function HomePage() {
 
   <Footer />
 
-    </div>
-
-    </div>
+  
     </>
   );
 }
