@@ -4,23 +4,23 @@ import Head from "next/head";
 import { Arsenalcontainer } from './../components/Sections/innerSections/msp/arsenal';
 import bitlopezmsp from './../../public/images/BitLopez MSP.png'
 import { Hcard } from "styles/components/hcard";
-import { Image, Item } from "semantic-ui-react";
-import { Grid, Rail, Segment, Card, List } from "semantic-ui-react";
-import { LateralBar } from "../components/Index/LateralBar";
-import { School } from "../components/Sections/School";
-import MSPBlack from "./../../public/assets/users/Santiago/services/MSPBlack.png";
-import BasicRound from "./../../public/assets/users/Santiago/imágenes/Logo/BasicRound.ico";
+import { Image, } from "semantic-ui-react";
+import { Grid, Card } from "semantic-ui-react";
+// import { LateralBar } from "../components/Index/LateralBar";
+// import { School } from "../components/Sections/School";
+// import MSPBlack from "./../../public/assets/users/Santiago/services/MSPBlack.png";
+// import BasicRound from "./../../public/assets/users/Santiago/imágenes/Logo/BasicRound.ico";
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
 import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
-import BitdefenderHome from "./../../public/assets/users/Santiago/services/BitdefenderHome.ico";
-import GlassWire from "./../../public/assets/users/Santiago/services/glasswire.svg";
-import Comodo from "./../../public/assets/users/Santiago/services/Comodo.ico";
-import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.ico";
-import MSPWhite from "./../../public/assets/users/Santiago/services/MSPWhite.png";
+// import BitdefenderHome from "./../../public/assets/users/Santiago/services/BitdefenderHome.ico";
+// import GlassWire from "./../../public/assets/users/Santiago/services/glasswire.svg";
+// import Comodo from "./../../public/assets/users/Santiago/services/Comodo.ico";
+// import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.ico";
+
 import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
 
-import AVTestEndpointBlack from "./../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg";
+// import AVTestEndpointBlack from "./../../public/assets/users/Santiago/services/AVTestEndpointBlack.jpg";
 const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
 import "../scripts/charts/AVScores.js";
 import "../scripts/charts/databreachyears.js";
