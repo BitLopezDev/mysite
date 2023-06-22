@@ -37,7 +37,7 @@ function HomePage() {
           <h4>BitLopez</h4>
           <br />
         </center>
-        <Card.Group centered items={items} className="cardgroup" />
+        <Card.Group centered items={items}  />
         <br /> <br />
         <section>
           

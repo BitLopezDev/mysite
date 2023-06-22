@@ -352,12 +352,7 @@ footer {
         display: none;
     }
 }
-/*
-@media screen and (max-width: 600px) {
-    .cardgroup {
-        transform: rotate(90deg);
-    }
-}*/
+
 /* //////////////////////////  ///////////////////////////// */
 
 #line-chart {
