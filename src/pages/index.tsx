@@ -50,7 +50,7 @@ function HomePage() {
           que lo respalda.</p>
         
         <div className='hideonmobile'>
-           <ul className="nav nav-pills flex-column ">
+           {/* <ul className="nav nav-pills flex-column ">
             <li className="nav-item">
             <Link href="/" legacyBehavior>
               <a className="nav-link active" href="">Inicio</a>
@@ -72,7 +72,7 @@ function HomePage() {
               </Link>
               
             </li> 
-          </ul>
+          </ul> */}
 
         </div>
         
