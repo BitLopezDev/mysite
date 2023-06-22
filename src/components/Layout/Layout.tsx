@@ -36,7 +36,7 @@ const Layout = ( { children, nav, footer, paddTop, width = 800, head }: LayoutPr
 
             <Container text>
                
-                <main id="GlobalMain" style={{paddingTop:paddTop, width: width, margin: 'auto',}} >
+                <main id="GlobalMain" style={{paddingTop:paddTop, width: width, margin: 'auto', paddingBottom:0}} >
                     {children}
 
 

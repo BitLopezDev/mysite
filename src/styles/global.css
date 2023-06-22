@@ -346,8 +346,12 @@ footer {
     .hidesegment {
         display: none;
     }
+    .hideonmobile{
+        display:none !important;
+    }
 }
-@media screen and (max-width: 1157px) {
+
+@media screen and (max-width: 1482px) {
     .barralateralwrapper {
         display: none;
     }
