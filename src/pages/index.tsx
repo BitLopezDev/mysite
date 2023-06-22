@@ -51,10 +51,10 @@ function HomePage() {
         
         <div className='hideonmobile'>
            <ul className="nav nav-pills flex-column ">
-            {/* <li className="nav-item">
+             <li className="nav-item">
               <a className="nav-link active" href="/">Inicio</a>
             </li>
-            <li className="nav-item">
+            {/*<li className="nav-item">
               <a className="nav-link" href="#">Desarrollador web FullStack</a>
             </li>
             <li className="nav-item">
