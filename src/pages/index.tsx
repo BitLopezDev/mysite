@@ -50,20 +50,7 @@ function HomePage() {
           que lo respalda.</p>
         
         <div className='hideonmobile'>
-           <ul className="nav nav-pills flex-column ">
-            {/* <li className="nav-item">
-              <a className="nav-link active" href="">Inicio</a>
-            </li>*/}
-            <li className="nav-item">
-              <a className="nav-link" href="FullStack">Desarrollador web FullStack</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="MSP">BitLopez MSP</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" href="/Labs">Labs</a>
-            </li> 
-          </ul>
+           
 
         </div>
         
