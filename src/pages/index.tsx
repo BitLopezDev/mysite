@@ -79,7 +79,7 @@ function HomePage() {
         <hr className="d-sm-none" />
       </div> 
       <div className="col-sm-8">
-        <h2>TITLE HEADING</h2>
+        {/* <h2></h2> */}
         <Card.Group centered items={items} />
         <br />
         <Grid columns={3}>
