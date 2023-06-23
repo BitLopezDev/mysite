@@ -89,31 +89,11 @@ const IntroBubble = () => {
                     </center>
                     {/* <!--</div id="carouselcontainer">--> */}
                 </div>
-                <div className="col-sm-6 fondogradiente justify-content-center" data-bs-toggle="tooltip"
+                <div className="col-sm-6 fondogradiente justify-content-center hideonmobile" data-bs-toggle="tooltip"
                     title="Puede hacer click en los datos personales para más información y click nuevamente para cerrar." >
                     <center>
-                        <h4 style={{ paddingTop: 15 }}>Sobre mí:</h4>
-                        <ul className='ul'>
-                            <li data-bs-toggle="popover" className='li' title="Nombre completo" data-bs-content="Santiago Comesaña López">
-                                <b>Nombre: </b>Santiago Comesaña
-                            </li>
-                            <br />
-                            <li data-bs-toggle="popover" className='li' title="Edad y más" data-bs-content="Nací el 15/06/2002 en Montevideo"><b>Edad:
-                            </b> 20 años </li>
-
-                            <li data-bs-toggle="popover" className='li' title="Foración académica"
-                                data-bs-content="Bachilleratos completos de Medicina e ingeniería. Cursando faculad."><b>Nivel de
-                                    educación: </b>Bachillerato</li>
-                            <li data-bs-toggle="popover" className='li' title="Formación técnica" data-bs-content="Soy desarrollador Full Stack.">
-                                <b>Formación técnica:</b> Programación
-                            </li>
-                            <li data-bs-toggle="popover" className='li' title="Empleo deseado en el mundo ndel desarrollo"
-                                data-bs-content="Quisiera trabajar como desarrollador Web ya sea de FrontEnd o BackEnd">
-                                <b>Puesto deseado: </b> Desarrollador web
-                            </li>
-
-
-                        </ul>
+                       <h1 style={{textAlign:'center', marginTop:75, fontSize:50}} className='hideonmobile'>BitLopez Dev
+                                          </h1>
                     </center>
 
                 </div>
@@ -121,6 +101,14 @@ const IntroBubble = () => {
         </React.Fragment>
 
     );
+    <style jsx>{`
+    body {
+  
+      
+      h1 {
+        margin: 0;
+      }
+    `}</style>
 }
 
 export default IntroBubble;
