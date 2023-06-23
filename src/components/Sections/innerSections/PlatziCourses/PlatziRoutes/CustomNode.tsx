@@ -31,7 +31,7 @@ const CustomNode = () => {
             'Curso de GraphQL con Node.js',
             'https://static.platzi.com/media/achievements/piezas-graphql-nodejs_badge-33cf72ee-ce02-46f9-be79-08fb9b433690.png',
             '#',
-            '0%',
+            '58%',
         ],
         [
             'Curso Avanzado de Node.js con GraphQL, Apollo Server y Prisma',
@@ -57,7 +57,7 @@ const CustomNode = () => {
     return (
 
         <>
-            <HeadRoute which={"CustomNode"} route={"Backend con Node.js"} year={"TO BE"} description={description} completion={43} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"CustomNode"} route={"Backend con Node.js"} year={"TO BE"} description={description} completion={51} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

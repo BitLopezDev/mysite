@@ -13,7 +13,12 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const IntroBubble = () => {
    
-
+    // <style jsx>{`
+  
+  
+      
+    
+    // `}</style>
     
 
     return (
@@ -92,8 +97,8 @@ const IntroBubble = () => {
                 <div className="col-sm-6 fondogradiente justify-content-center hideonmobile" data-bs-toggle="tooltip"
                     title="Puede hacer click en los datos personales para más información y click nuevamente para cerrar." >
                     <center>
-                       <h1 style={{textAlign:'center', marginTop:75, fontSize:50}} className='hideonmobile'>BitLopez Dev
-                                          </h1>
+                       <h1 style={{textAlign:'center', marginTop:50, fontSize:50, color: 'white',}} className='hideonmobile'>BitLopez Dev
+                                          </h1><h4 style={{color: 'white'}}>Santiago Comesaña López</h4>
                     </center>
 
                 </div>
@@ -101,14 +106,7 @@ const IntroBubble = () => {
         </React.Fragment>
 
     );
-    <style jsx>{`
-    body {
-  
-      
-      h1 {
-        margin: 0;
-      }
-    `}</style>
+    
 }
 
 export default IntroBubble;

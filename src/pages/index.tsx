@@ -23,7 +23,9 @@ const items = [
     meta: "Ciberseguridad",
     href: "MSP",
   },
+  
 ];
+
 //FIXME: Fix multile calls to Layout
 
 function HomePage() {
@@ -81,6 +83,7 @@ function HomePage() {
       <div className="col-sm-8">
         {/* <h2></h2> */}
         <Card.Group centered items={items} />
+        
         <br />
         <Grid columns={3}>
 

@@ -19,8 +19,8 @@ const CustomDBs = () => {
         [
            'Curso de MySQL y MariaDB',
            'https://static.platzi.com/media/achievements/badge-mysql-mariadb-449be7e2-82cb-47bd-864d-cc49f855503c.png',
-            '#',
-            '0%',
+            'https://platzi.com/p/santiagocomesana03/curso/4203-course/diploma/detalle/',
+            '100%',
         ],
         [
             'Curso Práctico de SQL',
@@ -40,7 +40,7 @@ const CustomDBs = () => {
     return (
 
         <>
-            <HeadRoute which={"CustomDBs"} route={"Bases de Datos Relacionales"} year={"TO BE"} description={description} completion={33} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"CustomDBs"} route={"Bases de Datos Relacionales"} year={"TO BE"} description={description} completion={66} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

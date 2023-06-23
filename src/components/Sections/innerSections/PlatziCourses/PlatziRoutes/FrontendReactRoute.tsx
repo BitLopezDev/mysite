@@ -10,6 +10,12 @@ const FrontendReactRoute = () => {
     */
     let coursesArray = [
         [
+            'Curso de React.js',
+            'https://static.platzi.com/media/achievements/piezas-landing-introduccion-react-js_badge-5cb7b891-69d3-4de4-bdab-1641b4c30312.png',
+            '',
+            '53%',
+        ],
+        [
             'Curso de React.js: Patrones de Render y Composición',
             'https://static.platzi.com/media/achievements/reactjs-patrones-render_badge-3c77e155-b04a-4c95-ac61-e2b6d2d5b92e.png',
             'https://platzi.com/p/santiagocomesana03/curso/2457-react-patrones-render/diploma/detalle/',
@@ -39,7 +45,7 @@ const FrontendReactRoute = () => {
     return (
 
         <>
-            <HeadRoute which={"FrontendReact"} route={"Frontend con React.js"} year={"TO BE"} description={description} completion={18} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"FrontendReact"} route={"Frontend con React.js"} year={"TO BE"} description={description} completion={15} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

@@ -12,20 +12,20 @@ const JSaPRoute = () => {
         [
             'Taller Práctico de JavaScript: Matemáticas y Estadística Básica',
             'https://static.platzi.com/media/achievements/practico-javascript-matematicas_piezas_badge-06073d4a-f0f1-4ddb-9a2a-eabd9bc2a6fd.png',
-            '#',
-            '83%',
+            'https://platzi.com/p/santiagocomesana03/curso/3435-course/diploma/detalle/',
+            '100%',
         ],
         [
             'Curso Intermedio de Programación Orientada a Objetos en JavaScript',
             'https://static.platzi.com/media/achievements/intermedio-programacion-orientada-js-badge-b29243cc-39b1-4f4a-aec0-59f96f0412cd.png',
             '#',
-            '0%',
+            '45%',
         ],
         [
             'Curso de Manipulación de Arrays en JavaScript',
             'https://static.platzi.com/media/achievements/piezas-arrays-javascript_badge-3af41716-cb1c-4428-b95f-fb791743c826.png',
             '#',
-            '0%',
+            '50%',
         ],
         [
             'Curso de Complejidad Algorítmica con JavaScript',
@@ -68,7 +68,7 @@ const JSaPRoute = () => {
     return (
 
         <>
-            <HeadRoute which={"JavaScriptProf"} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={22} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"JavaScriptProf"} route={"JavaScript a Profundidad"} year={"TO BE"} description={description} completion={29} coursesArray={coursesArray} diplomaurl={''} />
         </>
 
     );

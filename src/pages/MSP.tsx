@@ -32,12 +32,25 @@ import "../scripts/charts/IBMPrices";
 // import _JSXStyle from './../styles/global';
 
 function Managed() {
+  
   return (
     <React.Fragment>
+      <div className="showMSP">
+      <center>
+          <h1 className="antigradienttext">
+           Sitio no disponible para pantallas tan pequeñas.
+           
+          </h1>
+          <h3><a href='https://www.bitlopez.bio'>Volver al dominio principal</a></h3>
+          
+        </center>
+        </div>
+    <div className='hideMSP'>
       <Head>
         <title>BitLopez MSP</title>
       </Head>
       <header>
+        
       <div
         style={{
           position: 'relative',
@@ -46,23 +59,14 @@ function Managed() {
           background:'black',
           marginTop: 60,
           paddingLeft: 50,
-          height: 450,
+          height:500
         }}
+        className='masterMSPTitle'
       >
         <div
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: 'calc(100% - 450px)',
-            background: 'transparent',
-            marginTop: 60,
-            paddingLeft: 0,
-            marginLeft: 10,
-            // height: 450,
-            zIndex: 5,
-          }}
-        >
+          
+          id="MSPTitle"
+         >
           <h1 className="antigradienttext" style={{ fontSize: "6em" }}>
             <i>BitLopez MSP</i>
           </h1>
@@ -116,8 +120,9 @@ function Managed() {
             marginRight: 0,
             zIndex: 1,
           }}
+          className='videoMSP'
         >
-            <video width="100%" autoPlay loop style={{ height: '450px' }}>
+            <video width="100%" autoPlay loop style={{ height: '500px' }}>
             <source src="/videos/malworld.mp4" type="video/mp4" />
             Sorry, your browser does not support videos.
           </video>  
@@ -139,7 +144,7 @@ function Managed() {
         <Grid columns="three" centered>
           <Grid.Row>
             <Grid.Column>
-              <Card style={{ marginLeft: "-10px" }}>
+              <Card style={{ marginLeft: "-20" }}>
                 <Image
                   src={Object.entries(Bitdefender)[0].slice(1)}
                   wrapped
@@ -196,7 +201,7 @@ function Managed() {
               </Card>
             </Grid.Column>
             <Grid.Column>
-              <Card style={{ marginLeft: 10 }}>
+              <Card style={{ marginLeft: 15 }}>
                 <Image
                   src={Object.entries(Sophos)[0].slice(1)}
                   wrapped
@@ -312,8 +317,8 @@ function Managed() {
                 <LateralBar />
             </section> */}
            
+    </div>
     </React.Fragment>
-    
   );
 }
 

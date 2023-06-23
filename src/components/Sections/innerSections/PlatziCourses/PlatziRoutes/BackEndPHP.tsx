@@ -49,15 +49,15 @@ const BackEndPHP = () => {
         [
             'Curso Intermedio de PHP: Entornos Virtuales y Funciones Avanzadas',
             'https://static.platzi.com/media/achievements/badge-intermediophp-entornos-1-6047122d-b680-45f9-8fea-a776d79fb41a.png',
-            '#',
-            '96%',
+            'https://platzi.com/p/santiagocomesana03/curso/3151-course/diploma/detalle/',
+            '100%',
 
         ],
         [
             'Curso Intermedio de PHP: Conexión a Bases de Datos',
             'https://static.platzi.com/media/achievements/badge-piezas-intermedio-php-conexion-bases-datos-16efa716-f27b-433e-809f-d6adf5b48f.png',
-            '#',
-            '0%',
+            'https://platzi.com/p/santiagocomesana03/curso/4228-course/diploma/detalle/',
+            '100%',
 
         ],
         [
@@ -94,7 +94,7 @@ const BackEndPHP = () => {
     return (
 
         <React.Fragment>
-            <HeadRoute which={"BackendPHP"} route={"Backend con PHP"} year={"TO BE"} description={description} completion={30} coursesArray={coursesArray} diplomaurl={''} />
+            <HeadRoute which={"BackendPHP"} route={"Backend con PHP"} year={"TO BE"} description={description} completion={40} coursesArray={coursesArray} diplomaurl={''} />
         </ React.Fragment>
 
     );
