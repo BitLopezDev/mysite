@@ -33,6 +33,9 @@ function HomePage() {
     <>
     <Head>
     <title>Santiago Comesaña | index</title>
+    <link rel="preload" href="https://cybermap.kaspersky.com/es/widget/dynamic/dark" as="document" />
+    <link rel="preload" href="/MSP" as="document" />
+    <link rel="preload" href="/videos/malworld.mp4" as="video" />
   </Head>
   <Layout nav={true} paddTop={75} > </Layout>
 <center>
