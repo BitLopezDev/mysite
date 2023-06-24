@@ -134,7 +134,7 @@ function Managed() {
     >
       <center>
       <h1 className="antigradienttext">
-      {/* <div className="container">
+      <div className="container">
     <div className="bubble">
         <span></span>
         <span></span>
@@ -170,7 +170,7 @@ function Managed() {
         <span></span>
         <span></span>
     </div>
- </div> */}
+ </div>
            
           </h1>
 
