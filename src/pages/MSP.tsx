@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Layout from "../components/Layout/Layout";
 import Head from "next/head";
 import { Arsenalcontainer } from './../components/Sections/innerSections/msp/arsenal';
@@ -32,21 +32,16 @@ import "../scripts/charts/IBMPrices";
 // import _JSXStyle from './../styles/global';
 
 function Managed() {
-  
+  const [fadeOutEnd, setFadeOutEnd] = useState(false);
+
+  const handleAnimationEnd = () => {
+    setFadeOutEnd(true);
+  };
   return (
     <React.Fragment>
-      <div className="showMSP">
-      <center>
-          <h1 className="antigradienttext">
-           Sitio no disponible para pantallas tan pequeñas.
-           
-          </h1>
-          <h3><a href='https://www.bitlopez.bio'>Volver al dominio principal</a></h3>
-          
-        </center>
-        </div>
-    <div className='hideMSP'>
-      <Head>
+        
+     <div className='hideMSP fade-in'>
+     <Head>
         <title>BitLopez MSP</title>
       </Head>
       <header>
@@ -132,6 +127,67 @@ function Managed() {
       </div>
       {/* TODO: if screen.width < (n+1)px => Descanse tranquilo en adelante : display:none;  */}
     </header>
+     </div>
+     <div
+      className={`fade-out ${fadeOutEnd ? 'fade-out-end' : ''}`}
+      onAnimationEnd={handleAnimationEnd}
+    >
+      <center>
+      <h1 className="antigradienttext">
+      <div className="container">
+    <div className="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div className="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div className="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div className="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div className="bubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+ </div>
+           
+          </h1>
+
+      </center>
+    </div>
+      <div className="showMSP">
+      <center>
+          <h1 className="antigradienttext">
+           Sitio no disponible para pantallas tan pequeñas.
+           
+          </h1>
+          <h3><a href='https://www.bitlopez.bio'>Volver al dominio principal</a></h3>
+          
+        </center>
+        </div>
+    <div className='hideMSP fade-in'>
+      
       <Layout nav={true} paddTop={30} footer={false} head={true} >
         <center>
           <h1 className="antigradienttext">
@@ -318,6 +374,7 @@ function Managed() {
             </section> */}
            
     </div>
+  
     </React.Fragment>
   );
 }
