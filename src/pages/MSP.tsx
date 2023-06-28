@@ -6,6 +6,7 @@ import bitlopezmsp from './../../public/images/BitLopez MSP.png'
 import { Hcard } from "styles/components/hcard";
 import { Image, } from "semantic-ui-react";
 import { Grid, Card } from "semantic-ui-react";
+import { MSPVideo } from "../components/Sections/innerSections/msp/mainmsp";
 // import { LateralBar } from "../components/Index/LateralBar";
 // import { School } from "../components/Sections/School";
 // import MSPBlack from "./../../public/assets/users/Santiago/services/MSPBlack.png";
@@ -117,10 +118,10 @@ function Managed() {
           }}
           className='videoMSP'
         >
-            <video width="100%" autoPlay loop style={{ height: '500px' }}>
+            <video width="100%" loop style={{ height: '500px' }} autoPlay>
             <source src="/videos/malworld.mp4" type="video/mp4" />
             Sorry, your browser does not support videos.
-          </video>  
+          </video>   
            
           {/* <Image className="" src={Object.entries(MSPBlack)[0].slice(1)} alt='imagen' height={400} />  */}
         </div>
