@@ -2,7 +2,6 @@ import { AppProps } from 'next/app';
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/global.css';
 import '../styles/fullstack.module.scss';
-
 import Head from 'next/head';
 import Headf from './../components/Head/Headf';
 import { useLayoutEffect } from "react";
