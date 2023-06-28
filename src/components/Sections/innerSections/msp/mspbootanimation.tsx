@@ -1,62 +1,24 @@
-import * as React from 'react' ;
+import * as React from 'react';
 
 export function MSPBootAnimation() {
-  
-  const [fadeOutEnd, setFadeOutEnd] = React.useState(false);
+  const [visible, setVisible] = React.useState(true);
 
-  const handleAnimationEnd = () => {
-    setFadeOutEnd(true);
-  };
+  React.useEffect(() => {
+    const timeout = setTimeout(() => {
+      setVisible(false);
+    }, 20000);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (!visible) {
+    return null;
+  }
+
   return (
-    <>
-    <div
-      className={`fade-out ${fadeOutEnd ? 'fade-out-end' : ''}`}
-      onAnimationEnd={handleAnimationEnd}
-    >
-      <center>
-      <h1 className="antigradienttext">
-      <div className="container">
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
- </div>
-           
-          </h1>
-
-      </center>
-    </div>
-    </>
+    <center>
+      <div className="spinner">
+        <div className="spinner1"></div>
+      </div>
+    </center>
   );
 }

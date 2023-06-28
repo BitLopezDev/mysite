@@ -62,6 +62,7 @@ export default function MSP() {
      </div>
      <MSPBootAnimation />
       <div className="showMSP">
+
       <center>
           <h1 className="antigradienttext">
            Sitio no disponible para pantallas tan pequeñas.
