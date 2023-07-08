@@ -426,7 +426,7 @@ footer {
 .fade-in {
     opacity: 0;
     animation: fadeIn 8s;
-    animation-delay: 10s;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
 }
   

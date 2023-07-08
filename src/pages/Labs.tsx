@@ -15,7 +15,7 @@ import "../scripts/charts/databreachyears.js";
 import "../scripts/charts/IBMpercentages";
 import "../scripts/charts/IBMPrices";
 
-export default function Labs() {
+export default function MSP() {
   
   return (
     <React.Fragment>
@@ -61,7 +61,9 @@ export default function Labs() {
     </header>
      </div>
      <MSPBootAnimation />
+     
       <div className="showMSP">
+
       <center>
           <h1 className="antigradienttext">
            Sitio no disponible para pantallas tan pequeñas.

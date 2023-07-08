@@ -6,7 +6,7 @@ export function MSPBootAnimation() {
   React.useEffect(() => {
     const timeout = setTimeout(() => {
       setVisible(false);
-    }, 20000);
+    }, 5555);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -16,9 +16,20 @@ export function MSPBootAnimation() {
 
   return (
     <center>
+      
       <div className="spinner">
         <div className="spinner1"></div>
+       
       </div>
+      
+      <h1 className="antigradienttext">
+           Cargando... 
+           
+          </h1>
+          <h3>Esto solo tarda unos segundos</h3>
+          
+     
+        
     </center>
   );
 }

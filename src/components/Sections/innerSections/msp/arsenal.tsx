@@ -3,14 +3,15 @@ import { Grid, Menu, Segment, Image, Item } from 'semantic-ui-react'
 import Layout from '../../../Layout/Layout';
 import Head from 'next/head';
 //import { Arsenal } from '../components/Sections/innerSections/msp/arsenal';
-import {Intel} from './../msp/intel';
-import {NGFW} from './../msp/ngfw';
-import {ZTNA} from './../msp/ztna';
-import {EndpointProtection} from './../msp/endpoint';
-import {SIEM} from './../msp/siem';
-import { OfficeSecurity } from './../msp/officesecurity';
-import { DDOS } from './../msp/ddos';
-import { Sandbox } from './../msp/sandbox';
+import {Intel} from './intel';
+import {NGFW} from './ngfw';
+import {ZTNA} from './ztna';
+import {EndpointProtection} from './endpoint';
+import {SIEM} from './siem';
+import { SOAR } from './soar';
+import { OfficeSecurity } from './officesecurity';
+import { DDOS } from './ddos';
+import { Sandbox } from './sandbox';
 import image2 from './../../../../../public/images/BitLopez MSP.png'
 import image3 from './../../../../../public/images/threat intelligence 1.png'
 
@@ -42,7 +43,7 @@ import image3 from './../../../../../public/images/threat intelligence 1.png'
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'office', 'ddos', 'sand'];
+    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'soar', 'office', 'ddos', 'sand'];
 
     if (document.getElementById(segment)?.classList.contains("seesconde")) {
         document.getElementById(segment)?.classList.remove('seesconde');
@@ -134,6 +135,12 @@ class Arsenalcontainer extends Component {
                                 segment='siem'
                             />
                             <Menu.Item
+                                name='SOAR'
+                                active={activeItem === 'SOAR'}
+                                onClick={this.handleItemClick}
+                                segment='soar'
+                            />
+                            <Menu.Item
                                 name='Office Security'
                                 active={activeItem === 'Office Security'}
                                 onClick={this.handleItemClick}
@@ -175,6 +182,9 @@ class Arsenalcontainer extends Component {
                         </Segment>
                         <Segment id='siem' className='seesconde' style={{ marginTop: 0 }}>
                           <SIEM />
+                        </Segment>
+                        <Segment id='soar' className='seesconde' style={{ marginTop: 0 }}>
+                          <SOAR />
                         </Segment>
                         <Segment id='office' className='seesconde' style={{ marginTop: 0 }}>
                            <OfficeSecurity />

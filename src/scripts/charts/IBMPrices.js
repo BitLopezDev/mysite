@@ -4,8 +4,8 @@ import Chart from "chart.js/auto";
   var xValues = [
     "Costo de Data Breach promedio",
     "Costo de Data Breach de infraestructura crítica",
-    "Ahorro al tenerSeguridad con IA totalmente desplegada",
-    "Costo promedio de ataque de RansomeWare",
+    "Ahorro al tener Seguridad con IA totalmente desplegada",
+    "Costo promedio de ataque de Ransomeaare",
     "Diferencia en costo cuando el teletrabajo es factor en la Data Breach",
   ];
   var yValues = [4350000, 4820000, 3050000, 4540000, 1000000];
