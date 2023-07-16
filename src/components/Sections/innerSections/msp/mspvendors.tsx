@@ -69,7 +69,7 @@ export function MSPVendors({ S, B, M, F, }: any) {
             <Grid.Column>
               <center>
                 <Image
-                  src={Object.entries(M)[0].slice(1)}
+                  src={Object.entries(F)[0].slice(1)}
                   wrapped
                   ui={false}
                   alt="No se pudo cargar la imagen"
