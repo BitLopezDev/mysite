@@ -6,7 +6,7 @@ import { StaticImageData } from "next/image";
 
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 // import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-export function MSPVendors({ S, B, M, F, }: any) {
+export function MSPVendors({ S, B, M, F, IBM, I, T, V, K }: any) {
   return (
     <>
     <center>
