@@ -31,7 +31,7 @@ const NGFW = () => {
                    
                 </Item>
                 <Item>
-                    <h5>Defienda sus endpoints, servidores, dispositivos IoT, recursos, aplicaciones, correo y red con un Firewall de red Next-Gen, con Sistema de Prevensión de Intrusos Next-Gen (IPS), análisis dinámico de archivos y DLP incorporado contra ataques de día cero, exploits, ransomeware, phising, fraude, virus, rootkits, troyanos, movimiento lateral, acceso de terceros no autorizados, entre tantas otras cosas.<br />
+                    <h5>Defienda sus endpoints, servidores, dispositivos IoT, recursos, aplicaciones, correo y red con un Firewall de red Next-Gen, con Sistema de Prevensión de Intrusos Next-Gen (IPS), análisis dinámico de archivos y DLP incorporado contra ataques de día cero, exploits, ransomware, phising, fraude, virus, rootkits, troyanos, movimiento lateral, acceso de terceros no autorizados, entre tantas otras cosas.<br />
                     <b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>

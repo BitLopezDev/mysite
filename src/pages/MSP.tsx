@@ -7,6 +7,14 @@ import { MSPBootAnimation } from "../components/Sections/innerSections/msp/mspbo
 import { MSPVendors } from "../components/Sections/innerSections/msp/mspvendors";
 import { MSPExtra1 } from "../components/Sections/innerSections/msp/mspextra1";
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
+import IBM from "./../../public/images/IBM.jpg";
+import Intezer from "./../../public/images/Intezer.png";
+import Fortinet from "./../../public/images/Fortinet.jpg";
+import Kaspersy from "./../../public/images/kaspersky.png";
+import VirusTotal from "./../../public/images/VirusTotal.jpg";
+import Trellix from "./../../public/images/trellix.png";
+
+
 import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
@@ -73,7 +81,7 @@ export default function MSP() {
         </center>
         </div>
     <div className='hideMSP fade-in'>
-      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} />
+      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} IBM={IBM} I={Intezer} F={Fortinet} K={Kaspersy} V={VirusTotal} T={Trellix} />
       
       <MSPExtra1 MSPWhiteICO = {MSPWhiteICO} bitlopezmsp={bitlopezmsp} />
       

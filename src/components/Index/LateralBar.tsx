@@ -77,7 +77,7 @@ const LateralBar = () => {
                     <List.Item>
                         <List.Icon name='birthday cake' size='large' />
                         <List.Content>
-                            <h5>20 años | 15/06/2002</h5>
+                            <h5>21 años | 15/06/2002</h5>
                         </List.Content>
                     </List.Item>
                     <List.Item>
