@@ -16,7 +16,8 @@ export function MSPBootAnimation() {
 
   return (
     <center>
-      
+      <br /> <br />
+      <br /> <br />
       <div className="spinner">
         <div className="spinner1"></div>
        
