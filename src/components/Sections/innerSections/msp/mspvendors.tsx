@@ -6,7 +6,7 @@ import { StaticImageData } from "next/image";
 
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 // import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
+export function MSPVendors({ S, B, M, F, }: any) {
   return (
     <>
     <center>
@@ -64,12 +64,74 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
               </center>
             </Grid.Column>
           </Grid.Row>
-           
+           {/*  */}
           <Grid.Row>
             <Grid.Column>
               <center>
                 <Image
                   src={Object.entries(F)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(M)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(B)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(S)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(M)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(B)[0].slice(1)}
                   wrapped
                   ui={false}
                   alt="No se pudo cargar la imagen"
