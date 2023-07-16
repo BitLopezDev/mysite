@@ -78,7 +78,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
                 />
               </center>
             </Grid.Column>
-            <Grid.Column>
+            {/* <Grid.Column>
               <center>
                 <Image
                   src={Object.entries(IBM)[0].slice(1)}
@@ -101,7 +101,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
                   style={{ paddingRight: 10 }}
                 />
               </center>
-            </Grid.Column>
+            </Grid.Column> */}
           </Grid.Row>
           {/* <Grid.Row>
             <Grid.Column>
