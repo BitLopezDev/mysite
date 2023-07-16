@@ -6,7 +6,7 @@ export function MSPBootAnimation() {
   React.useEffect(() => {
     const timeout = setTimeout(() => {
       setVisible(false);
-    }, 5555);
+    }, 5000);
     return () => clearTimeout(timeout);
   }, []);
 
