@@ -9,7 +9,7 @@ import { StaticImageData } from "next/image";
 export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
   return (
     <>
-    {/* <center>
+    <center>
       <br />
           <h1 className="antigradienttext">
             Nuestros<i> vendors </i>de preferencia
@@ -23,7 +23,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
 
        
       </Layout>
-      
+      {/* 
       <center>
         <Grid columns="three" centered >
           <Grid.Row>
