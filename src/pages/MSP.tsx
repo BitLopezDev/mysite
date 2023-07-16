@@ -7,7 +7,7 @@ import { MSPBootAnimation } from "../components/Sections/innerSections/msp/mspbo
 import { MSPVendors } from "../components/Sections/innerSections/msp/mspvendors";
 import { MSPExtra1 } from "../components/Sections/innerSections/msp/mspextra1";
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
-import IBM from "./../../public/images/IBM.jpg";
+import IBM from "./../../public/images/IBM.jpeg";
 import Intezer from "./../../public/images/Intezer.png";
 import Fortinet from "./../../public/images/Fortinet.jpg";
 import Kaspersy from "./../../public/images/kaspersky.png";
