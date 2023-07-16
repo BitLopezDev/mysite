@@ -31,13 +31,20 @@ import "../scripts/charts/IBMPrices";
 
 export default function MSP() {
   useEffect(() => {
-    const timeout = setTimeout(() => {
+    const headerTimeout = setTimeout(() => {
       const header = document.getElementById('header');
       if (header) {
         header.removeAttribute('id');
       }
     }, 5321);
-    return () => clearTimeout(timeout);
+    const fadeInTimeout = setTimeout(() => {
+      const divs = document.querySelectorAll('div.fade-in');
+      divs.forEach((div) => div.classList.remove('fade-in'));
+    }, 8000);
+    return () => {
+      clearTimeout(headerTimeout);
+      clearTimeout(fadeInTimeout);
+    };
   }, []);
 
   return (

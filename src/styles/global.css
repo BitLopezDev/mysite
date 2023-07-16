@@ -415,6 +415,14 @@ footer {
         padding-top:300px;
     }
 }
+@media screen and (min-width: 950px) {
+    .hideMSP {
+        display:block;
+    }
+    .showMSP{
+        display:none;
+    }
+}
 @media screen and (max-width: 952px) {
     .videoMSP {
         display: none;
@@ -430,7 +438,7 @@ footer {
 
 .fade-in {
     opacity: 0;
-    animation: fadeIn 8s;
+    animation: fadeIn 5s;
     animation-delay: 5s;
     animation-fill-mode: forwards;
 }
