@@ -6,7 +6,7 @@ import { StaticImageData } from "next/image";
 
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 // import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-export function MSPVendors({ S, B, M, F, IBM, I }: any) {
+export function MSPVendors({ S, B, M, F, IBM, I, K, V, T }: any) {
   return (
     <>
     <center>
@@ -103,7 +103,44 @@ export function MSPVendors({ S, B, M, F, IBM, I }: any) {
               </center>
             </Grid.Column> 
           </Grid.Row>
-          
+          <Grid.Row>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(V)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(K)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+             <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(T)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column> 
+          </Grid.Row>
         </Grid>
       </center>
       <br />

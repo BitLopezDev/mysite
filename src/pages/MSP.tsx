@@ -12,7 +12,9 @@ import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
 import Fortinet from "./../../public/assets/users/Santiago/services/Fortinet.png";
 import IBM from "./../../public/assets/users/Santiago/services/IBM.jpeg";
 import Intezer from "./../../public/assets/users/Santiago/services/Intezer.jpeg";
-
+import Kaspersky from "./../../public/assets/users/Santiago/services/Kaspersky.png";
+import VirusTotal from './../../public/assets/users/Santiago/services/VirusTotal.jpeg';
+import Trellix from "./../../public/assets/users/Santiago/services/Trellix.jpeg";
 // import Kaspersy from "./../../public/images/kaspersky.png";
 // import VirusTotal from "./../../public/images/VirusTotal.jpeg";
 // import Trellix from "./../../public/images/trellix.png";
@@ -84,7 +86,7 @@ export default function MSP() {
         </center>
         </div>
     <div className='hideMSP fade-in'>
-      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} F={Fortinet} IBM={IBM} I={Intezer} />
+      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} F={Fortinet} IBM={IBM} I={Intezer} T={Trellix} V={VirusTotal} K={Kaspersky} />
       
       <MSPExtra1 MSPWhiteICO = {MSPWhiteICO} bitlopezmsp={bitlopezmsp} />
       
