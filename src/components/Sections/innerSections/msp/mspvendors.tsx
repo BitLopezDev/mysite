@@ -65,23 +65,11 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
             </Grid.Column>
           </Grid.Row>
            
-           <Grid.Row>
+          <Grid.Row>
             <Grid.Column>
               <center>
                 <Image
-                  src={Object.entries(F)[0].slice(1)}
-                  wrapped
-                  ui={false}
-                  alt="No se pudo cargar la imagen"
-                  height={190}
-                  style={{ paddingRight: 10 }}
-                />
-              </center>
-            </Grid.Column>
-            {/* <Grid.Column>
-              <center>
-                <Image
-                  src={Object.entries(IBM)[0].slice(1)}
+                  src={Object.entries(S)[0].slice(1)}
                   wrapped
                   ui={false}
                   alt="No se pudo cargar la imagen"
@@ -93,7 +81,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
             <Grid.Column>
               <center>
                 <Image
-                  src={Object.entries(I)[0].slice(1)}
+                  src={Object.entries(M)[0].slice(1)}
                   wrapped
                   ui={false}
                   alt="No se pudo cargar la imagen"
@@ -101,7 +89,19 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
                   style={{ paddingRight: 10 }}
                 />
               </center>
-            </Grid.Column> */}
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(B)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
           </Grid.Row>
           {/* <Grid.Row>
             <Grid.Column>
