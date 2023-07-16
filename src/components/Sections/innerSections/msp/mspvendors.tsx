@@ -64,7 +64,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
               </center>
             </Grid.Column>
           </Grid.Row>
-          {/* <Grid.Row>
+           <Grid.Row>
             <Grid.Column>
               <center>
                 <Image
@@ -101,7 +101,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
                 />
               </center>
             </Grid.Column>
-          </Grid.Row> */}
+          </Grid.Row> 
           {/* <Grid.Row>
             <Grid.Column>
               <center>
