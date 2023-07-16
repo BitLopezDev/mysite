@@ -23,7 +23,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
 
        
       </Layout>
-      {/* 
+      
       <center>
         <Grid columns="three" centered >
           <Grid.Row>
@@ -143,7 +143,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
         </Grid>
       </center>
       <br />
-      <br /> */}
+      <br /> 
     </>
   );
 }
