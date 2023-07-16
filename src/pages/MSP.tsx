@@ -81,7 +81,7 @@ export default function MSP() {
         </center>
         </div>
     <div className='hideMSP fade-in'>
-      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} IBM={Microsoft} I={Microsoft} F={Fortinet} K={Microsoft} V={Microsoft} T={Microsoft} />
+      <MSPVendors S={Sophos} B={Bitdefender} M={Microsoft} IBM={Microsoft} I={Microsoft} F={Microsoft} K={Microsoft} V={Microsoft} T={Microsoft} />
       
       <MSPExtra1 MSPWhiteICO = {MSPWhiteICO} bitlopezmsp={bitlopezmsp} />
       
