@@ -3,13 +3,13 @@ import { Grid, Card } from "semantic-ui-react";
 import { Image } from "semantic-ui-react";
 import Layout from "../../../Layout/Layout";
 import { StaticImageData } from "next/image";
-import IBM from "/assets/images/IBM.png";
+
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 // import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
 export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
   return (
     <>
-    <center>
+    {/* <center>
       <br />
           <h1 className="antigradienttext">
             Nuestros<i> vendors </i>de preferencia
@@ -21,8 +21,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
       <Layout nav={true} paddTop={30} footer={false} head={true}>
         
 
-        {/* <hr />
-         */}
+       
       </Layout>
       
       <center>
@@ -144,7 +143,7 @@ export function MSPVendors({ S, B, M, I, IBM, F, T, V, K }: any) {
         </Grid>
       </center>
       <br />
-      <br />
+      <br /> */}
     </>
   );
 }
