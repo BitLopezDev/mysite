@@ -9,7 +9,7 @@ import { MSPExtra1 } from "../components/Sections/innerSections/msp/mspextra1";
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
 // import IBM from "./../../public/images/IBM.jpeg";
 // import Intezer from "./../../public/images/Intezer.png";
-import Fortinet from "./../../public/images/Fortinet.png";
+//import Fortinet from "./../../public/images/Fortinet.png";
 // import Kaspersy from "./../../public/images/kaspersky.png";
 // import VirusTotal from "./../../public/images/VirusTotal.jpeg";
 // import Trellix from "./../../public/images/trellix.png";
