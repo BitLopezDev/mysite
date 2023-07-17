@@ -15,11 +15,13 @@ export function MSPExtra1({MSPWhiteICO, bitlopezmsp} :any) {
   return (
     <center>
     <center>
+     
       <h1 className="antigradienttext">
         <i>Productos Líder certificados por la industria</i>
       </h1>
       <br />
       <h4>Reconocimiento AV-Test</h4>
+      <h5>Haga click en los vendors de la leyenda para mostrar/ocultar sus resultados</h5>
     </center>
     {/* */}
     <br />
@@ -31,8 +33,7 @@ export function MSPExtra1({MSPWhiteICO, bitlopezmsp} :any) {
       src={cybermap}
       style={{ paddingBottom: 0, marginBottom: 0 }}
     />
-      <center>
-    <Arsenalcontainer /></center>
+      
       <br />
       <Layout nav={false}>
   

@@ -6,6 +6,9 @@ import Head from 'next/head';
 import {Intel} from './intel';
 import {NGFW} from './ngfw';
 import {ZTNA} from './ztna';
+import {SASE} from './sase';
+import {NAC} from './nac';
+
 import {EndpointProtection} from './endpoint';
 import {SIEM} from './siem';
 import { SOAR } from './soar';
@@ -43,7 +46,7 @@ import image3 from './../../../../../public/images/threat intelligence 1.png'
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['intel', 'ngfw', 'ztna', 'ep', 'siem', 'soar', 'office', 'ddos', 'sand'];
+    const segmentsArray = ['intel', 'ngfw', 'ztna', 'sase', 'nac', 'ep', 'siem', 'soar', 'office', 'ddos', 'sand'];
 
     if (document.getElementById(segment)?.classList.contains("seesconde")) {
         document.getElementById(segment)?.classList.remove('seesconde');
@@ -91,10 +94,10 @@ class Arsenalcontainer extends Component {
                 <center>
                     <div style={{ maxWidth: 500 }}>
 
-                        <h2>
+                        <h2 className="antigradienttext">
 
                             Nuestro arsenal de combate:</h2>
-                        <h6>Las herramientas con las que nos manejamos para protegerlo a usted y a su negocio</h6>
+                        {/* <h6>Las herramientas con las que nos manejamos para protegerlo a usted y a su negocio</h6> */}
                     </div>
                 </center>
                 <br />
@@ -117,10 +120,22 @@ class Arsenalcontainer extends Component {
                                 segment='ngfw'
                             />
                             <Menu.Item
-                                name='Zero Trust Network Access'
-                                active={activeItem === 'Zero Trust Network Access'}
+                                name='Zero Trust'
+                                active={activeItem === 'Zero Trust'}
                                 onClick={this.handleItemClick}
                                 segment='ztna'
+                            />
+                             <Menu.Item
+                                name='Secure Access Service Edge'
+                                active={activeItem === 'Secure Access Service Edge'}
+                                onClick={this.handleItemClick}
+                                segment='sase'
+                            />
+                             <Menu.Item
+                                name='Network Access Control'
+                                active={activeItem === 'Network Access Control'}
+                                onClick={this.handleItemClick}
+                                segment='nac'
                             />
                             <Menu.Item
                                 name='Endpoint Protection con EDR y XDR'
@@ -174,8 +189,13 @@ class Arsenalcontainer extends Component {
                         <Segment id='ztna' className='seesconde' style={{ marginTop: 0 }}>
                            <ZTNA />
                         </Segment>
+                        <Segment id='sase' className='seesconde' style={{ marginTop: 0 }}>
+                           <SASE />
+                        </Segment>
 
-
+                        <Segment id='nac' className='seesconde' style={{ marginTop: 0 }}>
+                           <NAC />
+                        </Segment>
                         <Segment id='ep' className='seesconde' style={{ marginTop: 0 }}>
 
                            <EndpointProtection />

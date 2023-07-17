@@ -2,10 +2,10 @@ import React from 'react';
 import { Image, Item } from 'semantic-ui-react';
 // import intelimage from './../../../../../public/images/threat intelligence 1.png'
 
- import sandbox from './../../../../../public/images/sandbox.png'
+ import nacpic from './../../../../../public/images/NAC.png'
 
 
-const Sandbox = () => {
+const NAC = () => {
     
     /* 
     ['Name', 'Image', 'certification', "completion"]
@@ -21,7 +21,7 @@ const Sandbox = () => {
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
-                        <Image src={Object.entries(sandbox)[0].slice(1)} alt="No se pudo cargar la imagen"/>  <br />
+                        <Image src={Object.entries(nacpic)[0].slice(1)} alt="No se pudo cargar la imagen"/>  <br />
                        
 
                        
@@ -31,9 +31,9 @@ const Sandbox = () => {
                    
                 </Item>
                 <Item>
-                    <h5>
-                        Utilice las herramientas de análisis dinámico más poderosas del mercado, <i>Powerd by</i> inteligencia artificial y las mejores bases de conocimiento de Threat Intelligence para detectar las amenazas de día cero más sofisticadas del mercado sin comprometer sus dispositivos, su red ni su información confidencial.
-                         <br /><b>Hoy, la seguridad está en sus manos.</b>
+                    <h5> Los cybercriminales son capaces de penetrar más del 90% de las redes corpotarivas. Defienda su red y sus recursos de agentes externos, incluidos dispositivos IoT, mediante un control de accesso fuerte, eficiente y eficaz. La seguridad de su negocio está definida por su eslabón más débil, que muchas veces son dispositivos IoT. Con un NAC, puede proteger su red.
+                        <br />
+                        <b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>
             </Item.Group>
@@ -43,4 +43,4 @@ const Sandbox = () => {
 
 }
 
-export { Sandbox };
+export { NAC };

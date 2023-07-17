@@ -6,7 +6,7 @@ import { StaticImageData } from "next/image";
 
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 // import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-export function MSPVendors({ S, B, M, F, IBM, I, K, V, T }: any) {
+export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden, Comodo }: any) {
   return (
     <>
     <center>
@@ -137,6 +137,44 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T }: any) {
                   alt="No se pudo cargar la imagen"
                   height={190}
                   style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column> 
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(Comodo)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+            <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(Bitwarden)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  width={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+             <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(Cloudflare)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  width={350}
+                  style={{ paddingRight: 15, paddingTop:40 }}
                 />
               </center>
             </Grid.Column> 

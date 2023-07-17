@@ -7,6 +7,8 @@ import {MSPTitle} from "../components/Sections/innerSections/msp/msptitle";
 import { MSPBootAnimation } from "../components/Sections/innerSections/msp/mspbootanimation";
 import { MSPVendors } from "../components/Sections/innerSections/msp/mspvendors";
 import { MSPExtra1 } from "../components/Sections/innerSections/msp/mspextra1";
+import { Arsenalcontainer } from './../components/Sections/innerSections/msp/arsenal';
+
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
 
 // import Intezer from "./../../public/images/Intezer.png";
@@ -16,6 +18,10 @@ import Intezer from "./../../public/assets/users/Santiago/services/Intezer.jpeg"
 import Kaspersky from "./../../public/assets/users/Santiago/services/Kaspersky.png";
 import VirusTotal from './../../public/assets/users/Santiago/services/VirusTotal.jpeg';
 import Trellix from "./../../public/assets/users/Santiago/services/Trellix.jpeg";
+import Comodo from "./../../public/assets/users/Santiago/services/Comodo.ico";
+import Cloudflare from "./../../public/assets/users/Santiago/services/cloudflare.png";
+import Bitwarden from './../../public/assets/users/Santiago/services/Bitwarden.ico'
+//
 // import Kaspersy from "./../../public/images/kaspersky.png";
 // import VirusTotal from "./../../public/images/VirusTotal.jpeg";
 // import Trellix from "./../../public/images/trellix.png";
@@ -97,6 +103,8 @@ export default function MSP() {
         </center>
       </div>
       <div className='hideMSP fade-in'>
+      <center>
+    <Arsenalcontainer /></center>
         <MSPVendors
           S={Sophos}
           B={Bitdefender}
@@ -107,6 +115,9 @@ export default function MSP() {
           T={Trellix}
           V={VirusTotal}
           K={Kaspersky}
+          Bitwarden={Bitwarden}
+          Comodo={Comodo}
+          Cloudflare={Cloudflare}
         />
 
         <MSPExtra1 MSPWhiteICO={MSPWhiteICO} bitlopezmsp={bitlopezmsp} />
