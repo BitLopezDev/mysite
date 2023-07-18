@@ -101,8 +101,9 @@ const LateralBar = () => {
                         <h5>Referencia:</h5>
                         <List.Item as='ul'>
                             <List.Item as='li' value='-'>
-                                Ignacio Borges : 099177339 <br />
+                                Ignacio Borges : <br />
                                 Ex compañero de TCS
+                                Medios de contacto de referencia se otorgan por correo electrónico
                             </List.Item>
                             {/* <List.Item as='li' value='-'>
                                                         ---

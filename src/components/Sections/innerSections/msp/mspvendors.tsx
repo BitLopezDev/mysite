@@ -23,9 +23,9 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
 
        
       </Layout>
-      
+      {/* style={{border:2px solid black}} */}
       <center>
-        <Grid columns="three" centered >
+        <Grid columns="three" centered  >
           <Grid.Row>
             <Grid.Column>
               <center>
@@ -141,7 +141,7 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
               </center>
             </Grid.Column> 
           </Grid.Row>
-          <Grid.Row>
+          <Grid.Row >
             <Grid.Column>
               <center>
                 <Image
@@ -166,7 +166,7 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                 />
               </center>
             </Grid.Column>
-             <Grid.Column>
+             <Grid.Column >
               <center>
                 <Image
                   src={Object.entries(Cloudflare)[0].slice(1)}
@@ -174,7 +174,7 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                   ui={false}
                   alt="No se pudo cargar la imagen"
                   width={350}
-                  style={{ paddingRight: 15, paddingTop:40 }}
+                  style={{ paddingRight: 88, paddingTop:40 }}
                 />
               </center>
             </Grid.Column> 

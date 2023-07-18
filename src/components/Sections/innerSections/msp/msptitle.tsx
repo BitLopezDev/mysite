@@ -26,7 +26,7 @@ export function MSPTitle() {
       style={{
         marginLeft: 0,
         paddingLeft: 0,
-        fontSize: "1.7em",
+        fontSize: "1.65em",
         color: "white",
       }}
     >
@@ -34,20 +34,17 @@ export function MSPTitle() {
       mejores manos
     </h3>
     <br />
-    <h3
+    <h3 className='antigradienttext'
       style={{
         marginLeft: 0,
         paddingLeft: 0,
-        fontSize: "1em",
-        color: "white",
+        marginTop: -8,
+        fontSize: "1.1em",
+        //color: "white",
       }}
     >
-      EDR | XDR | MDR | NDR | ZTNA | NEXT-GEN FIREWALL | NIPS/HIPS | SIEM
-      | Mail Security | Office Security | NAS Server Protection | AWS &
-      Azure Security |
-      
-       WAF | DDOS protection | VPN | DLP | Hipervisor
-      software | Threat Intelligence | Cloud Sandbox{" "}
+      EDR | XDR | MDR | NDR | Zero Trust | ZTNA | NAC | SASE | SD-WAN | NEXT-GEN FIREWALL | NIPS/HIPS | SIEM | SOAR | CASB | SWG
+      | Mail Security | Office Security | NAS Server Protection | Cloud Security | WAF | DDOS protection | VPN | DLP | NAC | Cyber-Threat Intelligence | (inline) Cloud Sandbox
     </h3>
   </div>
   );
