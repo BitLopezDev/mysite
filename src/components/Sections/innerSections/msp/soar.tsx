@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Item } from 'semantic-ui-react';
 // import intelimage from './../../../../../public/images/threat intelligence 1.png'
 
- import SOARIBM from './../../../../../public/images/IBM SOAR.png'
+ import SOARIBM from './../../../../../public/images/SOAR2.png'
 
 
 const SOAR = () => {

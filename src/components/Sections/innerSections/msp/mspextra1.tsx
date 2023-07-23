@@ -1,10 +1,10 @@
 import React from 'react';
-import { Grid, Card } from "semantic-ui-react";
+// import { Grid, Card } from "semantic-ui-react";
 import { Image } from "semantic-ui-react";
 import Layout from "../../../Layout/Layout";
-import { StaticImageData } from 'next/image';
+// import { StaticImageData } from 'next/image';
 import { Hcard } from "styles/components/hcard";
-import { Arsenalcontainer } from './../../../Sections/innerSections/msp/arsenal';
+// import { Arsenalcontainer } from './../../../Sections/innerSections/msp/arsenal';
 const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
 // import Sophos from "/assets/users/Santiago/services/Sophos.ico";
 // import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";

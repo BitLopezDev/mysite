@@ -5,15 +5,15 @@ import Chart from "chart.js/auto";
     type: "bar",
     data: {
       labels: [
-        "Organizaciones con más de una Data Breach",
-        "Organizaciones afectadas que aumentaron sus precios al por una Data Breach",
-        "Organizaciones afectadas no tenía arquitectura Zero Trust",
-        "Data Breaches por robo de credenciales",
-        "No tienen arquitectura Zero Trust",
+        "% Organizaciones con más de una Data Breach",
+        "% Organizaciones afectadas que aumentaron sus precios al por una Data Breach",
+        "% Organizaciones afectadas no tenía arquitectura Zero Trust",
+        "% Data Breaches por robo de credenciales",
+        "% No tiene arquitectura Zero Trust",
       ],
       datasets: [
         {
-          label: "Data Breaches según IBM",
+          label: "Data Breaches según IBM (en porcentaje)",
           backgroundColor: [
             "#9107f7",
             "#9107f7",

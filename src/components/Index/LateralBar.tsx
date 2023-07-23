@@ -103,7 +103,7 @@ const LateralBar = () => {
                             <List.Item as='li' value='-'>
                                 Ignacio Borges : <br />
                                 Ex compañero de TCS
-                                Medios de contacto de referencia se otorgan por correo electrónico
+                                Medios de contacto de referencia se otorgan por correo electrónico.
                             </List.Item>
                             {/* <List.Item as='li' value='-'>
                                                         ---
