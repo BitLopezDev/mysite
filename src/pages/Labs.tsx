@@ -26,7 +26,7 @@ import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.p
 export default function Labs() {
  
   return (
-    <React.Fragment>
+    <div className='backgradient'>
         
         {/* <iframe
       width={"100%"}
@@ -44,8 +44,8 @@ export default function Labs() {
 
 <br />
 <center>
-  <h2>Nuestros vendors de preferencia</h2>
-</center>
+  <h2 className='colorwhite'>Nuestros vendors de preferencia</h2>
+
 <br />
 <div className="scrollmenu">
    <div className='scrollchild'><Image src={Object.entries(Fortinet)[0].slice(1)} alt="Chania" Height={100} /></div>
@@ -61,26 +61,168 @@ export default function Labs() {
    <div className='scrollchild'><Image src={Object.entries(Bitwarden)[0].slice(1)} alt="Chania" Height={100} /></div> 
    <div className='scrollchild'><Image src={Object.entries(Cloudflare)[0].slice(1)} alt="Chania" Height={100} /></div>  
 </div>
-           
+</center>
+<br />
+<br />
+<center>
+<div className="container">
+  <h2 className='colorwhite'>Parte de nuestro Arcenal</h2>
+<div className="row">
+    <div className="col">
+    <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">Next-Gen</h5>
+          <p className="card-text">Next Generation Software para su seguridad con las más avanzadas tecnologías y herramientas</p>
+        </div>
+      </div> 
+    </div>
+    <div className="col">
+    <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">Tecnologías <i>State of the art</i></h5>
+          <p className="card-text">Últimas tendencias en ciberseguridad con Inteligencia Artificial y Machine Learning</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div className="row">
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">SOAR</h5>
+          <p className="card-text">Security Orchestation, Automation and Response</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">XDR / EDR</h5>
+          <p className="card-text"><i>eXtended / Endpoint</i> Detection and Response.</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">SIEM</h5>
+          <p className="card-text">Security Information and Event management.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br /> <br />
+    <div className="row">
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">IPS</h5>
+          <p className="card-text">Intruder Protection System</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">Next-Gen Firewall de red</h5>
+          <p className="card-text">Firewalls <i>Powered by</i> Inteligencia Artificial</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">NDR</h5>
+          <p className="card-text">Network Detection and Response</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /> <br />
+  <div className="row">
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">SASE</h5>
+          <p className="card-text">Secure Access Service Edge</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">ZTNA</h5>
+          <p className="card-text">Zero Trust Network Access</p>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">NDR</h5>
+          <p className="card-text">Network Detection and Response</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br /> <br />
+
+
+
+
+</center> 
+ <iframe
+      width={"100%"}
+      height={600}
+      src={cybermap}
+      style={{ paddingBottom: 0, marginBottom: 0 }}
+    />  
+    <br /><br />
+    <h1 className="colorwhite">La seguridad está en sus manos, ¡hoy!</h1>
+    <br />
+    <Image
+              src={Object.entries(bitlopezmsp)[0].slice(1)}
+              wrapped
+              ui={false}
+              alt="No se pudo cargar la imagen"
+              height={'auto'}
+              width={'100%'}
+              style={{ padding:0, margin:0, bottom:0}}
+            />
     <style jsx>{`
+      .backgradient{
+        background: linear-gradient(90deg, rgba(27, 164, 216, 1) 0%, rgba(67, 127, 227, 1) 35%, rgba(151, 53, 252, 1) 100%);
+      }
       
     div.scrollmenu {
-  
+  background:white;
   overflow: auto;
   white-space: nowrap;
+  width:80%;
+  -webkit-border-radius: 5px;
+-webkit-border-top-left-radius: 50px;
+-moz-border-radius: 5px;
+-moz-border-radius-topleft: 50px;
+border-radius: 5px;
+border-top-left-radius: 50px;
 }
 
 div.scrollmenu .scrollchild {
   display: inline-block;
   color: white;
-  text-align: center;
+  
   padding: 14px;
-  text-decoration: none;
+  
+}
+.colorwhite {
+  color:white;
 }
 
 
       `}</style>
-    </React.Fragment>
+    </div>
   );
 }
 
