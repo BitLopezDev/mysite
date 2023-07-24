@@ -53,7 +53,7 @@ export default function Labs() {
           <title>BitLopez MSP</title>
         </Head>
 <header >
-<Navbar anti={true}/> 
+<Navbar/> 
 <h1 className="antigradienttext" style={{ fontSize: "6em", paddingTop:60 }}>
       <i>BitLopez MSP</i>
     </h1>
