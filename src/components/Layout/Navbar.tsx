@@ -11,11 +11,15 @@ import LinkedIn from '../../../public/assets/users/system/LinkedIn.svg';
 
 
 //TODO: remove organization GitHub
-const Navbar = () => {
+interface NavbarProps {
+  anti: boolean;
+}
+
+const Navbar = ({ anti = false }: NavbarProps) => {
 
   return (
 
-    <nav className="navbar navbar-expand-sm  fixed-top fondoantigradiente">
+    <nav className={anti ? "navbar navbar-expand-sm  fixed-top fondogradiente " : "navbar navbar-expand-sm  fixed-top fondoantigradiente"}>
 
       <div className="container-fluid">
         <Link href="/" legacyBehavior>
