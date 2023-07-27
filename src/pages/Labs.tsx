@@ -54,7 +54,7 @@ export default function Labs() {
         </Head>
 <header >
 <Navbar/> 
-<h1 className="antigradienttext" style={{ fontSize: "6em", paddingTop:60 }}>
+<h1 className="antigradienttext" style={{ fontSize: "6em", paddingTop:60, paddingLeft:25 }}>
       <i>BitLopez MSP</i>
     </h1>
     <h4 style={{ color: "white", marginLeft: 60 }}>
@@ -63,7 +63,7 @@ export default function Labs() {
     <br />
     <h2
       className="antigradienttext"
-      style={{ marginLeft: 0, paddingLeft: 0, fontSize: "3.5em" }}
+      style={{ marginLeft: 0, paddingLeft: 25, fontSize: "3.5em" }}
     >
       <i>Seguridad Líder</i>
     </h2>
@@ -75,7 +75,9 @@ export default function Labs() {
 
 <br />
 <div className="scrollmenu">
-  <div className='scrollchild'><Image src={Object.entries(Bitdefender)[0].slice(1)} alt="Chania" Height={100} /></div>  
+  <>
+  <div className='scrollchild'>
+    <Image src={Object.entries(Bitdefender)[0].slice(1)} alt="Chania" Height={100} /></div>  
    
    
    <div className='scrollchild'><Image src={Object.entries(Fortinet)[0].slice(1)} alt="Chania" Height={100} /></div>
@@ -83,19 +85,20 @@ export default function Labs() {
    <div className='scrollchild'><Image src={Object.entries(Intezer)[0].slice(1)} alt="Chania" Height={100} /></div>
    <div className='scrollchild'><Image src={Object.entries(Kaspersky)[0].slice(1)} alt="Chania" Height={100} /></div>
    <div className='scrollchild'><Image src={Object.entries(VirusTotal)[0].slice(1)} alt="Chania" Height={100} /></div> 
-   <div className='scrollchild'><Image src={Object.entries(Trellix)[0].slice(1)} alt="Chania" Height={100} /></div> 
-   <div className='scrollchild'><Image src={Object.entries(Comodo)[0].slice(1)} alt="Chania" Height={100} /></div> 
+   {/* <div className='scrollchild'><Image src={Object.entries(Trellix)[0].slice(1)} alt="Chania" Height={100} /></div>  */}
+   {/* <div className='scrollchild'><Image src={Object.entries(Comodo)[0].slice(1)} alt="Chania" Height={100} /></div>  */}
    <div className='scrollchild'><Image src={Object.entries(Microsoft)[0].slice(1)} alt="Chania" Height={100} /></div> 
    <div className='scrollchild'><Image src={Object.entries(IBM)[0].slice(1)} alt="Chania" Height={100} /></div>
-   <div className='scrollchild'><Image src={Object.entries(Bitwarden)[0].slice(1)} alt="Chania" Height={100} /></div> 
-   <div className='scrollchild'><Image src={Object.entries(Cloudflare)[0].slice(1)} alt="Chania" Height={100} /></div>  
+   <div className='scrollchild'><Image src={Object.entries(Bitwarden)[0].slice(1)} alt="Chania" Height={100} /></div></>
+   <h5>Haga scroll a los costados</h5> 
+   {/* <div className='scrollchild'><Image src={Object.entries(Cloudflare)[0].slice(1)} alt="Chania" Height={100} /></div>   */}
 </div>
 </center>
 <br />
 <br />
 <center>
 <div className="container">
-  <h1 className='colorwhite'>Parte de nuestro Arcenal</h1>
+  <h1 className='colorwhite'>Parte de nuestro Arsenal</h1>
 <div className="row">
     <div className="col">
     <div className="card">
@@ -156,7 +159,7 @@ export default function Labs() {
           <h6><a data-bs-toggle="collapse" data-bs-target="#siem"> Expandir / Colapsar</a></h6>
           <div id="siem" className="collapse">
           Proteja su organización reconociendo amenazas externas o internas, vulnerabilidades y operaciones maliciosas antes de que interrumpas sus operaciones comerciales, violen la continuidad de negocio y lo perjudiquen económica, reputacional o, incluso, legalmente.
-Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia Artificial de punta para protegerlo a usted y a su nnegocio.
+Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia Artificial de punta para protegerlo a usted y a su negocio.
 <br /><b>Hoy, la seguridad está en sus manos.</b>
   </div>
         </div>

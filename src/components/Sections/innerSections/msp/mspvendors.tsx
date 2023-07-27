@@ -128,7 +128,7 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                 />
               </center>
             </Grid.Column>
-             <Grid.Column>
+             {/* <Grid.Column>
               <center>
                 <Image
                   src={Object.entries(T)[0].slice(1)}
@@ -139,10 +139,22 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                   style={{ paddingRight: 10 }}
                 />
               </center>
-            </Grid.Column> 
-          </Grid.Row>
-          <Grid.Row >
+            </Grid.Column>  */}
             <Grid.Column>
+              <center>
+                <Image
+                  src={Object.entries(Bitwarden)[0].slice(1)}
+                  wrapped
+                  ui={false}
+                  alt="No se pudo cargar la imagen"
+                  height={190}
+                  style={{ paddingRight: 10 }}
+                />
+              </center>
+            </Grid.Column>
+          </Grid.Row>
+          {/* <Grid.Row >
+             <Grid.Column>
               <center>
                 <Image
                   src={Object.entries(Comodo)[0].slice(1)}
@@ -153,19 +165,7 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                   style={{ paddingRight: 10 }}
                 />
               </center>
-            </Grid.Column>
-            <Grid.Column>
-              <center>
-                <Image
-                  src={Object.entries(Bitwarden)[0].slice(1)}
-                  wrapped
-                  ui={false}
-                  alt="No se pudo cargar la imagen"
-                  width={190}
-                  style={{ paddingRight: 10 }}
-                />
-              </center>
-            </Grid.Column>
+            </Grid.Column> 
              <Grid.Column >
               <center>
                 <Image
@@ -177,8 +177,8 @@ export function MSPVendors({ S, B, M, F, IBM, I, K, V, T, Cloudflare, Bitwarden,
                   style={{ paddingRight: 88, paddingTop:40 }}
                 />
               </center>
-            </Grid.Column> 
-          </Grid.Row>
+            </Grid.Column>  
+          </Grid.Row> */}
         </Grid>
       </center>
       <br />
