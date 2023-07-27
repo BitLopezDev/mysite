@@ -90,7 +90,7 @@ export default function Labs() {
    <div className='scrollchild'><Image src={Object.entries(Microsoft)[0].slice(1)} alt="Chania" Height={100} /></div> 
    <div className='scrollchild'><Image src={Object.entries(IBM)[0].slice(1)} alt="Chania" Height={100} /></div>
    <div className='scrollchild'><Image src={Object.entries(Bitwarden)[0].slice(1)} alt="Chania" Height={100} /></div></>
-   <h5>Haga scroll a los costados</h5> 
+   {/* <h5>Haga scroll a los costados</h5>  */}
    {/* <div className='scrollchild'><Image src={Object.entries(Cloudflare)[0].slice(1)} alt="Chania" Height={100} /></div>   */}
 </div>
 </center>
@@ -305,6 +305,25 @@ Herramientas como Microsoft Defender Threat Intelligence, Intezer, Kaspersky Thr
 -moz-border-radius-topleft: 50px;
 border-radius: 5px;
 border-top-left-radius: 50px;
+
+}
+
+div.scrollmenu::-webkit-scrollbar {
+  /*  background-color: rgba(67, 127, 227, 1);*/ /* color of the top and bottom buttons */
+  background-color: rgba(67, 127, 227, 1);
+ /*background-color:black;*/
+    height: 12px; /* height of the top and bottom buttons */
+}
+
+div.scrollmenu::-webkit-scrollbar-thumb {
+    background-color: rgba(151, 53, 252, 1); /* color of the scroll thumb */
+    /*background-color: white;*/
+    max-width:150px;
+}
+
+div.scrollmenu {
+    scrollbar-width: auto; /* "auto" or "thin" */
+    scrollbar-color: rgba(151, 53, 252, 1) rgba(67, 127, 227, 1); /* scroll thumb and track */
 }
 
 div.scrollmenu .scrollchild {
@@ -331,6 +350,10 @@ header{
 }
     
 }
+body {
+   
+}
+
 
       `}</style>
     </div>

@@ -5,8 +5,10 @@
     --niceblue: rgba(67, 127, 227, 1);
     --cyanblue: rgba(27, 164, 216, 1);
     --gradienteazul: linear-gradient(90deg, rgba(27, 164, 216, 0.8141456411666229) 0%, rgba(67, 127, 227, 1) 100%);
+
     /*linear-gradient(90deg, rgba(27,164,216,1) 0%, rgba(67,127,227,1) 35%, rgba(151,53,252,1) 100%)*/
 }
+
 
 @keyframes glowing {
     0% {
