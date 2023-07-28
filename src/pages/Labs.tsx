@@ -99,7 +99,7 @@ export default function Labs() {
 <center>
 <div className="container">
   <h1 className='colorwhite'>Parte de nuestro Arsenal</h1>
-<div className="row">
+<div className="row" id="row0">
     <div className="col">
     <div className="card">
         <div className="card-body">
@@ -137,7 +137,7 @@ Además, el SOAR analiza los datos de seguridad para detectar las amenazas más 
 Los SOAR también pueden ayudar a los equipos de seguridad a responder a las amenazas de forma eficiente y efectiva, mediante la automatización y la orquestación de una variedad de procesos de seguridad. La automatización implica que el SOAR puede ejecutar acciones predefinidas para mitigar o resolver los incidentes de seguridad, sin necesidad de intervención humana. La orquestación implica que el SOAR puede coordinar las acciones de los diferentes equipos de seguridad, como el equipo de análisis, el equipo de respuesta y el equipo de gestión de riesgos, para que puedan trabajar juntos y compartir información. De esta forma, el SOAR mejora la capacidad de respuesta a las amenazas y reduce el tiempo y el coste de la resolución de incidentes. El SOAR es una solución sofisticada, innovadora e imprescindible para cualquier gran organización que quiera protegerse de las amenazas cibernéticas actuales y futuras.
 
 <br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
-<h6><a data-bs-toggle="collapse" data-bs-target="#soar">Colapsar</a></h6>
+<h6><a href='#row0' ><p data-bs-toggle="collapse"  data-bs-target="#soar">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ Los SOAR también pueden ayudar a los equipos de seguridad a responder a las ame
 <br />- Respuesta: XDR y EDR le facilitan la investigación y la respuesta a las amenazas, al ofrecerle herramientas como el aislamiento de endpoints, la eliminación de malware, la restauración de archivos, el análisis forense y la automatización de acciones. Así, podrá contener y remediar los incidentes de forma rápida y eficaz.
 <br /><br />
 XDR y EDR son soluciones integradas que le permiten gestionar la seguridad de sus endpoints desde una única plataforma, ahorrando tiempo y recursos. Además, son soluciones escalables y flexibles que se adaptan a las necesidades de su organización. <br /><br /><b>Hoy, la seguridad está en sus manos.</b>
-<h6><a data-bs-toggle="collapse" data-bs-target="#xdr">Colapsar</a></h6>
+<h6><a href='#row0' ><p data-bs-toggle="collapse"  data-bs-target="#xdr">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -182,7 +182,8 @@ Los sistemas SIEM ofrecen las siguientes ventajas para la seguridad de la inform
 <br /><br />
 Los sistemas SIEM son soluciones sofisticadas y poderosas que pueden mejorar la protección y la resiliencia de una organización frente a los ciberataques. Al utilizar un sistema SIEM, se puede obtener una mayor visibilidad, inteligencia y capacidad de respuesta sobre la seguridad de la información.
 <br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
-<h6><a data-bs-toggle="collapse" data-bs-target="#siem">Colapsar</a></h6>
+
+<h6><a href='#row0' ><p data-bs-toggle="collapse"  data-bs-target="#siem">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -209,7 +210,8 @@ El NAC puede ayudar a las organizaciones a reducir sus costes de seguridad al ev
 
 El NAC es una herramienta valiosa para las organizaciones que buscan proteger sus redes contra una variedad de amenazas. El NAC puede ayudar a las organizaciones a mejorar su seguridad, eficiencia y costes. El NAC es una solución sofisticada y tecnológica que ofrece múltiples beneficios para las organizaciones que quieren mantener sus redes seguras y protegidas. <br /><br />
                         <b>Hoy, la seguridad está en sus manos.</b>
-                        <h6><a data-bs-toggle="collapse" data-bs-target="#nac">Colapsar</a></h6>
+                       
+                        <h6><a href='#row1' ><p data-bs-toggle="collapse"  data-bs-target="#nac">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -228,7 +230,9 @@ Un NGFW utiliza la inteligencia artificial (AI) y Machine Learning (ML) e inteli
 <br /><br />
 Un NGFW es una solución ideal para las organizaciones que buscan mejorar su seguridad cibernética y proteger sus datos, activos e infraestructura. Un NGFW ofrece una protección integral, eficaz y sofisticada contra las amenazas actuales y futuras.<br /><br />
                     <b>Hoy, la seguridad está en sus manos.</b>
-                    <h6><a data-bs-toggle="collapse" data-bs-target="#fw">Colapsar</a></h6>
+                  
+                    <h6><a href='#row1' ><p data-bs-toggle="collapse"  data-bs-target="#fw">Colapsar</p></a></h6>
+                    
   </div>
         </div>
       </div>
@@ -247,7 +251,8 @@ NDR es una solución innovadora, eficiente y efectiva para garantizar la segurid
 
                         <br /><br />
                         <b>Hoy, la seguridad está en sus manos.</b>
-                        <h6><a data-bs-toggle="collapse" data-bs-target="#ndr">Colapsar</a></h6>
+                       
+                        <h6><a href='#row1' ><p data-bs-toggle="collapse"  data-bs-target="#ndr">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -287,7 +292,8 @@ SASE se puede descomponer en seis elementos esenciales:
 
                         <br /><br />
                         <b>Hoy, la seguridad está en sus manos.</b>
-                        <h6><a data-bs-toggle="collapse" data-bs-target="#sase">Colapsar</a></h6>
+                        
+                        <h6><a href='#row1' ><p data-bs-toggle="collapse"  data-bs-target="#sase">Colapsar</p></a></h6>
   </div>
         </div>
       </div>
@@ -312,7 +318,7 @@ El modelo Zero Trust centrado en la identidad es una solución innovadora, segur
 
 <br /><br />
                     <b>Hoy, la seguridad está en sus manos.</b>
-                    <h6><a data-bs-toggle="collapse" data-bs-target="#zt">Colapsar</a></h6>
+                    <h6><a href='#row1' ><p data-bs-toggle="collapse"  data-bs-target="#zt">Colapsar</p></a></h6>
 </div>
         </div>
       </div>
@@ -331,7 +337,7 @@ Esta solución ofrece una cyberinteligencia avanzada y tiene la mejor comprensi�
 
 
 <br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
-<h6><a data-bs-toggle="collapse"  data-bs-target="#threatintel">Colapsar</a></h6>
+<h6><a href='#row2' ><p data-bs-toggle="collapse"  data-bs-target="#threatintel">Colapsar</p></a></h6>
 
 </div>
         </div>
