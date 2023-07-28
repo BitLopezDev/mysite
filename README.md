@@ -183,7 +183,8 @@ Distributed under the `GNU GENERAL PUBLIC LICENSE Version 2, June 1991 License` 
 
 Project Link: [https://github.com/BitLopezDev/mysite](https://github.com/BitLopezDev/mysite)
 
-Email: santiagocomesanalopez@gmail.com for professional enterprises
+Email: <a href="">contacto@bitlopez.bio</a>
+ for professional enterprises
 and santiagocomesana03@gmail.com for personal dialog.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
