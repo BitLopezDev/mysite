@@ -30,8 +30,12 @@ const NGFW = () => {
 
                    
                 </Item>
-                <Item>
-                    <h5>Defienda sus endpoints, servidores, dispositivos IoT, recursos, aplicaciones, correo y red con un Firewall de red Next-Gen, con Sistema de Prevensión de Intrusos Next-Gen (IPS), análisis dinámico de archivos y DLP incorporado contra ataques de día cero, exploits, ransomware, phising, fraude, virus, rootkits, troyanos, movimiento lateral, acceso de terceros no autorizados, entre tantas otras cosas.<br />
+                <Item style={{overflowY:'scroll', maxHeight:300}}>
+                    <h5>Un firewall de próxima generación (NGFW) es una solución de seguridad que ofrece una protección avanzada contra las amenazas cibernéticas. Un NGFW no solo bloquea el tráfico malicioso, sino que también analiza el comportamiento de los usuarios, las aplicaciones y los dispositivos para detectar y prevenir ataques sofisticados.
+                    <br /><br />
+Un NGFW utiliza la inteligencia artificial (AI) y Machine Learning (ML) e inteligencia de amenazas (Cyber Threat Intelligence) para mejorar la visibilidad de la red y reducir la complejidad del entorno de seguridad. Un NGFW es más poderoso que un firewall común, ya que puede filtrar el contenido, prevenir la intrusión y filtrar las amenazas que intentan evadir las defensas tradicionales.
+<br /><br />
+Un NGFW es una solución ideal para las organizaciones que buscan mejorar su seguridad cibernética y proteger sus datos, activos e infraestructura. Un NGFW ofrece una protección integral, eficaz y sofisticada contra las amenazas actuales y futuras.<br /><br />
                     <b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>

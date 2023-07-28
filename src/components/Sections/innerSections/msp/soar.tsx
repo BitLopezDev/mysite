@@ -30,12 +30,15 @@ const SOAR = () => {
 
                    
                 </Item>
-                <Item>
+                <Item style={{overflowY:'scroll', maxHeight:300}}>
                     <h5>
-                       Proteja su negocio con seguridad orquestada y automática. Por la abrumante cantidad de alertas, los equipos de seguridad revisan en promedio la mitad de las alertas de seguridad.
-                       Evite agotar a su equipo y obtener los mejores resultados con SOAR.
-                       A medida que las empresas crecen, se van dando cuenta de la necesidad de SIEM y SOAR. 
-                       <br /><b>Hoy, la seguridad está en sus manos.</b>
+                    Una de las soluciones más avanzadas y eficaces para la gestión de la seguridad cibernética es el SOAR, que significa Security Orchestration, Automation and Response (Orquestación, Automatización y Respuesta de Seguridad). El SOAR utiliza la inteligencia artificial para filtrar las alertas de seguridad que recibe de múltiples fuentes, aliviando así la sobrecarga de trabajo que sufre el equipo SOC (Security Operations Center). 
+                    <br /><br />
+Además, el SOAR analiza los datos de seguridad para detectar las amenazas más relevantes y alerta a los equipos de seguridad para que puedan actuar rápidamente. 
+<br /><br />
+Los SOAR también pueden ayudar a los equipos de seguridad a responder a las amenazas de forma eficiente y efectiva, mediante la automatización y la orquestación de una variedad de procesos de seguridad. La automatización implica que el SOAR puede ejecutar acciones predefinidas para mitigar o resolver los incidentes de seguridad, sin necesidad de intervención humana. La orquestación implica que el SOAR puede coordinar las acciones de los diferentes equipos de seguridad, como el equipo de análisis, el equipo de respuesta y el equipo de gestión de riesgos, para que puedan trabajar juntos y compartir información. De esta forma, el SOAR mejora la capacidad de respuesta a las amenazas y reduce el tiempo y el coste de la resolución de incidentes. El SOAR es una solución sofisticada, innovadora e imprescindible para cualquier gran organización que quiera protegerse de las amenazas cibernéticas actuales y futuras.
+
+<br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>
             </Item.Group>

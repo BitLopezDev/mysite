@@ -30,9 +30,15 @@ const EndpointProtection = () => {
 
                    
                 </Item>
-                <Item>
-                    <h5>Proteja sus Endpoints con seguridad premiada por autónomos de los líderes de la industra Bitdefender y Sophos, antivirus Next-Gen con Endpoint Detection and Repsonse (EDR) y eXtended Detection and Response (XDR, también conocido como NEXT-GEN SIEM) en el núcleo para asegurar la mejor defensa para sus endpoints y su red.
-                        <br /><b>Hoy, la seguridad está en sus manos.</b>
+                <Item style={{overflowY:'scroll', maxHeight:300}}>
+                    <h5>Si busca una solución de ciberseguridad que le ofrezca una mayor visibilidad, protección y respuesta para sus endpoints, XDR y EDR son las opciones ideales para usted. Estas son las ventajas que le ofrecen:
+                    <br />
+                    <br />- Visibilidad: XDR y EDR le permiten monitorizar y analizar la actividad de sus endpoints en tiempo real, detectando cualquier anomalía o indicador de compromiso (IoC). Así, podrá identificar y responder a las amenazas antes de que causen daños mayores.
+<br />- Protección: XDR y EDR le proporcionan una serie de capas de defensa para sus endpoints, que incluyen antivirus, antimalware, firewall, prevención de intrusiones, control de aplicaciones, cifrado y más. Así, podrá prevenir y bloquear los ataques más sofisticados y variados.
+<br />- Respuesta: XDR y EDR le facilitan la investigación y la respuesta a las amenazas, al ofrecerle herramientas como el aislamiento de endpoints, la eliminación de malware, la restauración de archivos, el análisis forense y la automatización de acciones. Así, podrá contener y remediar los incidentes de forma rápida y eficaz.
+<br /><br />
+XDR y EDR son soluciones integradas que le permiten gestionar la seguridad de sus endpoints desde una única plataforma, ahorrando tiempo y recursos. Además, son soluciones escalables y flexibles que se adaptan a las necesidades de su organización.
+<br />  <br /><b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>
             </Item.Group>

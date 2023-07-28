@@ -30,10 +30,14 @@ const Sandbox = () => {
 
                    
                 </Item>
-                <Item>
+                <Item style={{overflowY:'scroll', maxHeight:300}}>
                     <h5>
-                        Utilice las herramientas de análisis dinámico más poderosas del mercado, <i>Powerd by</i> inteligencia artificial y las mejores bases de conocimiento de Threat Intelligence para detectar las amenazas de día cero más sofisticadas del mercado sin comprometer sus dispositivos, su red ni su información confidencial.
-                         <br /><b>Hoy, la seguridad está en sus manos.</b>
+                    Inline Sandbox es una herramienta de tecnología de punta que permite proteger la organización de cyberamenazas desconocidas sin afectar al negocio por vía de análisis dinámico de archivos.  
+                    <br /><br />
+Esta solución ofrece una cyberinteligencia avanzada y tiene la mejor comprensión sobre las cyberamenazas que pueden comprometer la seguridad y la continuidad de las operaciones. Inline Sandbox utiliza inteligencia artificial (AI) de punta para detectar y prevenir las amenazas nóveles más sofisticadas y evasivas que escapan a los sistemas tradicionales de protección. Con Inline Sandbox, se puede contar con una solución sofisticada, eficaz y confiable para garantizar la cyberseguridad de la organización.
+
+
+<br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
                     </h5>
                 </Item>
             </Item.Group>

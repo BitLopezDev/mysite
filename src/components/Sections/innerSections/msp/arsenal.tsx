@@ -8,7 +8,7 @@ import {NGFW} from './ngfw';
 import {ZTNA} from './ztna';
 import {SASE} from './sase';
 import {NAC} from './nac';
-
+import { NDR } from './ndr';
 import {EndpointProtection} from './endpoint';
 import {SIEM} from './siem';
 import { SOAR } from './soar';
@@ -46,7 +46,7 @@ import image3 from './../../../../../public/images/threat intelligence 1.png'
 
 function hideElement(segment) {
     console.log(segment);
-    const segmentsArray = ['intel', 'ngfw', 'ztna', 'sase', 'nac', 'ep', 'siem', 'soar', 'office', 'ddos', 'sand'];
+    const segmentsArray = ['intel', 'ngfw', 'ztna', 'sase', 'nac', 'ndr', 'ep', 'siem', 'soar', 'office', 'ddos', 'sand'];
 
     if (document.getElementById(segment)?.classList.contains("seesconde")) {
         document.getElementById(segment)?.classList.remove('seesconde');
@@ -137,6 +137,12 @@ class Arsenalcontainer extends Component {
                                 onClick={this.handleItemClick}
                                 segment='nac'
                             />
+                             <Menu.Item
+                                name='Network Detection and Response'
+                                active={activeItem === 'Network Detection and Response'}
+                                onClick={this.handleItemClick}
+                                segment='ndr'
+                            />
                             <Menu.Item
                                 name='Endpoint Protection con EDR y XDR'
                                 active={activeItem === 'Endpoint Protection con EDR y XDR'}
@@ -195,6 +201,9 @@ class Arsenalcontainer extends Component {
 
                         <Segment id='nac' className='seesconde' style={{ marginTop: 0 }}>
                            <NAC />
+                        </Segment>
+                        <Segment id='ndr' className='seesconde' style={{ marginTop: 0 }}>
+                           <NDR />
                         </Segment>
                         <Segment id='ep' className='seesconde' style={{ marginTop: 0 }}>
 

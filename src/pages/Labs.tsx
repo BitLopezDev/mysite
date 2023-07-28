@@ -118,7 +118,7 @@ export default function Labs() {
     </div>
   </div>
   <br />
-  <div className="row">
+  <div className="row" id="row1">
   <h3 className='colorwhite'>Centralización, respuesta y automatización</h3>
 
 <br />
@@ -130,8 +130,14 @@ export default function Labs() {
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#soar"> Expandir / Colapsar</a></h6>
           <div id="soar" className="collapse">
-          Proteja su negocio con seguridad orquestada y automática. Por la abrumante cantidad de alertas, los equipos de seguridad revisan en promedio la mitad de las alertas de seguridad. Evite agotar a su equipo y obtener los mejores resultados con SOAR. A medida que las empresas crecen, se van dando cuenta de la necesidad de SIEM y SOAR.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          Una de las soluciones más avanzadas y eficaces para la gestión de la seguridad cibernética es el SOAR, que significa Security Orchestration, Automation and Response (Orquestación, Automatización y Respuesta de Seguridad). El SOAR utiliza la inteligencia artificial para filtrar las alertas de seguridad que recibe de múltiples fuentes, aliviando así la sobrecarga de trabajo que sufre el equipo SOC (Security Operations Center). 
+                    <br /><br />
+Además, el SOAR analiza los datos de seguridad para detectar las amenazas más relevantes y alerta a los equipos de seguridad para que puedan actuar rápidamente. 
+<br /><br />
+Los SOAR también pueden ayudar a los equipos de seguridad a responder a las amenazas de forma eficiente y efectiva, mediante la automatización y la orquestación de una variedad de procesos de seguridad. La automatización implica que el SOAR puede ejecutar acciones predefinidas para mitigar o resolver los incidentes de seguridad, sin necesidad de intervención humana. La orquestación implica que el SOAR puede coordinar las acciones de los diferentes equipos de seguridad, como el equipo de análisis, el equipo de respuesta y el equipo de gestión de riesgos, para que puedan trabajar juntos y compartir información. De esta forma, el SOAR mejora la capacidad de respuesta a las amenazas y reduce el tiempo y el coste de la resolución de incidentes. El SOAR es una solución sofisticada, innovadora e imprescindible para cualquier gran organización que quiera protegerse de las amenazas cibernéticas actuales y futuras.
+
+<br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
+<h6><a data-bs-toggle="collapse" data-bs-target="#soar">Colapsar</a></h6>
   </div>
         </div>
       </div>
@@ -144,8 +150,14 @@ export default function Labs() {
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#xdr"> Expandir / Colapsar</a></h6>
           <div id="xdr" className="collapse">
-          Proteja sus Endpoints con seguridad premiada por autónomos de los líderes de la industra Bitdefender y Sophos, antivirus Next-Gen con Endpoint Detection and Repsonse (EDR) y eXtended Detection and Response (XDR, también conocido como NEXT-GEN SIEM) en el núcleo para asegurar la mejor defensa para sus endpoints y su red.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          Si busca una solución de ciberseguridad que le ofrezca una mayor visibilidad, protección y respuesta para sus endpoints, XDR y EDR son las opciones ideales para usted. Estas son las ventajas que le ofrecen:
+                    <br />
+                    <br />- Visibilidad: XDR y EDR le permiten monitorizar y analizar la actividad de sus endpoints en tiempo real, detectando cualquier anomalía o indicador de compromiso (IoC). Así, podrá identificar y responder a las amenazas antes de que causen daños mayores.
+<br />- Protección: XDR y EDR le proporcionan una serie de capas de defensa para sus endpoints, que incluyen antivirus, antimalware, firewall, prevención de intrusiones, control de aplicaciones, cifrado y más. Así, podrá prevenir y bloquear los ataques más sofisticados y variados.
+<br />- Respuesta: XDR y EDR le facilitan la investigación y la respuesta a las amenazas, al ofrecerle herramientas como el aislamiento de endpoints, la eliminación de malware, la restauración de archivos, el análisis forense y la automatización de acciones. Así, podrá contener y remediar los incidentes de forma rápida y eficaz.
+<br /><br />
+XDR y EDR son soluciones integradas que le permiten gestionar la seguridad de sus endpoints desde una única plataforma, ahorrando tiempo y recursos. Además, son soluciones escalables y flexibles que se adaptan a las necesidades de su organización. <br /><br /><b>Hoy, la seguridad está en sus manos.</b>
+<h6><a data-bs-toggle="collapse" data-bs-target="#xdr">Colapsar</a></h6>
   </div>
         </div>
       </div>
@@ -158,29 +170,46 @@ export default function Labs() {
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#siem"> Expandir / Colapsar</a></h6>
           <div id="siem" className="collapse">
-          Proteja su organización reconociendo amenazas externas o internas, vulnerabilidades y operaciones maliciosas antes de que interrumpas sus operaciones comerciales, violen la continuidad de negocio y lo perjudiquen económica, reputacional o, incluso, legalmente.
-Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia Artificial de punta para protegerlo a usted y a su negocio.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          Los sistemas SIEM (Security Information and Event Management) son soluciones de ciberseguridad que recopilan, analizan y alertan sobre los datos de seguridad de múltiples fuentes en una organización. Los sistemas SIEM utilizan inteligencia artificial para filtrar las alertas y aliviar la sobrecarga de trabajo para el equipo SOC (Security Operations Center). De esta forma, los sistemas SIEM permiten detectar y responder a las amenazas de forma rápida y eficaz.
+                    <br /><br />
+Los sistemas SIEM ofrecen las siguientes ventajas para la seguridad de la información:
+<br /><br />
+- Recopilan datos de seguridad de aplicaciones, dispositivos, servidores y usuarios en tiempo real, lo que proporciona una visión centralizada y completa de la actividad de la red.
+- Analizan los datos de seguridad para identificar patrones, anomalías y correlaciones que puedan indicar una actividad maliciosa o un intento de intrusión.
+- Alertan a los equipos de seguridad sobre las amenazas potenciales y les proporcionan información relevante para investigar y resolver los incidentes.
+- Los sistemas SIEM pueden ayudar a los equipos de seguridad a responder a las amenazas con acciones automatizadas o manuales, como bloquear el acceso, aislar el dispositivo o enviar notificaciones.
+- Los sistemas SIEM facilitan el cumplimiento normativo al generar informes y auditorías sobre la gestión de los datos de seguridad.
+<br /><br />
+Los sistemas SIEM son soluciones sofisticadas y poderosas que pueden mejorar la protección y la resiliencia de una organización frente a los ciberataques. Al utilizar un sistema SIEM, se puede obtener una mayor visibilidad, inteligencia y capacidad de respuesta sobre la seguridad de la información.
+<br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
+<h6><a data-bs-toggle="collapse" data-bs-target="#siem">Colapsar</a></h6>
   </div>
         </div>
       </div>
     </div>
     </div>
     <br /> <br />
-    <div className="row">
+    <div className="row" id="row2">
     <h3 className='colorwhite'>Protección de red y recursos</h3>
 
 <br />
     <div className="col-md-4">
       <div className="card">
         <div className="card-body">
-          <h5 className="card-title" data-bs-toggle="collapse" data-bs-target="#ips"> NEXT-GEN IPS</h5>
-          <p className="card-text">Prevensión de intrusos Next Gen para proteger su red y sus recursos.</p>
+          <h5 className="card-title" data-bs-toggle="collapse" data-bs-target="#nac"> NAC</h5>
+          <p className="card-text">Protección de acceso a la red corportativa por políticas y reglas automatizadas.</p>
           <br />
-          <h6><a data-bs-toggle="collapse" data-bs-target="#ips"> Expandir / Colapsar</a></h6>
-          <div id="ips" className="collapse">
-    Bloquee tráfico sospechos, amenazas, y proteja su red y sus recursos más valiosos con un IPS de próxima Generación.
-    <br /><b>Hoy, la seguridad está en sus manos.</b>
+          <h6><a data-bs-toggle="collapse" data-bs-target="#nac">Colapsar</a></h6>
+          <div id="nac" className="collapse">
+          Una de las soluciones más avanzadas y efectivas para proteger las redes de las organizaciones es el Network Access Control (NAC). El NAC permite controlar el acceso a la red de forma dinámica y flexible, basándose en la identidad, el rol y el estado de los dispositivos. De esta forma, el NAC puede ayudar a las organizaciones a proteger sus redes contra una variedad de amenazas, incluyendo malware, dispositivos y usuarios no autorizados.<br /><br />
+
+El NAC puede ayudar a las organizaciones a ser más eficientes al automatizar el proceso de autorización de acceso a la red. El NAC puede verificar el cumplimiento de las políticas de seguridad de los dispositivos antes de permitirles el acceso, y aplicar medidas correctivas si es necesario. Así, el NAC puede evitar que los dispositivos vulnerables o comprometidos pongan en riesgo la seguridad de la red.<br /><br />
+
+El NAC puede ayudar a las organizaciones a reducir sus costes de seguridad al evitar que los dispositivos no autorizados accedan a la red. El NAC puede detectar y bloquear el acceso a la red a dispositivos no autorizados, como dispositivos infectados con malware, dispositivos personales o dispositivos robados. De esta forma, el NAC puede prevenir la pérdida de datos, el robo de información y la propagación de ataques.<br /><br />
+
+El NAC es una herramienta valiosa para las organizaciones que buscan proteger sus redes contra una variedad de amenazas. El NAC puede ayudar a las organizaciones a mejorar su seguridad, eficiencia y costes. El NAC es una solución sofisticada y tecnológica que ofrece múltiples beneficios para las organizaciones que quieren mantener sus redes seguras y protegidas. <br /><br />
+                        <b>Hoy, la seguridad está en sus manos.</b>
+                        <h6><a data-bs-toggle="collapse" data-bs-target="#nac">Colapsar</a></h6>
   </div>
         </div>
       </div>
@@ -193,8 +222,13 @@ Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia A
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#fw"> Expandir / Colapsar</a></h6>
           <div id="fw" className="collapse">
-          Defienda sus endpoints, servidores, dispositivos IoT, recursos, aplicaciones, correo y red con un Firewall de red Next-Gen, con Sistema de Prevensión de Intrusos Next-Gen (IPS), análisis dinámico de archivos y DLP incorporado contra ataques de día cero, exploits, ransomware, phising, fraude, virus, rootkits, troyanos, movimiento lateral, acceso de terceros no autorizados, entre tantas otras cosas.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          Un firewall de próxima generación (NGFW) es una solución de seguridad que ofrece una protección avanzada contra las amenazas cibernéticas. Un NGFW no solo bloquea el tráfico malicioso, sino que también analiza el comportamiento de los usuarios, las aplicaciones y los dispositivos para detectar y prevenir ataques sofisticados.
+                    <br /><br />
+Un NGFW utiliza la inteligencia artificial (AI) y Machine Learning (ML) e inteligencia de amenazas (Cyber Threat Intelligence) para mejorar la visibilidad de la red y reducir la complejidad del entorno de seguridad. Un NGFW es más poderoso que un firewall común, ya que puede filtrar el contenido, prevenir la intrusión y filtrar las amenazas que intentan evadir las defensas tradicionales.
+<br /><br />
+Un NGFW es una solución ideal para las organizaciones que buscan mejorar su seguridad cibernética y proteger sus datos, activos e infraestructura. Un NGFW ofrece una protección integral, eficaz y sofisticada contra las amenazas actuales y futuras.<br /><br />
+                    <b>Hoy, la seguridad está en sus manos.</b>
+                    <h6><a data-bs-toggle="collapse" data-bs-target="#fw">Colapsar</a></h6>
   </div>
         </div>
       </div>
@@ -207,15 +241,20 @@ Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia A
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#ndr"> Expandir / Colapsar</a></h6>
           <div id="ndr" className="collapse">
-    Mejore la visibilidad del tráfico de su red, obtenga más detalles sobre las amenazas y responda con mayor eficacia, eficiencia y velocidad para mantener seguros sus recursos y su red.
-    <br /><b>Hoy, la seguridad está en sus manos.</b>
+          NDR es una tecnología que utiliza el machine learning para analizar el comportamiento de la red y detectar anomalías que puedan indicar la presencia de un ataque. NDR no solo alerta sobre las posibles amenazas, sino que también proporciona información contextual y recomendaciones para facilitar la respuesta y la remediación. NDR mejora la visibilidad de la red y su tráfico, lo que permite identificar los puntos débiles, optimizar el rendimiento y reducir los riesgos.
+                        <br /> <br />
+NDR es una solución innovadora, eficiente y efectiva para garantizar la seguridad de la red y la continuidad del negocio. Con NDR, se puede contar con una protección proactiva, inteligente y automatizada, que se anticipa a los ataques y los neutraliza antes de que causen daños irreparables. NDR es la mejor opción para enfrentar los desafíos actuales y futuros de la ciberseguridad.
+
+                        <br /><br />
+                        <b>Hoy, la seguridad está en sus manos.</b>
+                        <h6><a data-bs-toggle="collapse" data-bs-target="#ndr">Colapsar</a></h6>
   </div>
         </div>
       </div>
     </div>
   </div>
   <br /> <br />
-  <div className="row">
+  <div className="row" id="row3">
   <h3 className='colorwhite'>Arquitecturas, modelos, recursos</h3>
 
 <br />
@@ -227,8 +266,28 @@ Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia A
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#sase"> Expandir / Colapsar</a></h6>
           <div id="sase" className="collapse">
-          Defienda su red y sus recursos sin perder capacidad de conectar a sus usuarios, sistemas, endpoints, servidores y redes externas a aplicaciones y recursos aumentando la capacidad del tradicional SD-WAN siéndole fiel a la filosofía Zero Trust.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          Secure Access Service Edge (SASE) es una arquitectura de seguridad que combina las capacidades de red definida por software (SD-WAN) y las soluciones de seguridad de confianza cero (Zero Trust) en una plataforma integrada en la nube que conecta de forma segura a los usuarios, sistemas, endpoints y redes remotas con las aplicaciones y recursos.
+                    <br /><br />
+SASE tiene cuatro características principales:
+<br /><br />
+- Basada en la identidad: el acceso se concede en función de la identidad de los usuarios y los dispositivos.<br />
+- Nativa de la nube: tanto la infraestructura como las soluciones de seguridad se entregan en la nube.<br />
+- Compatible con todos los bordes: se protege cada borde físico, digital y lógico.<br />
+- Distribuida globalmente: los usuarios están protegidos independientemente de dónde trabajen.
+<br /><br />
+El objetivo principal de la arquitectura SASE es proporcionar una experiencia de usuario fluida, una conectividad optimizada y una seguridad integral de una forma que apoye las necesidades dinámicas de acceso seguro de las empresas digitales. En lugar de reenviar el tráfico a los centros de datos tradicionales o a las redes privadas para las inspecciones de seguridad, SASE permite a los dispositivos y sistemas remotos acceder sin problemas a las aplicaciones y recursos dondequiera que estén y en cualquier momento, de manera segura.
+<br /><br />
+SASE se puede descomponer en seis elementos esenciales:
+<br /><br />
+- Red definida por software de área amplia (SD-WAN): una red definida por software de área amplia es una arquitectura superpuesta que utiliza software de enrutamiento o conmutación para crear conexiones virtuales entre endpoints, tanto físicos como lógicos. Las SD-WAN proporcionan caminos casi ilimitados para el tráfico de los usuarios, lo que optimiza la experiencia del usuario, y permiten una gran flexibilidad en el cifrado y la gestión de políticas.<br />
+- Pasarela web segura (SWG): una pasarela web segura es un servicio de seguridad web que filtra el tráfico no autorizado para acceder a una red determinada. El objetivo de una SWG es detectar las amenazas antes de que penetren en el perímetro virtual. Una SWG lo consigue combinando tecnologías como la detección de código malicioso, la eliminación de malware y el filtrado de URL.<br />
+- Agente de seguridad de acceso a la nube (CASB): un agente de seguridad de acceso a la nube es una aplicación SaaS que actúa como un punto de control de seguridad entre las redes locales y las aplicaciones basadas en la nube y hace cumplir las políticas de seguridad de datos. Un CASB protege los datos corporativos mediante una combinación de técnicas de prevención, monitorización y mitigación. También puede identificar comportamientos maliciosos y advertir a los administradores sobre violaciones del cumplimiento.<br />
+- Firewall como servicio (FWaaS): el firewall como servicio traslada la protección del firewall a la nube en lugar del perímetro tradicional. Esto permite a las organizaciones conectar de forma segura a una fuerza laboral remota y móvil con la red corporativa, a la vez que hacen cumplir políticas de seguridad coherentes que van más allá del alcance geográfico de la organización.<br />
+- Acceso a la red basado en confianza cero (ZTNA): el acceso a la red basado en confianza cero es un modelo que elimina el concepto tradicional del perímetro seguro y asume que ningún usuario o dispositivo es digno de confianza por defecto. En su lugar, ZTNA verifica continuamente la identidad y el contexto del usuario antes y durante cada sesión, aplicando políticas granulares para conceder o denegar el acceso según sea necesario.
+
+                        <br /><br />
+                        <b>Hoy, la seguridad está en sus manos.</b>
+                        <h6><a data-bs-toggle="collapse" data-bs-target="#sase">Colapsar</a></h6>
   </div>
         </div>
       </div>
@@ -241,24 +300,39 @@ Para ello utilizmos Microsoft Azure Sentinel: un SIEM que utiliza Inteligencia A
           <br />
           <h6><a data-bs-toggle="collapse" data-bs-target="#zt"> Expandir / Colapsar</a></h6>
           <div id="zt" className="collapse">
-          Defienda su red, sus recursos y su organización a través de una arquitectura ZERO TRUST. Impida el acceso de dispositivos y personal cuyas credenciales sean inválidas o no se hayan verificado.
-Gracias a software como el ZTNA de Sophos Labs, se puede garantizar que quien accede a la red y a los recursos es el usuario autorizado en el dispositivo autorizado y que este está libre de cualquier programa malicioso que pudiere representar una amenaza para su organización, su red, sus recursos y la continuidad del negocio.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          El modelo Zero Trust es una estrategia de seguridad de la información que no confía implícitamente en nada dentro o fuera del perímetro de red de una organización. En cambio, requiere autenticación o verificación antes de otorgar acceso a datos confidenciales o recursos protegidos. <br />
+Una de las formas de implementar el modelo Zero Trust es desde la perspectiva centrada en la identidad, que se basa en el principio de acceso con privilegios mínimos. Esto significa que solo se otorga el acceso necesario y justo a tiempo a los usuarios y dispositivos, según el contexto y el riesgo de cada solicitud. De esta forma, se limita la superficie de ataque y se evita el movimiento lateral de los atacantes dentro de la red.
+<br /><br />
+El modelo Zero Trust centrado en la identidad ofrece múltiples beneficios para las organizaciones que quieren mejorar su seguridad y su productividad. Algunos de estos beneficios son:
+<br /><br />
+- Es lo novedoso: El modelo Zero Trust representa una transformación digital de la seguridad, que se adapta a las necesidades actuales de las organizaciones que operan con una infraestructura de cloud híbrido, una fuerza de trabajo dispersa y una gran cantidad de datos sensibles.<br />
+- Es lo más seguro: El modelo Zero Trust supera las limitaciones de la seguridad perimetral tradicional, que se basaba en cortafuegos y otras herramientas basadas en la red para inspeccionar y validar a los usuarios que entraban y salían de la red. Estas herramientas ya no son suficientes para proteger los recursos que se encuentran fuera del perímetro, como las aplicaciones en la nube, los dispositivos móviles o los usuarios remotos. El modelo Zero Trust asume que la red está siempre comprometida y aplica controles estrictos a todos los niveles: usuario, dispositivo, aplicación y dato.<br />
+- Es lo más eficaz: El modelo Zero Trust permite a las organizaciones optimizar sus recursos y reducir sus costes al eliminar las soluciones de seguridad redundantes o poco integradas. Además, al ofrecer una experiencia de usuario más fluida y segura, el modelo Zero Trust mejora la productividad y la satisfacción de los empleados, clientes y socios.<br />
+El modelo Zero Trust centrado en la identidad es una solución innovadora, segura y eficaz para proteger los recursos más valiosos de una organización en un entorno complejo y dinámico. Al adoptar este modelo, las organizaciones pueden obtener una ventaja competitiva y estar preparadas para enfrentar los desafíos actuales y futuros de la seguridad.
+
+<br /><br />
+                    <b>Hoy, la seguridad está en sus manos.</b>
+                    <h6><a data-bs-toggle="collapse" data-bs-target="#zt">Colapsar</a></h6>
 </div>
         </div>
       </div>
     </div>
     <div className="col-md-4">
       <div className="card">
-        <div className="card-body">
-          <h5 className="card-title" data-bs-toggle="collapse" data-bs-target="#sand">Threat Intelligence</h5>
+        <div className="card-body" >
+          <h5 className="card-title" data-bs-toggle="collapse" data-bs-target="#threatintel">Threat Intelligence</h5>
           <p className="card-text">Defienda su organización de amenazas 0-day sin afectar sus recursos.</p>
           <br />
-          <h6><a data-bs-toggle="collapse" data-bs-target="#sand"> Expandir / Colapsar</a></h6>
-          <div id="sand" className="collapse">
-          Manténgase un paso más adelante que las ciberamenazas actuales, incluso las más complejas, con Cyber Threat Intelligence.
-Herramientas como Microsoft Defender Threat Intelligence, Intezer, Kaspersky Threat Intelligence Portal y VirusTotal a su alcance para mantenerlo seguro a usted, sus empleados, y su negocio.
-<br /><b>Hoy, la seguridad está en sus manos.</b>
+          <h6><a data-bs-toggle="collapse" data-bs-target="#threatintel"> Expandir / Colapsar</a></h6>
+          <div id="threatintel" className="collapse">
+          Inline Sandbox es una herramienta de tecnología de punta que permite proteger la organización de cyberamenazas desconocidas sin afectar al negocio por vía de análisis dinámico de archivos.  
+                    <br /><br />
+Esta solución ofrece una cyberinteligencia avanzada y tiene la mejor comprensión sobre las cyberamenazas que pueden comprometer la seguridad y la continuidad de las operaciones. Inline Sandbox utiliza inteligencia artificial (AI) de punta para detectar y prevenir las amenazas nóveles más sofisticadas y evasivas que escapan a los sistemas tradicionales de protección. Con Inline Sandbox, se puede contar con una solución sofisticada, eficaz y confiable para garantizar la cyberseguridad de la organización.
+
+
+<br /> <br /><b>Hoy, la seguridad está en sus manos.</b>
+<h6><a data-bs-toggle="collapse"  data-bs-target="#threatintel">Colapsar</a></h6>
+
 </div>
         </div>
       </div>
