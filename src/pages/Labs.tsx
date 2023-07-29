@@ -200,7 +200,7 @@ Los sistemas SIEM son soluciones sofisticadas y poderosas que pueden mejorar la 
           <h5 className="card-title" data-bs-toggle="collapse" data-bs-target="#nac"> NAC</h5>
           <p className="card-text">Protección de acceso a la red corportativa por políticas y reglas automatizadas.</p>
           <br />
-          <h6><a data-bs-toggle="collapse" data-bs-target="#nac">Colapsar</a></h6>
+          <h6><a data-bs-toggle="collapse" data-bs-target="#nac">Expandir / Colapsar</a></h6>
           <div id="nac" className="collapse">
           Una de las soluciones más avanzadas y efectivas para proteger las redes de las organizaciones es el Network Access Control (NAC). El NAC permite controlar el acceso a la red de forma dinámica y flexible, basándose en la identidad, el rol y el estado de los dispositivos. De esta forma, el NAC puede ayudar a las organizaciones a proteger sus redes contra una variedad de amenazas, incluyendo malware, dispositivos y usuarios no autorizados.<br /><br />
 
