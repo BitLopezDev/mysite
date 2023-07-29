@@ -7,6 +7,7 @@ import {MSPTitle} from "../components/Sections/innerSections/msp/msptitle";
 import { MSPBootAnimation } from "../components/Sections/innerSections/msp/mspbootanimation";
 import { MSPVendors } from "../components/Sections/innerSections/msp/mspvendors";
 import { MSPExtra1 } from "../components/Sections/innerSections/msp/mspextra1";
+import { MSPPricing } from "../components/Sections/innerSections/msp/msppricing";
 import { Arsenalcontainer } from './../components/Sections/innerSections/msp/arsenal';
 
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
@@ -29,6 +30,8 @@ import Bitwarden from './../../public/assets/users/Santiago/services/Bitwarden.i
 
 import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
 import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
+
+
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
 import "../scripts/charts/AVScores.js";
 import "../scripts/charts/databreachyears.js";

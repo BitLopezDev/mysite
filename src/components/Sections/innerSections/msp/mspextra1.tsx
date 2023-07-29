@@ -2,6 +2,7 @@ import React from 'react';
 // import { Grid, Card } from "semantic-ui-react";
 import { Image } from "semantic-ui-react";
 import Layout from "../../../Layout/Layout";
+import { MSPPricing } from "./msppricing";
 // import { StaticImageData } from 'next/image';
 import { Hcard } from "styles/components/hcard";
 // import { Arsenalcontainer } from './../../../Sections/innerSections/msp/arsenal';
@@ -60,11 +61,14 @@ export function MSPExtra1({MSPWhiteICO, bitlopezmsp} :any) {
     {/* <Hcard imgurl={Comodo} pcontent={'Lady'} /> */}
    
    
-   <h4>Los cybercriminales son capaces de penetrar el 93% de las redes corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b></h4>
+   
+    </Layout>
+    <h4>Los cybercriminales son capaces de penetrar el 93% de las redes corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b></h4>
     
     <br />
     <br />
-    </Layout>
+<MSPPricing />
+<Layout nav={false} footer={false}></Layout>
     <Image
               src={Object.entries(bitlopezmsp)[0].slice(1)}
               wrapped
