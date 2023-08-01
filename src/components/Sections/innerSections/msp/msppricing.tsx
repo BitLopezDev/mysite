@@ -65,6 +65,8 @@ export function MSPPricing() {
                               <br />
                               <li>Professional Email, custom domain.</li>
                               <br />
+                              <li>Password.</li>
+                              <br />
                               <li>
                                 Basic site DDoS, common certificate protection
                               </li>
@@ -74,8 +76,7 @@ export function MSPPricing() {
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden, Microsoft.
                           </a>
                         </Card.Content>
                       </Card>
@@ -90,7 +91,7 @@ export function MSPPricing() {
                         />
                         <Card.Content>
                           <Card.Header>Basic</Card.Header>
-                          <Card.Meta>1 - 10 dispositivos</Card.Meta>
+                          <Card.Meta>1 - 15 dispositivos</Card.Meta>
                           <b>25 USD</b>
                           <Card.Description>
                             <ul>
@@ -105,18 +106,25 @@ export function MSPPricing() {
                               <br />
                               <li>SIEM</li>
                               <br />
+                              <li>IPS (NGFW)</li>
+                              <br />
+                              <li>SSL Inspection (NGFW)</li>
+                              <br />
+                              <li>SSL Inspection (NGFW)</li>
+                              <br />
                               <li>
                                 Paid Site protection, javascript captchas and
                                 firewall rules.
                               </li>
+                              
                               <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden, Arista, Wazuh, Microsoft, anteriores.
+
                           </a>
                         </Card.Content>
                       </Card>
@@ -145,19 +153,24 @@ export function MSPPricing() {
                               <br />
                               <li>Next-Gen IPS</li>
                               <br />
-                              <li>Zero Day firewall protection</li>
+                              <li>Zero-Day firewall threat protection</li>
                               <br />
                               <li>Zero Trust Network Access</li>
                               <br />
                               <li>Network Detection and Response</li>
                               <br />
+                              <li>Security-provider-provided WLAN</li>
+                              <br />
+                              <li>Cloud Access Secure Broker</li>
+                              <br />
+                              <li>Secure Web Gataway</li>
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                          <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                          <a> 
+                            <b>Vendors: </b>Sophos, Cloudflare, anteriores.
+
                           </a>
                         </Card.Content>
                       </Card>
@@ -187,10 +200,7 @@ export function MSPPricing() {
                               <br />
 
                               <li>Secure Access Service Edge</li>
-                              <br />
-                              <li>Cloud Access Secure Broker (part of SASE)</li>
-                              <br />
-                              <li>Secure Web Gataway (part of SASE)</li>
+                              
                               <br />
                               <li>Azure, AWS, Security</li>
                               <br />
@@ -200,13 +210,17 @@ export function MSPPricing() {
                               <br />
                               <li>Cloud Inline Sandbox</li>
                               <br />
+                              <li>Azure Active Directory</li>
+                              <br />
+                              <li>Microsoft Intune</li>
+                              <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                            <b>Vendors:</b> Sophos, Bitdefender, Cloudflare, Microsoft, anteriores.
+
                           </a>
                         </Card.Content>
                       </Card>
@@ -237,19 +251,13 @@ export function MSPPricing() {
                               <br />
                               <li>Identity Protection</li>
                               <br />
-                              <li>Azure, AWS, Security</li>
-                              <br />
-                              <li>Azure Active Directory</li>
-                              <br />
-                              <li>Microsoft Intune</li>
-                              <br />
+                              
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                            <b>Vendors:</b> Microsoft, Sophos, Fortinet, Bitdefender, IBM, Abuse.ch, Kaspersky, VirusTotal, Intezer, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -289,8 +297,7 @@ export function MSPPricing() {
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                          <b>Vendors:</b> Microsoft, Bitdefender, Trellix, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -319,6 +326,10 @@ export function MSPPricing() {
                               <br />
                               <li>Network Access Control</li>
                               <br />
+                              <li>Remote Browser Isolation</li>
+                              <br />
+                              <li>User and Entity Behaviour Analysis.</li>
+                              <br />
                               <li>More advanced Next-Gen Firewall, IPS</li>
                               <br />
                               <li>SOAR</li>
@@ -330,8 +341,8 @@ export function MSPPricing() {
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            Precio de Honorarios sugerido. Consultar por precio
-                            final. Precio por usuario por dispositivo por mes.
+                          <b>Vendors:</b> Microsoft, Fortinet, IBM, anteriores.
+
                           </a>
                         </Card.Content>
                       </Card>
@@ -350,7 +361,7 @@ export function MSPPricing() {
                             <Card.Content extra>
                                 <a>
 
-                                   Precio de Honorarios sugerido. Consultar por precio de software, hardware y precio final. Precio por dispositivo. N usuarios compartiendo un dispositivo se contará como N dispositivos.
+                                   Precio de Honorarios estimado. Consultar por precio de software, hardware y precio final. Precio por dispositivo. N usuarios compartiendo un dispositivo se contará como N dispositivos.
                                 </a>
                             </Card.Content>
                         </Card>
@@ -368,7 +379,7 @@ export function MSPPricing() {
                             <Card.Content extra>
                                 <a>
 
-                                   Precio de Honorarios sugerido. Consultar por precio de software, hardware y precio final. Precio por dispositivo. N usuarios compartiendo un dispositivo se contará como N dispositivos.
+                                   Precio de Honorarios estimado. Consultar por precio de software, hardware y precio final. Precio por dispositivo. N usuarios compartiendo un dispositivo se contará como N dispositivos.
                                 </a>
                             </Card.Content>
                         </Card>
@@ -377,22 +388,28 @@ export function MSPPricing() {
 
                   <Grid.Row>
                     <h6>
+                    Precio de Honorarios estimado. Consultar por precio
+                            final. Precio calculado por usuario por dispositivo.
+                            <br />
                       Nos reservamos el derecho de modificar precios, cantidad
                       de dispositivos y beneficios en todo momento.
                       <br />
                       Consultar precios por respuesta a incidentes, guardias,
                       terciarización de SOC parcial o completa y precio de
-                      software y Hardware a emplearse.
+                      software y hardware a emplearse.
                       <br />
                       Recuerde que BitLopez MSP (BitLopez MSSP) es un
-                      emprendimiento a futuro, la empresa no está creada y de
+                     futuro emprendimiento, la empresa no está creada y de
                       momento no existen interacciones ni operaciones
                       comerciales con Bitopez MSP a la fecha, ni existirán hasta
                       la creación formal de la compañía.
                       <br />
                       Si tiene interés en lo que se ofrece, consulte y creamos
                       la empresa tan pronto como sea posible para satisfacer sus
-                      necesidades de Seguridad.
+                      necesidades de cyberseguridad.
+                      <br />
+                      Recuerde, la seguridad está en sus manos hoy, 
+                      <br /> y estamos aquí para ayudarlo.
                     </h6>
                   </Grid.Row>
                 </Grid>
