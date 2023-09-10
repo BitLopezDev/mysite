@@ -37,6 +37,7 @@ export function MSPPricing() {
                 <Grid columns="five" centered>
                   <Grid.Row>
                     {/*  */}
+                    <h3>Planes de protección Globales</h3>
                     <Grid.Column>
                       <Card>
                         <Image
@@ -64,8 +65,7 @@ export function MSPPricing() {
                               <li>Anomaly Defense</li>
                               <br />
                               <li>Professional Email, custom domain.</li>
-                              <br />
-                              <li>Password.</li>
+
                               <br />
                               <li>
                                 Basic site DDoS, common certificate protection
@@ -76,7 +76,8 @@ export function MSPPricing() {
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden, Microsoft.
+                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden,
+                            Microsoft.
                           </a>
                         </Card.Content>
                       </Card>
@@ -100,7 +101,7 @@ export function MSPPricing() {
                               </li>
                               <br />
 
-                              <li>Email, Office Security</li>
+                              <li>Email, Office Security *</li>
                               <br />
                               <li>Basic NEXT-GEN firewall</li>
                               <br />
@@ -109,22 +110,22 @@ export function MSPPricing() {
                               <li>IPS (NGFW)</li>
                               <br />
                               <li>SSL Inspection (NGFW)</li>
+
                               <br />
-                              <li>SSL Inspection (NGFW)</li>
-                              <br />
+                              <li>Password Manager *</li>
                               <li>
                                 Paid Site protection, javascript captchas and
-                                firewall rules.
+                                firewall rules *
                               </li>
-                              
+
                               <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden, Arista, Wazuh, Microsoft, anteriores.
-
+                            <b>Vendors:</b> Bitdefender, Cloudflare, Bitwarden,
+                            Arista, Wazuh, Microsoft, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -149,7 +150,7 @@ export function MSPPricing() {
                               <br />
                               <li>Pro Network Firewall</li>
                               <br />
-                              <li>Pro site, domain defense</li>
+                              <li>Pro site, domain defense *</li>
                               <br />
                               <li>Next-Gen IPS</li>
                               <br />
@@ -157,20 +158,18 @@ export function MSPPricing() {
                               <br />
                               <li>Zero Trust Network Access</li>
                               <br />
-                              <li>Network Detection and Response</li>
+
+                              <li>Security-vendor-provided WLAN</li>
                               <br />
-                              <li>Security-provider-provided WLAN</li>
+                              <li>Cloud Access Secure Broker *</li>
                               <br />
-                              <li>Cloud Access Secure Broker</li>
-                              <br />
-                              <li>Secure Web Gataway</li>
+                              <li>Secure Web Gataway *</li>
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
-                          <a> 
+                          <a>
                             <b>Vendors: </b>Sophos, Cloudflare, anteriores.
-
                           </a>
                         </Card.Content>
                       </Card>
@@ -190,7 +189,7 @@ export function MSPPricing() {
                         <Card.Content>
                           <Card.Header>Standart Premium</Card.Header>
                           <Card.Meta>25 - 50 dispositivos</Card.Meta>
-                          <b>45 USD</b>
+                          <b>50 USD</b>
 
                           <Card.Description>
                             <ul>
@@ -200,15 +199,17 @@ export function MSPPricing() {
                               <br />
 
                               <li>Secure Access Service Edge</li>
-                              
+
                               <br />
-                              <li>Azure, AWS, Security</li>
+                              <li>Network Detection and Response *</li>
+                              <br />
+                              <li>Azure, AWS, Security *</li>
                               <br />
                               <li>GitHub Security</li>
                               <br />
-                              <li>Web Application Firewall</li>
+                              <li>Web Application Firewall *</li>
                               <br />
-                              <li>Cloud Inline Sandbox</li>
+                              <li>Cloud Inline Sandbox *</li>
                               <br />
                               <li>Azure Active Directory</li>
                               <br />
@@ -219,8 +220,8 @@ export function MSPPricing() {
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            <b>Vendors:</b> Sophos, Bitdefender, Cloudflare, Microsoft, anteriores.
-
+                            <b>Vendors:</b> Sophos, Bitdefender, Cloudflare,
+                            Microsoft, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -234,30 +235,30 @@ export function MSPPricing() {
                           alt="No se pudo cargar la imagen"
                         />
                         <Card.Content>
-                          <Card.Header>Pro</Card.Header>
+                          <Card.Header>Advanced</Card.Header>
                           <Card.Meta>30 - 100 dispositivos</Card.Meta>
-                          <b>60 USD</b>
+                          <b>65 USD</b>
                           <Card.Description>
                             <ul>
                               <li>
                                 <b>Standart Premium Plan plus:</b>
                               </li>
                               <br />
-                              <li>Azure Sentinel SIEM</li>
+                              <li>Azure Sentinel SIEM </li>
+
                               <br />
-                              <li>Advanced GitHub Security</li>
-                              <br />
-                              <li>Additional Threat Intelligence sources</li>
+
+                              <li>Advanced GitHub Security *</li>
                               <br />
                               <li>Identity Protection</li>
                               <br />
-                              
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            <b>Vendors:</b> Microsoft, Sophos, Fortinet, Bitdefender, IBM, Abuse.ch, Kaspersky, VirusTotal, Intezer, anteriores.
+                            <b>Vendors:</b> Microsoft, Sophos, Fortinet,
+                            Bitdefender, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -271,33 +272,41 @@ export function MSPPricing() {
                           alt="No se pudo cargar la imagen"
                         />
                         <Card.Content>
-                          <Card.Header>Pro+</Card.Header>
+                          <Card.Header>Pro</Card.Header>
                           <Card.Meta>50 - 200 dispositivos</Card.Meta>
-                          <b>70 USD</b>
+                          <b>80 USD</b>
                           <Card.Description>
                             <ul>
                               <li>
-                                <b>Pro Plan plus: </b>
+                                <b>Advanced Plan plus: </b>
                               </li>
                               <br />
-                              <li>Defender for IoT</li>
+                              <li>Defender for IoT *</li>
                               <br />
                               <li>Security for NAS Servers</li>
                               <br />
                               <li>Separate DLP Software</li>
                               <br />
-                              <li>Security for DevOps</li>
+                              <li>Security for DevOps *</li>
                               <br />
-                              <li>Azure Web Application Firewall</li>
+                              <li>Azure Web Application Firewall *</li>
                               <br />
                               <li>Enterprise E3, E5 accounts </li>
+                              <br />
+                              <br />
+                            </ul>
+                            <strong>Complemento:</strong>
+                            <br />
+                            <ul>
+                              <li>HoneyPots (8 USD/unidad/mes)</li>
                               <br /> <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                          <b>Vendors:</b> Microsoft, Bitdefender, Trellix, anteriores.
+                            <b>Vendors:</b> Microsoft, Bitdefender, Trellix,
+                            anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -315,37 +324,197 @@ export function MSPPricing() {
                           alt="No se pudo cargar la imagen"
                         />
                         <Card.Content>
-                          <Card.Header>Advanced</Card.Header>
-                          <Card.Meta>75 - 350 dispositivos</Card.Meta>
-                          <b>85 USD</b>
+                          <Card.Header>Enterprise</Card.Header>
+                          <Card.Meta>150 - 350 dispositivos</Card.Meta>
+                          <b>100 USD</b>
                           <Card.Description>
                             <ul>
                               <li>
-                                <b>Pro+ Plan plus:</b>
+                                <b>Pro Plan plus:</b>
                               </li>
                               <br />
-                              <li>Network Access Control</li>
+                              <li>Network Access Control </li>
                               <br />
-                              <li>Remote Browser Isolation</li>
+                              <li>Remote Browser Isolation *</li>
                               <br />
                               <li>User and Entity Behaviour Analysis.</li>
                               <br />
-                              <li>More advanced Next-Gen Firewall, IPS</li>
+                              <li>Next-Gen Firewall, IPS, NDR más avanzados</li>
                               <br />
                               <li>SOAR</li>
                               <br />
                               <li>Windows Enterprise OS</li>
+
                               <br />
+                              <li>
+                                Automated Deception based Threat Intelligence. *
+                              </li>
+                              <br />
+                              <li>
+                                Fuentes de Threat Intelligence adicionales *
+                              </li>
+                              <br />
+                              <li>AI for IT Operations</li>
+                              <br />
+                              <li>
+                                Enterprise-grade site and domain protection
+                              </li>
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                          <b>Vendors:</b> Microsoft, Fortinet, IBM, anteriores.
-
+                            <b>Vendors:</b> Microsoft, Fortinet, IBM, Abuse.ch,
+                            Kaspersky, VirusTotal, Intezer, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
+                      <br /> <br />
+                    </Grid.Column>
+                    <hr />
+                    <br />
+                    <h3>Planes de protección de red interna</h3>
+                    <br /> <br />
+                    <Grid.Column>
+                      <Card>
+                        <Image
+                          src={Object.entries(MSPsquare)[0].slice(1)}
+                          wrapped
+                          ui={false}
+                          alt="No se pudo cargar la imagen"
+                        />
+                        <Card.Content>
+                          <Card.Header>Network Basic</Card.Header>
+                          <Card.Meta>Complemento</Card.Meta>
+                          <b>7 USD</b>
+                          <Card.Description>
+                            <ul>
+                              <br />
+                              <li>Firewall Next-Gen</li>
+                              <br />
+                              <li>IPS</li>
+                              <br />
+                              <li>SSL Inspection</li>
+                            </ul>
+                          </Card.Description>
+                        </Card.Content>
+                      </Card>
+                      <br /> <br />
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Card>
+                        <Image
+                          src={Object.entries(MSPsquare)[0].slice(1)}
+                          wrapped
+                          ui={false}
+                          alt="No se pudo cargar la imagen"
+                        />
+                        <Card.Content>
+                          <Card.Header> Standart</Card.Header>
+                          <Card.Meta>Complemento</Card.Meta>
+                          <b>15 USD</b>
+                          <Card.Description>
+                            <ul>
+                              <br />
+                              <li>Todo de Basic más:</li>
+                              <br />
+                              <li>Mejor Firewall</li>
+                              <br />
+                              <li>Next-Gen IPS</li>
+                              <br />
+                              <li>Zero-Day firewall threat protection</li>
+                              <br />
+                              <li>Zero Trust Network Access</li>
+                              <br />
+                              <li>Network Detection and Response</li>
+                              <br />
+                              <li>Security-vendor-provided WLAN</li>
+
+                              <br />
+                              <li>Secure Web Gataway</li>
+                            </ul>
+                          </Card.Description>
+                        </Card.Content>
+                      </Card>
+                      <br /> <br />
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Card>
+                        <Image
+                          src={Object.entries(MSPsquare)[0].slice(1)}
+                          wrapped
+                          ui={false}
+                          alt="No se pudo cargar la imagen"
+                        />
+                        <Card.Content>
+                          <Card.Header> Standart Premium</Card.Header>
+                          <Card.Meta>Complemento</Card.Meta>
+                          <b>20 USD</b>
+                          <Card.Description>
+                            <ul>
+                              <br />
+                              <li>Todo de Standart más:</li>
+                              <br />
+                              <li>Network Detection and Response *</li>
+                              <br />
+                              <li>Secure Access Service Edge</li>
+                            </ul>
+                          </Card.Description>
+                        </Card.Content>
+                      </Card>
+                      <br /> <br />
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Card>
+                        <Image
+                          src={Object.entries(MSPsquare)[0].slice(1)}
+                          wrapped
+                          ui={false}
+                          alt="No se pudo cargar la imagen"
+                        />
+                        <Card.Content>
+                          <Card.Header> Pro</Card.Header>
+                          <Card.Meta>Complemento</Card.Meta>
+                          <b>22  USD</b>
+                          <Card.Description>
+                            <ul>
+                              <br />
+                              <li>Todo de Standart Premium más:</li>
+                              <br />
+                              <li>Defender for IoT</li>
+                            </ul>
+                          </Card.Description>
+                        </Card.Content>
+                      </Card>
+                      <br /> <br />
+                    </Grid.Column>
+                    <Grid.Column>
+                      <Card>
+                        <Image
+                          src={Object.entries(MSPsquare)[0].slice(1)}
+                          wrapped
+                          ui={false}
+                          alt="No se pudo cargar la imagen"
+                        />
+                        <Card.Content>
+                          <Card.Header> Enterprise</Card.Header>
+                          <Card.Meta>Complemento</Card.Meta>
+                          <b>50 USD</b>
+                          <Card.Description>
+                            <ul>
+                              <br />
+                              <li>Todo de Pro más:</li>
+                              <br />
+                              <li>Network Access Control</li>
+                              <br />
+                              <li>Mejor Firewall, IPS y NDR</li>
+                              <br />
+                              <li>AI para operaciones IT</li>
+                            </ul>
+                          </Card.Description>
+                        </Card.Content>
+                      </Card>
+                      <br /> <br />
                     </Grid.Column>
                     {/* <Grid.Column>
                         <Card >
@@ -387,10 +556,14 @@ export function MSPPricing() {
                   </Grid.Row>
 
                   <Grid.Row>
-                    <h6>
-                    Precio de Honorarios estimado. Consultar por precio
-                            final. Precio calculado por usuario por dispositivo.
-                            <br />
+                    <p>
+                      Precio de Honorarios estimado. Consultar por precio final.
+                      Precio calculado por usuario por dispositivo.
+                      <br />
+                      <strong>* :</strong> Servicio/producto disponible
+                      solamente si más de la mitad de los recursos informáticos
+                      y humanos están protegidos por ese plan o uno superior.
+                      <br />
                       Nos reservamos el derecho de modificar precios, cantidad
                       de dispositivos y beneficios en todo momento.
                       <br />
@@ -398,25 +571,25 @@ export function MSPPricing() {
                       terciarización de SOC parcial o completa y precio de
                       software y hardware a emplearse.
                       <br />
-                      Recuerde que BitLopez MSP (BitLopez MSSP) es un
-                     futuro emprendimiento, la empresa no está creada y de
-                      momento no existen interacciones ni operaciones
-                      comerciales con Bitopez MSP a la fecha, ni existirán hasta
-                      la creación formal de la compañía.
+                      Recuerde que BitLopez MSP (BitLopez MSSP) es un futuro
+                      emprendimiento, la empresa no está creada y de momento no
+                      existen interacciones ni operaciones comerciales con
+                      Bitopez MSP a la fecha, ni existirán hasta la creación
+                      formal de la compañía.
                       <br />
                       Si tiene interés en lo que se ofrece, consulte y creamos
                       la empresa tan pronto como sea posible para satisfacer sus
                       necesidades de cyberseguridad.
                       <br />
-                      Recuerde, la seguridad está en sus manos hoy, 
+                      Recuerde, la seguridad está en sus manos hoy,
                       <br /> y estamos aquí para ayudarlo.
-                    </h6>
+                    </p>
                   </Grid.Row>
                 </Grid>
                 <br /> <br />
                 <b>Hoy, la seguridad está en sus manos.</b>
                 <h6>
-                  <a href="#PricesReturn">
+                  <a href="#crimenet">
                     <p data-bs-toggle="collapse" data-bs-target="#prices">
                       Colapsar
                     </p>

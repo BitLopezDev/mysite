@@ -63,7 +63,7 @@ export function MSPExtra1({MSPWhiteICO, bitlopezmsp} :any) {
    
    
     </Layout>
-    <h4>Los cybercriminales son capaces de penetrar el 93% de las redes corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b></h4>
+    <h4 id="crimenet">Los cybercriminales son capaces de penetrar el 93% de las redes corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b></h4>
     
     <br />
     <br />
