@@ -30,7 +30,7 @@ import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteI
 import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
 import { Nav } from "react-bootstrap";
 
-export default function Labs() {
+export default function MSPhone() {
   return (
     <div className="backgradient">
       {/* <iframe
