@@ -14,6 +14,8 @@ import Comodo from "./../../public/assets/users/Santiago/services/Comodo.ico";
 import Cloudflare from "./../../public/assets/users/Santiago/services/cloudflare.png";
 import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.ico";
 import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
+import lunettes from "./../../public/images/threat intelligence 2 trimmed.png";
+
 import { MSPTitle } from "../components/Sections/innerSections/msp/msptitle";
 import { Navbar } from "../components/Layout/Navbar";
 import Layout from "../components/Layout/Layout";
@@ -49,22 +51,47 @@ export default function Labs() {
       </Head>
       <header>
         <Navbar />
-        <h1
-          className="antigradienttext"
-          style={{ fontSize: "6em", paddingTop: 60, paddingLeft: 25 }}
+        <div style={{ zIndex: 20 }}>
+          <h1
+            className="antigradienttext"
+            style={{ fontSize: "6em", paddingTop: 60, paddingLeft: 25 }}
+          >
+            <i>BitLopez MSP</i>
+          </h1>
+          <h4 style={{ color: "white", marginLeft: 60 }}>
+            Managed Security Services Provider
+          </h4>
+          <br />
+          <h2
+            className="antigradienttext"
+            style={{ marginLeft: 0, paddingLeft: 25, fontSize: "3.5em" }}
+          >
+            <i>Seguridad Líder</i>
+          </h2>
+        </div>
+        <div
+          id="headerIMG"
+          style={{
+            position: "absolute",
+            top: 60,
+            right: 0,
+            textAlign: "right",
+            paddingRight: 0,
+            marginRight: 0,
+            zIndex: 1,
+            overflow: "hidden",
+
+            background: "black",
+          }}
         >
-          <i>BitLopez MSP</i>
-        </h1>
-        <h4 style={{ color: "white", marginLeft: 60 }}>
-          Managed Security Services Provider
-        </h4>
-        <br />
-        <h2
-          className="antigradienttext"
-          style={{ marginLeft: 0, paddingLeft: 25, fontSize: "3.5em" }}
-        >
-          <i>Seguridad Líder</i>
-        </h2>
+          <Image
+            src={Object.entries(lunettes)[0].slice(1)}
+            alt="Chania"
+            layout="fill"
+            objectFit="cover"
+            style={{ zIndex: 1 }}
+          />
+        </div>
       </header>
 
       {/* <Layout nav={true} footer={true} paddTop={100} head={true}></Layout> */}
@@ -925,10 +952,19 @@ export default function Labs() {
           height: 350px;
           background: black;
         }
-        @media screen and (max-width: 485px) {
+        #headerIMG {
+          height: 310px !important;
+          background: black;
+        }
+        @media screen and (max-width: 510px) {
           header {
-            height: 450px;
+            height: 480px;
             background: black;
+          }
+        }
+        @media screen and (max-width: 1291px) {
+          #headerIMG {
+            display: none !important;
           }
         }
         body {
