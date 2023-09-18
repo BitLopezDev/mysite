@@ -170,6 +170,7 @@ export default function MSPhone() {
               />
             </div>
           </>
+          
           {/* <h5>Haga scroll a los costados</h5>  */}
           {/* <div className='scrollchild'><Image src={Object.entries(Cloudflare)[0].slice(1)} alt="Chania" Height={100} /></div>   */}
         </div>
