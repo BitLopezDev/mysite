@@ -102,6 +102,9 @@ function HomePage() {
                 <List.Item as="li" value="*">
                   <h5>Educación Formal:</h5>
                   <List.Item as="ol">
+                  <List.Item as="li" value="-">
+                      Analista en Tegnologías de la Información ORT: (EN CURSO)
+                    </List.Item>
                     <List.Item as="li" value="-">
                       Sexto Ingeniería (2020)
                     </List.Item>
@@ -132,6 +135,9 @@ function HomePage() {
                 <List.Item as="li" value="*">
                   <h5>Credenciales de Development:</h5>
                   <List.Item as="ol">
+                  <List.Item as="li" value="-">
+                      BackEnd con PHP | EN CURSO
+                    </List.Item>
                     <List.Item as="li" value="-">
                       Full Stack Web Developer con JavaScript | 2023
                     </List.Item>
@@ -166,7 +172,13 @@ function HomePage() {
                       Ciberseguridad para empresas | 2023
                     </List.Item>
                     <List.Item as="li" value="-">
-                      Curso de preparación para norma 27001 | TO BE
+                      Curso de preparación para norma 27001 | En curso
+                    </List.Item>
+                    <List.Item as="li" value="-">
+                      Analista en Ciberseguridad; IBM | En curso
+                    </List.Item>
+                    <List.Item as="li" value="-">
+                      Analista en Ciberseguridad; CISCO | En curso
                     </List.Item>
                   </List.Item>
                 </List.Item>
