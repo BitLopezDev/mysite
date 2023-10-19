@@ -54,16 +54,10 @@ const BackEndPHP = () => {
       "100%",
     ],
     [
-      "Curso Avanzado de PHP",
-      "https://static.platzi.com/media/achievements/badges-php-avanzado-798212d8-15fb-44bf-850d-68645aa7f2e7.png",
-      "#",
-      "0%",
-    ],
-    [
       "Curso de Bases de Datos en Symfony",
       "https://static.platzi.com/media/achievements/piezas-fundamentos-symfony_badge-016a640d-8ee0-464c-b374-1ef8bf60109a.png",
       "#",
-      "0%",
+      "99%",
     ],
     [
       "Curso de Single Page Applications en Laravel con Inertia y Vue.js",
