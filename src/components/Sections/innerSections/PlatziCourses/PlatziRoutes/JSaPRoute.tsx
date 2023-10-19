@@ -19,7 +19,7 @@ const JSaPRoute = () => {
             'Curso Intermedio de Programación Orientada a Objetos en JavaScript',
             'https://static.platzi.com/media/achievements/intermedio-programacion-orientada-js-badge-b29243cc-39b1-4f4a-aec0-59f96f0412cd.png',
             '#',
-            '45%',
+            '90%',
         ],
         [
             'Curso de Manipulación de Arrays en JavaScript',
