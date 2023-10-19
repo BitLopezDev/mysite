@@ -63,7 +63,7 @@ const BackEndPHP = () => {
       "Curso de Single Page Applications en Laravel con Inertia y Vue.js",
       "https://static.platzi.com/media/achievements/badge-single-page-apps-laravel-inertia-vue-2dd8b816-553d-44d8-8795-55841dc539e8.png",
       "#",
-      "95%",
+      "0%",
     ],
     [
       "Curso de API REST con Laravel",
