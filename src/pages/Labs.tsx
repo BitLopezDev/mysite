@@ -1,53 +1,16 @@
 import React from "react";
 import Head from "next/head";
-import { MSPPricing } from "../components/Sections/innerSections/msp/msppricing";
-import bitlopezmsp from "./../../public/images/BitLopez MSP.png";
-const cybermap = "https://cybermap.kaspersky.com/es/widget/dynamic/dark";
-import { Image, Item } from "semantic-ui-react";
-import Fortinet from "./../../public/assets/users/Santiago/services/Fortinet.png";
-import IBM from "./../../public/assets/users/Santiago/services/IBM.jpeg";
-import Intezer from "./../../public/assets/users/Santiago/services/Intezer.jpeg";
-import Kaspersky from "./../../public/assets/users/Santiago/services/Kaspersky.png";
-import VirusTotal from "./../../public/assets/users/Santiago/services/VirusTotal.jpeg";
-import Trellix from "./../../public/assets/users/Santiago/services/Trellix.jpeg";
-import Comodo from "./../../public/assets/users/Santiago/services/Comodo.ico";
-import Cloudflare from "./../../public/assets/users/Santiago/services/cloudflare.png";
-import Bitwarden from "./../../public/assets/users/Santiago/services/Bitwarden.ico";
-import Sophos from "./../../public/assets/users/Santiago/services/Sophos.ico";
+import { Image } from "semantic-ui-react";
 import lunettes from "./../../public/images/threat intelligence 2 trimmed.png";
-
-import { MSPTitle } from "../components/Sections/innerSections/msp/msptitle";
 import { Navbar } from "../components/Layout/Navbar";
-import Layout from "../components/Layout/Layout";
-
-//
-// import Kaspersy from "./../../public/images/kaspersky.png";
-// import VirusTotal from "./../../public/images/VirusTotal.jpeg";
-// import Trellix from "./../../public/images/trellix.png";
-
-import Bitdefender from "./../../public/assets/users/Santiago/services/Bitdefender.ico";
-import MSPWhiteICO from "./../../public/assets/users/Santiago/services/MSPWhiteICO.ico";
-import Microsoft from "./../../public/assets/users/Santiago/services/Microsoft.png";
-import { Nav } from "react-bootstrap";
 
 export default function Labs() {
   return (
     <div className="backgradient">
-      {/* <iframe
-      width={"100%"}
-      height={600}
-      src={cybermap}
-      style={{ paddingBottom: 0, marginBottom: 0 }}
-    /> */}
-
-      {/* 
-  
-  
-  */}
-
+     
       <br />
       <Head>
-        <title>BitLopez MSP</title>
+        <title>BitLopez ATI</title>
       </Head>
       <header>
         <Navbar />
@@ -96,7 +59,7 @@ export default function Labs() {
         </div>
       </header>
 
-      {/* <Layout nav={true} footer={true} paddTop={100} head={true}></Layout> */}
+    
 
       <br />
       <br />
