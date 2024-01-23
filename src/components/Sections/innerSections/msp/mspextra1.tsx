@@ -68,13 +68,14 @@ export function MSPExtra1({ MSPWhiteICO, bitlopezmsp }: any) {
       <Layout nav={false} footer={false}>
         {/* <Hcard imgurl={Comodo} pcontent={'Lady'} /> */}
       </Layout>
-      <h4 id="crimenet">
+      <p id="crimenet" style={{ fontSize: "23px" }}>
         Los cybercriminales son capaces de penetrar el 93% de las redes
-        corporativas del mudo. <br /> <b>NO sea parte de esta estadística</b>
-      </h4>
+        corporativas del mundo; NO sea parte de esta estadística. <br />
+        <b>Hoy, la seguridad está en sus manos</b>
+      </p>
       <br />
       <br />
-      {/* <MSPPricing /> */}
+      {/* <MSPPricing />    */}
       <Layout nav={false} footer={false}></Layout>
       <Image
         src={Object.entries(bitlopezmsp)[0].slice(1)}

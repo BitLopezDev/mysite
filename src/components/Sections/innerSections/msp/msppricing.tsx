@@ -48,21 +48,23 @@ export function MSPPricing() {
                         />
                         <Card.Content>
                           <Card.Header>Starter</Card.Header>
-                          <Card.Meta>1 - 5 dispositivos</Card.Meta>
+                          <Card.Meta>1 - 10 dispositivos</Card.Meta>
                           <b>15 USD</b>
                           <Card.Description>
                             <ul>
-                              <li>Bitdefender Endpoint Security Tools</li>
+                              <li>Next Generation Endpoint Protection Program</li>
                               <br />
-                              <li>eXtended Detection and Response</li>
+                              <li>Patch management</li>
                               <br />
-                              <li>Endpoint Detection and Response</li>
+                              <li>Application Control</li>
+                              <br /><br />
+                              <li>Sandbox</li>
                               <br />
-                              <li>Inline Sandbox</li>
-                              <br />
-                              <br />
-
                               <li>Anomaly Defense</li>
+                              <br />
+                              <li>Device Control</li>
+                              <br />
+                              <li>MITRE Event Tagging</li>
                               <br />
                               <li>Professional Email, custom domain.</li>
 
@@ -117,8 +119,12 @@ export function MSPPricing() {
                                 Paid Site protection, javascript captchas and
                                 firewall rules *
                               </li>
-
                               <br />
+                              <li>Azure Active Directory</li>
+                              <br />
+                              <li>Microsoft Intune</li>
+
+                             
                             </ul>
                           </Card.Description>
                         </Card.Content>
@@ -161,15 +167,21 @@ export function MSPPricing() {
 
                               <li>Security-vendor-provided WLAN</li>
                               <br />
-                              <li>Cloud Access Secure Broker *</li>
+                              <li>Cloud Access Secure Broker*</li>
                               <br />
                               <li>Secure Web Gataway *</li>
+                              <br />
+                              <li>eXtended Detection and Response (XDR)*</li>
+                              <br />
+                              <li>Endpoint Detection and Response (EDR)* </li>
+                              <li>eXtended Endpoint Detection and Response (XEDR)*</li>
+                              <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                           <a>
-                            <b>Vendors: </b>Sophos, Cloudflare, anteriores.
+                            <b>Vendors: </b>Sophos, Cloudflare, Bitdefender, anteriores.
                           </a>
                         </Card.Content>
                       </Card>
@@ -210,10 +222,7 @@ export function MSPPricing() {
                               <li>Web Application Firewall *</li>
                               <br />
                               <li>Cloud Inline Sandbox *</li>
-                              <br />
-                              <li>Azure Active Directory</li>
-                              <br />
-                              <li>Microsoft Intune</li>
+                              
                               <br />
                             </ul>
                           </Card.Description>
@@ -252,6 +261,12 @@ export function MSPPricing() {
                               <br />
                               <li>Identity Protection</li>
                               <br />
+                            </ul><br />
+                            <strong>Complemento:</strong>
+                            <br />
+                            <ul>
+                              <li>HoneyPots (15 USD/unidad/mes)</li>
+                              <br /> <br />
                             </ul>
                           </Card.Description>
                         </Card.Content>
