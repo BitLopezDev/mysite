@@ -5,22 +5,12 @@ import { Image } from "semantic-ui-react";
 import lunettes from "./../../public/images/threat intelligence 2 trimmed.png";
 import { Navbar } from "../components/Layout/Navbar";
 // import Layout from "../components/Layout/Layout";
-import { Nav } from "react-bootstrap";
+// import { Nav } from "react-bootstrap";
 
 export default function ATI() {
   return (
     <div className="backgradient">
-      {/* <iframe
-      width={"100%"}
-      height={600}
-      src={cybermap}
-      style={{ paddingBottom: 0, marginBottom: 0 }}
-    /> */}
-
-      {/* 
-  
-  
-  */}
+      
 
       <br />
       <Head>
