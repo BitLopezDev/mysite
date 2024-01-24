@@ -16,7 +16,7 @@ const Intel = () => {
             {/* <Arsenal which={"intel"}  description={description} mediaurl={video} video={true}/> */}
             <Item.Group >
                 <Item >
-                    <Item.Image size='huge'  >
+                    <Item.Image size='giant'  >
                         {/* <FullStackModal /> */}
                         {/* https://react.semantic-ui.com/images/wireframe/image.png */}
                         {/* ./../../../../public/assets/users/Santiago/credenciales/Platzi/FullStackJS.png */}
