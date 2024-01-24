@@ -48,9 +48,9 @@ class PlatziCourses extends Component {
 
 
 
-    state = { activeItem: 'Desarrollador FullStack con JavaScript 2023' }
+    state = { activeItem: 'Desarrollador Web 2016' }
 
-    handleItemClick = ( event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, { name, segment } : any) => {
+    handleItemClick = (e, { name, segment }) => {
         this.setState({ activeItem: name })
 
 

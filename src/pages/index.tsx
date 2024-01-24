@@ -17,10 +17,10 @@ const items = [
     href: "FullStack",
   },
   {
-    header: "BitLopez ATI",
-    description: "Vea mis estudios como ATI",
-    meta: "Analista en Tecnologías de la Información",
-    href: "ATI",
+    header: "BitLopez MSP",
+    description: "Vea mi futuro emprendimiento como MSSP",
+    meta: "Ciberseguridad",
+    href: "MSP",
   },
 ];
 
@@ -36,8 +36,8 @@ function HomePage() {
           href="https://cybermap.kaspersky.com/es/widget/dynamic/dark"
           as="document"
         />
-        {/* <link rel="preload" href="/MSP" as="document" /> */}
-        {/* <link rel="preload" href="/videos/malworld.mp4" as="video" /> */}
+        <link rel="preload" href="/MSP" as="document" />
+        <link rel="preload" href="/videos/malworld.mp4" as="video" />
       </Head>
       <Layout nav={true} paddTop={75}>
         {" "}
