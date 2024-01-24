@@ -45,26 +45,28 @@ class NextuCourses extends Component {
     switch (name) {
       case "Desarrollador Web 2016":
         // hideElement('wd', 'FrontEnd', 'otros');
-
-        document.getElementById("wd")?.classList?.remove("seesconde");
-        document.getElementById("otros")?.classList.add("seesconde");
-        document.getElementById("FrontEnd")?.classList.add("seesconde");
-
+        if (typeof document !== "undefined") {
+          document.getElementById("wd")?.classList?.remove("seesconde");
+          document.getElementById("otros")?.classList.add("seesconde");
+          document.getElementById("FrontEnd")?.classList.add("seesconde");
+        }
         break;
       case "Frontend con JS 2022":
-        document.getElementById("FrontEnd")?.classList?.remove("seesconde");
-        document.getElementById("otros")?.classList.add("seesconde");
-        document.getElementById("wd")?.classList.add("seesconde");
-
+        if (typeof document !== "undefined") {
+          document.getElementById("FrontEnd")?.classList?.remove("seesconde");
+          document.getElementById("otros")?.classList.add("seesconde");
+          document.getElementById("wd")?.classList.add("seesconde");
+        }
         //hideElement('FrontEnd', 'otros', 'wd');
 
         break;
       case "Otros Cursos 2022":
-        document.getElementById("otros")?.classList?.remove("seesconde");
-        document.getElementById("FrontEnd")?.classList.add("seesconde");
-        document.getElementById("wd")?.classList.add("seesconde");
-        //hideElement('otros', 'FrontEnd', 'wd');
-
+        if (typeof document !== "undefined") {
+          document.getElementById("otros")?.classList?.remove("seesconde");
+          document.getElementById("FrontEnd")?.classList.add("seesconde");
+          document.getElementById("wd")?.classList.add("seesconde");
+          //hideElement('otros', 'FrontEnd', 'wd');
+        }
         break;
     }
   };
