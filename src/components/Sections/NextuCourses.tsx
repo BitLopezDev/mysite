@@ -39,10 +39,10 @@ class NextuCourses extends Component {
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     data: any
   ) => {
+    const name = data.name; // Aquí es donde obtienes 'name' de 'data'
     this.setState({ activeItem: name });
-    var thename = name;
 
-    switch (thename) {
+    switch (name) {
       case "Desarrollador Web 2016":
         // hideElement('wd', 'FrontEnd', 'otros');
 
