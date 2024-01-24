@@ -47,7 +47,7 @@ export default function Labs() {
 
       <br />
       <Head>
-        <title>BitLopez MSP</title>
+        <title>BitLopez ATI</title>
       </Head>
       <header>
         <Navbar />
@@ -59,14 +59,14 @@ export default function Labs() {
             <i>BitLopez ATI</i>
           </h1>
           <h4 style={{ color: "white", marginLeft: 60 }}>
-           Analista en Tecnologías de la Información
+            Analista en Tecnologías de la Información
           </h4>
           <br />
           <p
             className="antigradienttext"
             style={{ marginLeft: 0, paddingLeft: 25, fontSize: "2em" }}
           >
-            <i>CURSANDO / POR CURSAR ACTUALMENTE </i>
+            <i>CURSANDO ACTUALMENTE </i>
           </p>
         </div>
         <div
@@ -108,9 +108,7 @@ export default function Labs() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title ">Programación 1</h5>
-                  <p className="card-text antigradienttext">
-                    APROBADA (94%)
-                  </p>
+                  <p className="card-text antigradienttext">APROBADA (94%)</p>
                 </div>
               </div>
             </div>
@@ -118,9 +116,7 @@ export default function Labs() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">Pensamiento computacional</h5>
-                  <p className="card-text antigradienttext">
-                    APROBADA (86%)
-                  </p>
+                  <p className="card-text antigradienttext">APROBADA (86%)</p>
                 </div>
               </div>
             </div>
@@ -143,10 +139,8 @@ export default function Labs() {
                   >
                     Programación 1
                   </h5>
-                  <p className="card-text antigradienttext">
-                    APROBADA (94%)
-                  </p>
-                 
+                  <p className="card-text antigradienttext">APROBADA (94%)</p>
+
                   <br />
                   <h6>
                     <a data-bs-toggle="collapse" data-bs-target="#p1">
@@ -181,7 +175,7 @@ export default function Labs() {
                     Diseño de interfaz web
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -221,7 +215,7 @@ export default function Labs() {
                     Pensamiento lógico
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -259,9 +253,7 @@ export default function Labs() {
                       Taller despliegue de aplicaciones
                     </h5>
                     <p className="card-text">
-                    <p className="antigradienttext">
-                   CURSANDO / POR CURSAR
-                  </p>
+                       <span className="antigradienttext" style={{display : 'block', marginBottom : '1rem'}}>CURSANDO / POR CURSAR</span>
                       Mediante una dinámica práctica de trabajo, establece las
                       bases necesarias para la instalación y configuración de
                       aplicaciones en ambientes web.
@@ -287,7 +279,7 @@ export default function Labs() {
                     Programación 2
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -324,7 +316,7 @@ export default function Labs() {
                     Bases de datos 1
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -360,7 +352,7 @@ export default function Labs() {
                     Metodologías de desarrollo colaborativo
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -398,9 +390,7 @@ export default function Labs() {
                       Taller de desarrollo para dispositivos móviles
                     </h5>
                     <p className="card-text">
-                    <p className="antigradienttext">
-                   CURSANDO / POR CURSAR
-                  </p>
+                       <span className="antigradienttext" style={{display : 'block', marginBottom : '1rem'}}>CURSANDO / POR CURSAR</span>
                       El taller se enfoca en la arquitectura, el diseño y la
                       experimentación de nuevas tecnologías, como el desarrollo
                       de aplicaciones móviles. Realiza un proyecto basado en la
@@ -428,7 +418,7 @@ export default function Labs() {
                     Programación 3
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -467,7 +457,7 @@ export default function Labs() {
                     Bases de datos 1
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -503,7 +493,7 @@ export default function Labs() {
                     Algoritmos y estructuras de datos
                   </h5>
                   <p className="card-text antigradienttext">
-                   CURSANDO / POR CURSAR
+                    CURSANDO / POR CURSAR
                   </p>
                   <br />
                   <h6>
@@ -540,9 +530,7 @@ export default function Labs() {
                       Taller de ingeniería de software
                     </h5>
                     <p className="card-text">
-                    <p className="antigradienttext">
-                   CURSANDO / POR CURSAR
-                  </p>
+                       <span className="antigradienttext" style={{display : 'block', marginBottom : '1rem'}}>CURSANDO / POR CURSAR</span>
                       Complementa lo visto en semestres previos e incorpora
                       herramientas para la aplicación práctica de gestión y
                       estimación en proyectos de software.
@@ -553,20 +541,19 @@ export default function Labs() {
             </center>
             <center>
               <br /> <br />
-              <div style={{ maxWidth: '100%', color: '#8d40f6' }} >
+              <div style={{ maxWidth: "100%", color: "#8d40f6" }}>
                 <div className="card">
                   <div className="card-body">
                     <h5 className="card-title">
                       Título intermedio:{" "}
                       <b>
-                        <i>Programador Web</i>
+                        <i style={{ color: "#8d40f6" }}>Programador Web</i>
                       </b>
                     </h5>
                   </div>
                 </div>
               </div>
             </center>
-            
           </div>
           <br /> <br />
           <div className="row" id="row3">
@@ -581,9 +568,7 @@ export default function Labs() {
                   <div className="card-body">
                     <h5 className="card-title">Proyecto integrador</h5>
                     <p className="card-text">
-                    <p className="antigradienttext">
-                   CURSANDO / POR CURSAR
-                  </p>
+                       <span className="antigradienttext" style={{display : 'block', marginBottom : '1rem'}}>CURSANDO / POR CURSAR</span>
                       Mediante la guía de un tutor y trabajando en equipo, el
                       estudiante releva las necesidades de una aplicación para
                       un cliente real; efectúa el análisis, diseño y
@@ -597,13 +582,13 @@ export default function Labs() {
             </center>
             <center>
               <br /> <br />
-              <div style={{ maxWidth: '100%', color: '#8d40f6' }} >
+              <div style={{ maxWidth: "100%", color: "#8d40f6" }}>
                 <div className="card">
                   <div className="card-body">
                     <h5 className="card-title">
                       Título intermedio:{" "}
                       <b>
-                        <i>Analista Programador</i>
+                        <i style={{ color: "#8d40f6" }}>Analista Programador</i>
                       </b>
                     </h5>
                   </div>
@@ -615,11 +600,18 @@ export default function Labs() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Electiva de profundización tecnológica</h5>
+                    <h5 className="card-title">
+                      Electiva de profundización tecnológica
+                    </h5>
                     <p className="card-text">
-                    Esta asignatura permite al estudiante elegir un área temática sobre la cual profundizar sus conocimientos. Las áreas a elegir dependerán de las alternativas habilitadas en la universidad previo a la inscripción.
-                    <br />
-                    La Electiva en Profundización Tecnológica puede cursarse en paralelo, previo o posteriormente al Proyecto Integrador.
+                      Esta asignatura permite al estudiante elegir un área
+                      temática sobre la cual profundizar sus conocimientos. Las
+                      áreas a elegir dependerán de las alternativas habilitadas
+                      en la universidad previo a la inscripción.
+                      <br />
+                      La Electiva en Profundización Tecnológica puede cursarse
+                      en paralelo, previo o posteriormente al Proyecto
+                      Integrador.
                     </p>
                   </div>
                 </div>
@@ -632,37 +624,40 @@ export default function Labs() {
                   <div className="card-body">
                     <h5 className="card-title">programación avanzada</h5>
                     <p className="card-text">
-                    Complementa lo visto en Algoritmos y Estructuras de Datos, profundizando en aspectos de eficiencia de algoritmos e incorporando estructuras avanzadas, con un enfoque orientado al tipo de problemas que se piden en entrevistas técnicas de inserción laboral. Puede cursarse en paralelo, previo o posteriormente al Proyecto Integrador.
+                      Complementa lo visto en Algoritmos y Estructuras de Datos,
+                      profundizando en aspectos de eficiencia de algoritmos e
+                      incorporando estructuras avanzadas, con un enfoque
+                      orientado al tipo de problemas que se piden en entrevistas
+                      técnicas de inserción laboral. Puede cursarse en paralelo,
+                      previo o posteriormente al Proyecto Integrador.
                     </p>
                   </div>
                 </div>
               </div>
             </center>
           </div>
-          
-        
         </div>
-       
       </center>
 
       <br />
       <br />
       <center>
-              <br /> <br />
-              <div style={{ maxWidth: '100%', color: '#8d40f6' }} >
-                <div className="card">
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Título final:{" "}
-                      <b>
-                        <i>Analista en Tecnologías de la Información</i>
-                      </b>
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </center>
-            
+        <br /> <br />
+        <div style={{ maxWidth: "100%" }}>
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">
+                Título final:{" "}
+                <b>
+                  <i style={{ color: "#8d40f6" }}>
+                    Analista en Tecnologías de la Información
+                  </i>
+                </b>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </center>
 
       <style jsx>{`
         .backgradient {

@@ -17,10 +17,10 @@ const items = [
     href: "FullStack",
   },
   {
-    header: "BitLopez MSP",
-    description: "Vea mi futuro emprendimiento como MSSP",
-    meta: "Ciberseguridad",
-    href: "MSP",
+    header: "BitLopez ATI",
+    description: "Vea mis estudios como ATI",
+    meta: "Analista en Tecnologías de la Información",
+    href: "Labs",
   },
 ];
 
