@@ -12,7 +12,7 @@ import { Navbar } from "../components/Layout/Navbar";
 export default function ATI() {
   return (
     <div className="backgradient">
-            <br />
+      <br />
       <Head>
         <title>BitLopez ATI</title>
       </Head>
@@ -591,6 +591,10 @@ export default function ATI() {
                       Electiva de profundización tecnológica
                     </h5>
                     <p className="card-text">
+                      <span
+                        className="antigradienttext"
+                        style={{ display: "block", marginBottom: "1rem" }}
+                      >CURSANDO / POR CURSAR</span>
                       Esta asignatura permite al estudiante elegir un área
                       temática sobre la cual profundizar sus conocimientos. Las
                       áreas a elegir dependerán de las alternativas habilitadas
@@ -611,6 +615,10 @@ export default function ATI() {
                   <div className="card-body">
                     <h5 className="card-title">programación avanzada</h5>
                     <p className="card-text">
+                    <span
+                        className="antigradienttext"
+                        style={{ display: "block", marginBottom: "1rem" }}
+                      >CURSANDO / POR CURSAR</span>
                       Complementa lo visto en Algoritmos y Estructuras de Datos,
                       profundizando en aspectos de eficiencia de algoritmos e
                       incorporando estructuras avanzadas, con un enfoque
