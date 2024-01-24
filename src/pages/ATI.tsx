@@ -12,19 +12,7 @@ import { Navbar } from "../components/Layout/Navbar";
 export default function ATI() {
   return (
     <div className="backgradient">
-      {/* <iframe
-        width={"100%"}
-        height={600}
-        src={cybermap}
-        style={{ paddingBottom: 0, marginBottom: 0 }}
-      /> */}
-
-      {/* 
-    
-    
-    */}
-
-      <br />
+            <br />
       <Head>
         <title>BitLopez ATI</title>
       </Head>
