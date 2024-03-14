@@ -28,6 +28,29 @@
 }
 
 
+.h6-size {
+    font-size: 1rem;  /* Adjust the value as needed */
+  }
+.h5-size {
+    font-size: 0.83rem;  /* Adjust as needed (default h5 size) */
+  }
+  
+  .h4-size {
+    font-size: 1rem;   /* Adjust as needed (default h4 size) */
+  }
+  
+  .h3-size {
+    font-size: 1.17rem; /* Adjust as needed (default h3 size) */
+  }
+  
+  .h2-size {
+    font-size: 1.5em;  /* Adjust as needed (default h2 size) */
+  }
+  
+  .h1-size {
+    font-size: 2em;    /* Adjust as needed (default h1 size) */
+  }
+  
 
 .textogradiente {
     font-weight: 600;

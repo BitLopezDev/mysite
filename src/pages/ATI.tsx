@@ -19,15 +19,15 @@ export default function ATI() {
       <header>
         <Navbar />
         <div style={{ zIndex: 20 }}>
-          <h1
-            className="antigradienttext"
+          <h2
+            className="antigradienttext h1-size"
             style={{ fontSize: "6em", paddingTop: 60, paddingLeft: 25 }}
           >
             <i>BitLopez ATI</i>
-          </h1>
-          <h4 style={{ color: "white", marginLeft: 60 }}>
+          </h2>
+          <p className="h4-size" style={{ color: "white", marginLeft: 60 }}>
             Analista en Tecnologías de la Información
-          </h4>
+          </p>
           <br />
           <p
             className="antigradienttext"
@@ -69,12 +69,14 @@ export default function ATI() {
       <br />
       <center>
         <div className="container">
-          <h1 className="colorwhite">Materias aprobadas del plan antiguo</h1>
+          <h2 className="colorwhite h1-size">
+            Materias aprobadas del plan antiguo
+          </h2>
           <div className="row" id="row0">
             <div className="col">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title ">Programación 1</h5>
+                  <p className="h5-size card-title">Programación 1</p>
                   <p className="card-text antigradienttext">APROBADA (94%)</p>
                 </div>
               </div>
@@ -82,15 +84,45 @@ export default function ATI() {
             <div className="col">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Pensamiento computacional</h5>
-                  <p className="card-text antigradienttext">APROBADA (86%)</p>
+                  <p className="h5-size card-title">
+                    Pensamiento computacional
+                  </p>
+                  <p className="card-text antigradienttext">APROBADA (94%)</p>
                 </div>
               </div>
             </div>
           </div>
           <br />
           <br />
-          <h1 className="colorwhite">Plan 2024</h1>
+          <center>
+            <br /> <br />
+            <div style={{ maxWidth: 600 }}>
+              <div className="card">
+                <div className="card-body">
+                  <p className="h5-size card-title">
+                    Taller despliegue de aplicaciones
+                  </p>
+                  <div className="card-text">
+                    <span
+                      className="antigradienttext"
+                      style={{ display: "block", marginBottom: "1rem" }}
+                    >
+                      <p className="card-text antigradienttext">
+                        APROBADA (100%)
+                      </p>
+                    </span>
+                    Creamos, configuramos y desplegamos un sitio web de hosting
+                    tradicional, lanzamos una Web App de Microsoft Azure y
+                    configuramos dos instancias EC2 en AWS. Configuramos reglas
+                    de firewall tanto local como security group (AWS). Lanzamos
+                    sitios con IIS, Apache, configuramos distintos puertos para
+                    las distintas aplicaciones.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+          <h2 className="colorwhite h1-size">Plan 2024</h2>
           <br />
           <br />
           <div className="row" id="row1">
@@ -99,34 +131,44 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
+                    
                     data-bs-toggle="collapse"
                     data-bs-target="#p1"
                   >
                     Programación 1
-                  </h5>
+                  </p>
                   <p className="card-text antigradienttext">APROBADA (94%)</p>
 
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#p1">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="p1" className="collapse">
-                    Introduce a los principios generales de la programación,
-                    abordando particularmente la resolución de algoritmos
-                    básicos; trabaja sobre estructuras en memoria, asumiendo que
-                    el estudiante no tiene conocimientos previos en informática.
-                    <h6>
+                    Introduce al mundo de la programación orientada a objetos.
+                    No solo trabajamos con objetos, sino que dominamos
+                    estructuras de datos complejas como arrays y strings, y
+                    manipulamos variables numéricas para resolver problemas
+                    reales. Enseña los pilares de la programación, desde la
+                    abstracción hasta el polimorfismo, lo que permite a los
+                    estudiantes diseñar programas robustos y eficientes. Esta
+                    materia no solo enseña a codificar, sino a pensar como un
+                    verdadero programador, con un enfoque crítico y creativo
+                    para el desarrollo de soluciones tecnológicas. Mi
+                    <em>Bckground</em> de desarrollo FullStack con JavaScript
+                    (BitLopez Dev) me ha sido extremadamente útil para cursar
+                    esta materia.
+                    <p className="h6-size">
                       <a href="#row0">
                         <p data-bs-toggle="collapse" data-bs-target="#p1">
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -134,30 +176,31 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#diseñoIWeb"
                   >
                     Diseño de interfaz web
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">CURSANDO</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#diseñoIWeb">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="diseñoIWeb" className="collapse">
-                    Poniendo énfasis en la usabilidad y la experiencia del
-                    usuario, capacita al estudiante en el diseño de interfaz en
-                    ambiente web implementado con HTML, CSS y frameworks de
-                    desarrollo front-end (Bootstrap), que cumpla con estándares
-                    y buenas prácticas del mercado.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Poniendo énfasis en la usabilidad y la experiencia del
+                      usuario, capacita al estudiante en el diseño de interfaz
+                      en ambiente web implementado con HTML, CSS y frameworks de
+                      desarrollo front-end (Bootstrap), que cumpla con
+                      estándares y buenas prácticas del mercado.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row0">
                         <p
                           data-bs-toggle="collapse"
@@ -166,7 +209,7 @@ export default function ATI() {
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -174,29 +217,30 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#pensamiento"
                   >
                     Pensamiento lógico
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">Cursando</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#pensamiento">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="pensamiento" className="collapse">
-                    Introduce a los estudiantes en los conceptos
-                    lógico-matemáticos fundamentales que se aplican en el
-                    desarrollo de software y permiten desarrollar habilidades de
-                    abstracción.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Introduce a los estudiantes en los conceptos
+                      lógico-matemáticos fundamentales que se aplican en el
+                      desarrollo de software y permiten desarrollar habilidades
+                      de abstracción.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row0">
                         <p
                           data-bs-toggle="collapse"
@@ -205,35 +249,11 @@ export default function ATI() {
                           Colapsar
                         </p>
                       </a>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <center>
-              <br /> <br />
-              <div style={{ maxWidth: 600 }}>
-                <div className="card">
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      Taller despliegue de aplicaciones
-                    </h5>
-                    <p className="card-text">
-                      <span
-                        className="antigradienttext"
-                        style={{ display: "block", marginBottom: "1rem" }}
-                      >
-                        CURSANDO / POR CURSAR
-                      </span>
-                      Mediante una dinámica práctica de trabajo, establece las
-                      bases necesarias para la instalación y configuración de
-                      aplicaciones en ambientes web.
                     </p>
                   </div>
                 </div>
               </div>
-            </center>
+            </div>
           </div>
           <br /> <br />
           <div className="row" id="row1">
@@ -243,36 +263,37 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#p2"
                   >
                     Programación 2
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#p2">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="p2" className="collapse">
-                    Extiende los conocimientos de programación adquiridos e
-                    introduce a los principios generales de la programación
-                    orientada a objetos. Capacita en Lenguaje Unificado de
-                    Modelado (UML) y brinda los fundamentos del concepto de
-                    testing de software.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Extiende los conocimientos de programación adquiridos e
+                      introduce a los principios generales de la programación
+                      orientada a objetos. Capacita en Lenguaje Unificado de
+                      Modelado (UML) y brinda los fundamentos del concepto de
+                      testing de software.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row1">
                         <p data-bs-toggle="collapse" data-bs-target="#p2">
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -280,35 +301,36 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#DB1"
                   >
                     Bases de datos 1
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#DB1">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="DB1" className="collapse">
-                    Enseña la teoría y el diseño de bases de datos: modelado de
-                    datos, normalización, y conceptos de Lenguaje de Consulta
-                    Estructurado. Introduce las técnicas que permiten realizar
-                    el modelado conceptual de los datos.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Enseña la teoría y el diseño de bases de datos: modelado
+                      de datos, normalización, y conceptos de Lenguaje de
+                      Consulta Estructurado. Introduce las técnicas que permiten
+                      realizar el modelado conceptual de los datos.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row1">
                         <p data-bs-toggle="collapse" data-bs-target="#DB1">
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -316,30 +338,31 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#metadevcolab"
                   >
                     Metodologías de desarrollo colaborativo
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#metadevcolab">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="metadevcolab" className="collapse">
-                    Permite un abordaje sobre conceptos de ingeniería de
-                    software, requerimientos y metodologías de desarrollo,
-                    apuntando a formalizar el marco metodológico y desarrollar
-                    habilidades blandas, trabajo en equipo y comunicación
-                    efectiva.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Permite un abordaje sobre conceptos de ingeniería de
+                      software, requerimientos y metodologías de desarrollo,
+                      apuntando a formalizar el marco metodológico y desarrollar
+                      habilidades blandas, trabajo en equipo y comunicación
+                      efectiva.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row1">
                         <p
                           data-bs-toggle="collapse"
@@ -348,7 +371,7 @@ export default function ATI() {
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -358,22 +381,24 @@ export default function ATI() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">
+                    <p className="h5-size card-title">
                       Taller de desarrollo para dispositivos móviles
-                    </h5>
-                    <p className="card-text">
+                    </p>
+                    <div className="card-text">
                       <span
                         className="antigradienttext"
                         style={{ display: "block", marginBottom: "1rem" }}
                       >
-                        CURSANDO / POR CURSAR
+                        POR CURSAR
                       </span>
-                      El taller se enfoca en la arquitectura, el diseño y la
-                      experimentación de nuevas tecnologías, como el desarrollo
-                      de aplicaciones móviles. Realiza un proyecto basado en la
-                      aplicación de herramientas integradoras y nuevos entornos
-                      de desarrollo.
-                    </p>
+                      <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                        El taller se enfoca en la arquitectura, el diseño y la
+                        experimentación de nuevas tecnologías, como el
+                        desarrollo de aplicaciones móviles. Realiza un proyecto
+                        basado en la aplicación de herramientas integradoras y
+                        nuevos entornos de desarrollo.
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -387,38 +412,40 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#p3"
                   >
                     Programación 3
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#p3">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="p3" className="collapse">
-                    Estudia técnicas que permiten desarrollar aplicaciones
-                    orientadas a objetos, desde la concepción del sistema hasta
-                    la implementación, fijando los conceptos teóricos mediante
-                    la práctica intensa en laboratorio. Las aplicaciones se
-                    construyen bajo el modelo de tres capas persistiendo los
-                    datos en bases de datos relacionales. Profundiza en los
-                    fundamentos de UML y en técnicas de desarrollo de software.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Estudia técnicas que permiten desarrollar aplicaciones
+                      orientadas a objetos, desde la concepción del sistema
+                      hasta la implementación, fijando los conceptos teóricos
+                      mediante la práctica intensa en laboratorio. Las
+                      aplicaciones se construyen bajo el modelo de tres capas
+                      persistiendo los datos en bases de datos relacionales.
+                      Profundiza en los fundamentos de UML y en técnicas de
+                      desarrollo de software.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row2">
                         <p data-bs-toggle="collapse" data-bs-target="#p3">
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -426,35 +453,36 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#DB1"
                   >
                     Bases de datos 1
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#DB1">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="DB1" className="collapse">
-                    Enseña la teoría y el diseño de bases de datos: modelado de
-                    datos, normalización, y conceptos de Lenguaje de Consulta
-                    Estructurado. Introduce las técnicas que permiten realizar
-                    el modelado conceptual de los datos.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Enseña la teoría y el diseño de bases de datos: modelado
+                      de datos, normalización, y conceptos de Lenguaje de
+                      Consulta Estructurado. Introduce las técnicas que permiten
+                      realizar el modelado conceptual de los datos.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row2">
                         <p data-bs-toggle="collapse" data-bs-target="#DB1">
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -462,29 +490,30 @@ export default function ATI() {
             <div className="col-md-3 mx-auto">
               <div className="card">
                 <div className="card-body">
-                  <h5
-                    className="card-title"
+                  <p
+                    className="h5-size card-title"
                     data-bs-toggle="collapse"
                     data-bs-target="#algoritmos"
                   >
                     Algoritmos y estructuras de datos
-                  </h5>
-                  <p className="card-text antigradienttext">
-                    CURSANDO / POR CURSAR
                   </p>
+                  <p className="card-text antigradienttext">POR CURSAR</p>
                   <br />
-                  <h6>
+                  <p className="h6-size">
                     <a data-bs-toggle="collapse" data-bs-target="#algoritmos">
                       {" "}
                       Expandir / Colapsar
                     </a>
-                  </h6>
+                  </p>
                   <div id="algoritmos" className="collapse">
-                    Estudia las técnicas de construcción de algoritmos y de
-                    recuperación y almacenamiento de información. Presenta las
-                    herramientas necesarias que permiten diseñar distintas
-                    alternativas para diseñar problemas complejos.
-                    <h6>
+                    <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                      Estudia las técnicas de construcción de algoritmos y de
+                      recuperación y almacenamiento de información. Presenta las
+                      herramientas necesarias que permiten diseñar distintas
+                      alternativas para diseñar problemas complejos.
+                    </blockquote>
+
+                    <p className="h6-size">
                       <a href="#row2">
                         <p
                           data-bs-toggle="collapse"
@@ -493,7 +522,7 @@ export default function ATI() {
                           Colapsar
                         </p>
                       </a>
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -503,20 +532,22 @@ export default function ATI() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">
+                    <p className="h5-size card-title">
                       Taller de ingeniería de software
-                    </h5>
-                    <p className="card-text">
+                    </p>
+                    <div className="card-text">
                       <span
                         className="antigradienttext"
                         style={{ display: "block", marginBottom: "1rem" }}
                       >
-                        CURSANDO / POR CURSAR
+                        POR CURSAR
                       </span>
-                      Complementa lo visto en semestres previos e incorpora
-                      herramientas para la aplicación práctica de gestión y
-                      estimación en proyectos de software.
-                    </p>
+                      <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                        Complementa lo visto en semestres previos e incorpora
+                        herramientas para la aplicación práctica de gestión y
+                        estimación en proyectos de software.
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -526,12 +557,12 @@ export default function ATI() {
               <div style={{ maxWidth: "100%", color: "#8d40f6" }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">
+                    <p className="h5-size card-title">
                       Título intermedio:{" "}
                       <b>
                         <i style={{ color: "#8d40f6" }}>Programador Web</i>
                       </b>
-                    </h5>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -548,21 +579,23 @@ export default function ATI() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">Proyecto integrador</h5>
-                    <p className="card-text">
+                    <p className="h5-size card-title">Proyecto integrador</p>
+                    <div className="card-text">
                       <span
                         className="antigradienttext"
                         style={{ display: "block", marginBottom: "1rem" }}
                       >
-                        CURSANDO / POR CURSAR
+                        POR CURSAR
                       </span>
-                      Mediante la guía de un tutor y trabajando en equipo, el
-                      estudiante releva las necesidades de una aplicación para
-                      un cliente real; efectúa el análisis, diseño y
-                      programación del sistema, finalizando con la
-                      implementación y posterior defensa ante un tribunal de
-                      corrección.
-                    </p>
+                      <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                        Mediante la guía de un tutor y trabajando en equipo, el
+                        estudiante releva las necesidades de una aplicación para
+                        un cliente real; efectúa el análisis, diseño y
+                        programación del sistema, finalizando con la
+                        implementación y posterior defensa ante un tribunal de
+                        corrección.
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -572,12 +605,12 @@ export default function ATI() {
               <div style={{ maxWidth: "100%", color: "#8d40f6" }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">
+                    <p className="h5-size card-title">
                       Título intermedio:{" "}
                       <b>
                         <i style={{ color: "#8d40f6" }}>Analista Programador</i>
                       </b>
-                    </h5>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -587,23 +620,23 @@ export default function ATI() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">
+                    <p className="h5-size card-title">
                       Electiva de profundización tecnológica
-                    </h5>
-                    <p className="card-text">
+                    </p>
+                    <div className="card-text">
                       <span
                         className="antigradienttext"
                         style={{ display: "block", marginBottom: "1rem" }}
-                      >CURSANDO / POR CURSAR</span>
-                      Esta asignatura permite al estudiante elegir un área
-                      temática sobre la cual profundizar sus conocimientos. Las
-                      áreas a elegir dependerán de las alternativas habilitadas
-                      en la universidad previo a la inscripción.
-                      <br />
-                      La Electiva en Profundización Tecnológica puede cursarse
-                      en paralelo, previo o posteriormente al Proyecto
-                      Integrador.
-                    </p>
+                      >
+                        POR CURSAR
+                      </span>
+                      <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                        Esta asignatura permite al estudiante elegir un área
+                        temática sobre la cual profundizar sus conocimientos.
+                        Las áreas a elegir dependerán de las alternativas
+                        habilitadas en la universidad previo a la inscripción.
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -613,19 +646,24 @@ export default function ATI() {
               <div style={{ maxWidth: 600 }}>
                 <div className="card">
                   <div className="card-body">
-                    <h5 className="card-title">programación avanzada</h5>
-                    <p className="card-text">
-                    <span
+                    <p className="h5-size card-title">programación avanzada</p>
+                    <div className="card-text">
+                      <span
                         className="antigradienttext"
                         style={{ display: "block", marginBottom: "1rem" }}
-                      >CURSANDO / POR CURSAR</span>
-                      Complementa lo visto en Algoritmos y Estructuras de Datos,
-                      profundizando en aspectos de eficiencia de algoritmos e
-                      incorporando estructuras avanzadas, con un enfoque
-                      orientado al tipo de problemas que se piden en entrevistas
-                      técnicas de inserción laboral. Puede cursarse en paralelo,
-                      previo o posteriormente al Proyecto Integrador.
-                    </p>
+                      >
+                        POR CURSAR
+                      </span>
+                      <blockquote cite="https://fi.ort.edu.uy/analista-en-tecnologias-de-la-informacion/plan-de-estudios">
+                        Complementa lo visto en Algoritmos y Estructuras de
+                        Datos, profundizando en aspectos de eficiencia de
+                        algoritmos e incorporando estructuras avanzadas, con un
+                        enfoque orientado al tipo de problemas que se piden en
+                        entrevistas técnicas de inserción laboral. Puede
+                        cursarse en paralelo, previo o posteriormente al
+                        Proyecto Integrador.
+                      </blockquote>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -641,14 +679,14 @@ export default function ATI() {
         <div style={{ maxWidth: "100%" }}>
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">
+              <p className="h5-size card-title">
                 Título final:{" "}
                 <b>
                   <i style={{ color: "#8d40f6" }}>
                     Analista en Tecnologías de la Información
                   </i>
                 </b>
-              </h5>
+              </p>
             </div>
           </div>
         </div>
